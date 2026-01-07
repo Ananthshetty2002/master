@@ -1,0 +1,70 @@
+{
+    "nodes": [
+        {
+            "parameters": {},
+            "id": "manual-trigger-node",
+            "name": "When clicking \"Execute Workflow\"",
+            "type": "n8n-nodes-base.manualTrigger",
+            "typeVersion": 1,
+            "position": [
+                250,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "jsCode": "// --- 1. MOCK DATA GENERATOR ---\n\nfunction generateMockData() {\n    const locations = [\"Location_Alpha\", \"Location_Beta\", \"Location_Gamma\"];\n    const products = [\"Iced_Coffee\", \"Hot_Soup\", \"Salad_Bowl\"];\n    \n    const endDate = new Date();\n    const startDate = new Date();\n    startDate.setDate(endDate.getDate() - 180);\n    \n    const salesData = [];\n    const inventoryData = [];\n    \n    // Par Levels\n    const parLevels = {\n        \"Location_Alpha\": {\"Iced_Coffee\": 50, \"Hot_Soup\": 30, \"Salad_Bowl\": 40},\n        \"Location_Beta\":  {\"Iced_Coffee\": 80, \"Hot_Soup\": 20, \"Salad_Bowl\": 20}, // Issue: High Par / Low Traffic\n        \"Location_Gamma\": {\"Iced_Coffee\": 40, \"Hot_Soup\": 40, \"Salad_Bowl\": 40}\n    };\n\n    let currentDate = new Date(startDate);\n    while (currentDate <= endDate) {\n        const month = currentDate.getMonth() + 1; // 1-12\n        const isWinter = [11, 12, 1, 2].includes(month);\n        const dateStr = currentDate.toISOString().split('T')[0];\n        \n        locations.forEach(loc => {\n            products.forEach(prod => {\n                const par = parLevels[loc][prod];\n                let salesQty = Math.floor(Math.random() * (par * 0.9 - par * 0.6) + par * 0.6);\n                \n                // Scenario A: Winter Seasonality\n                if (isWinter && prod === \"Iced_Coffee\") {\n                    salesQty = Math.floor(Math.random() * (par * 0.3 - par * 0.1) + par * 0.1);\n                }\n                \n                // Scenario B: Incorrect Par Levels (Beta)\n                if (loc === \"Location_Beta\" && prod === \"Iced_Coffee\") {\n                    salesQty = Math.min(salesQty, Math.floor(Math.random() * (25 - 10) + 10));\n                }\n                \n                salesData.push({\n                    date: dateStr,\n                    location: loc,\n                    product: prod,\n                    quantity_sold: salesQty\n                });\n                \n                if (currentDate.getTime() === endDate.getTime()) {\n                   inventoryData.push({\n                       location: loc,\n                       product: prod,\n                       par_level: par,\n                       current_stock: par - salesQty\n                   });\n                }\n            });\n        });\n        \n        currentDate.setDate(currentDate.getDate() + 1);\n    }\n    return { salesData, inventoryData };\n}\n\n// --- 2. LOGIC ---\n\nconst { salesData, inventoryData } = generateMockData();\n\n// Combine\nconst salesMap = {};\nsalesData.forEach(item => {\n    const key = item.location + '_' + item.product;\n    if (!salesMap[key]) salesMap[key] = [];\n    salesMap[key].push(item.quantity_sold);\n});\n\nconst analyzedOutput = [];\n\ninventoryData.forEach(item => {\n    const key = item.location + '_' + item.product;\n    const history = salesMap[key] || [];\n    \n    // Calc Avg\n    const avgSales = history.length ? history.reduce((a,b) => a+b, 0) / history.length : 0;\n    \n    // Calc Utilization\n    const par = item.par_level;\n    const utilization = par > 0 ? (avgSales / par) * 100 : 0;\n    \n    // Flag Waste (Utilization < 70% means > 30% Waste Risk)\n    const wasteRisk = 100 - utilization;\n    const isHighWaste = wasteRisk > 30;\n    \n    if (isHighWaste) {\n        // Only output potential issues or full report\n        analyzedOutput.push({\n            location: item.location,\n            product: item.product,\n            par_level: par,\n            daily_avg_sales: parseFloat(avgSales.toFixed(2)),\n            par_utilization_pct: utilization.toFixed(2) + '%',\n            waste_risk_pct: wasteRisk.toFixed(2) + '%',\n            alert: \"HIGH_WASTE\"\n        });\n    } else {\n          analyzedOutput.push({\n            location: item.location,\n            product: item.product,\n            par_level: par,\n            daily_avg_sales: parseFloat(avgSales.toFixed(2)),\n            par_utilization_pct: utilization.toFixed(2) + '%',\n            waste_risk_pct: wasteRisk.toFixed(2) + '%',\n            alert: \"OK\"\n        });\n    }\n});\n\nreturn analyzedOutput;"
+            },
+            "id": "data-analyst-logic",
+            "name": "Data Analyst Agent Logic",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                450,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https://api.openai.com/v1/chat/completions",
+                "sendBody": true,
+                "specifyBody": "json",
+                "jsonBody": "{\n  \"model\": \"gpt-4.1-mini\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"You are an expert Loss Prevention Analyst Agent. Use the JSON report provided in the 'report_json' field. Answer clearly, using numbered sections for each insight category and markdown tables for data.\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"Analyze the consolidated shrinkage report contained in 'report_json'. For each insight in the 'insights' list, answer the associated 'n8n_questions' using 'result_data'. Focus on clear, actionable findings.\",\n      \"report_json\": \"{{ JSON.stringify($json) }}\"\n    }\n  ]\n}",
+                "options": {}
+            },
+            "id": "openai-engine-node",
+            "name": "HTTP Request node (OpenAI)",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.1,
+            "position": [
+                650,
+                300
+            ]
+        }
+    ],
+    "connections": {
+        "manual-trigger-node": {
+            "main": [
+                [
+                    {
+                        "node": "data-analyst-logic",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "data-analyst-logic": {
+            "main": [
+                [
+                    {
+                        "node": "openai-engine-node",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    }
+}

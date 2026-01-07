@@ -1,0 +1,51 @@
+{
+    "alert_title": "NETWORK-WIDE SHRINKAGE ALERT",
+    "period": "2025-12-03 to 2025-12-23",
+    "critical_alerts": [
+        {
+            "location": "HIE - Rancho Cucamonga Market",
+            "shrinkage_qty": 716,
+            "severity": "CRITICAL",
+            "action": "Immediate audit required. Entire start inventory (716 units) is unaccounted for."
+        },
+        {
+            "location": "La Quinta Inn & Suites by Wyndham Thousand Oaks",
+            "shrinkage_qty": 423,
+            "severity": "CRITICAL",
+            "action": "Investigate large discrepancy between snapshots (1166 start vs 765 end) with zero recorded sales."
+        },
+        {
+            "location": "Comfort Inn - Gaslamp Convention Center",
+            "shrinkage_qty": 197,
+            "severity": "HIGH",
+            "action": "Review sales vs stock logs. High loss rate detected."
+        }
+    ],
+    "top_risks_by_site": [
+        {
+            "location": "Holiday Inn Express & Suites Barstow",
+            "qty": 177
+        },
+        {
+            "location": "Long Beach Convention Center Promenade",
+            "qty": 172
+        },
+        {
+            "location": "Holiday Inn Oceanside Camp Pendleton Area",
+            "qty": 159
+        },
+        {
+            "location": "Ramada National City Market",
+            "qty": 154
+        },
+        {
+            "location": "FFI - Moorpark Market",
+            "qty": 152
+        }
+    ],
+    "total_network_shrinkage_units": "25,000+ (estimated from snapshots vs sales)",
+    "data_reference": {
+        "summary_csv": "/c:/Users/IV-UDP-DT-0122/Downloads/shrinkage/shrinkage_by_site_summary_v2.csv",
+        "detailed_json": "/c:/Users/IV-UDP-DT-0122/Downloads/shrinkage/n8n_shrinkage_report_v2.json"
+    }
+}

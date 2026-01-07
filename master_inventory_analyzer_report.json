@@ -1,0 +1,54 @@
+{
+    "master_report_title": "MASTER INVENTORY RISK ANALYSIS",
+    "analysis_date": "2025-12-27",
+    "summary": {
+        "total_shrinkage_impact": "High (25,000+ units across network)",
+        "total_spoilage_risk": "Moderate (86.9 units near expiry in sample)",
+        "primary_action": "Immediate audits at HIE Rancho Cucamonga and La Quinta Thousand Oaks. Execute transfers for near-expiry Yogurt and Water."
+    },
+    "shrinkage_analysis": {
+        "title": "Shrinkage & Missing Inventory Alerts",
+        "period": "2025-12-03 to 2025-12-23",
+        "critical_sites": [
+            {
+                "location": "HIE - Rancho Cucamonga Market",
+                "missing_qty": 716,
+                "severity": "CRITICAL",
+                "note": "Entire start inventory unaccounted for."
+            },
+            {
+                "location": "La Quinta Inn & Suites by Wyndham Thousand Oaks",
+                "missing_qty": 423,
+                "severity": "CRITICAL",
+                "note": "Snapshot discrepancy with zero sales."
+            }
+        ],
+        "source_file": "network_shrinkage_alert.json"
+    },
+    "spoilage_analysis": {
+        "title": "Spoilage & Expiry Risk Analysis (FEFO)",
+        "context": "Focuses on items that remain in stock but are expiring soon.",
+        "risky_items": [
+            {
+                "product": "Sandwich (Turkey)",
+                "location": "LOC001",
+                "expiry": "2025-12-28",
+                "risk": "High (14.8 units expected to spoil)",
+                "action": "Bundle or Discount"
+            },
+            {
+                "product": "Yogurt (Strawberry)",
+                "location": "LOC001",
+                "expiry": "2025-12-29",
+                "risk": "High (19.0 units expected to spoil)",
+                "action": "Transfer to LOC005"
+            }
+        ],
+        "source_file": "spoilage_final_report.json"
+    },
+    "recommended_actions": [
+        "1. Audit HIE Rancho Cucamonga for missing 716 units.",
+        "2. Transfer 19 Yogurt units from LOC001 to LOC005 TODAY.",
+        "3. Set up n8n 'Flash Sale' bundle for Sandwiches at LOC001."
+    ]
+}

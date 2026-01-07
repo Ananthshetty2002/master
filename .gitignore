@@ -1,0 +1,41 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Workspace / IDE
+.vscode/
+.idea/
+.gemini/
+.antigravity/
+
+# Data & Logs (Optional: User can comment these out if they want to push data)
+# *.csv
+# *.json
+!n8n_consolidated_report_final_fixed.json
+!n8n_questions.json
+
+# Temporary / Debug Scripts from development
+debug_*.py
+fix_*.py
+verify_*.py
+exhaustive_*.py
+master_*.py
+minify_*.py
+recreate_*.py
+check_*.py
+consolidate_master.py
+restore_master.py
+test_*.py
+final_*.py
+aggressive_*.py
+
+# Artifacts
+task.md
+implementation_plan.md
+walkthrough.md
+*.txt
+*.log

@@ -1,0 +1,5 @@
+location,location_shrinkage_qty,location_shrinkage_value
+Site_A,8.0,21.5
+Site_B,5.0,12.5
+Site_C,10.0,0.0
+Site_D,0.0,0.0

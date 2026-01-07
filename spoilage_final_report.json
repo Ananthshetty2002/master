@@ -1,0 +1,73 @@
+{
+    "report_title": "Spoilage Alert Agent - FEFO Analysis",
+    "report_date": "2025-12-27",
+    "engine_context": "You are a Spoilage Prevention Analyst Agent. Definitions: 'FEFO' is First Expired, First Out. 'Days to Expiry' is calculated from today. 'Risk' occurs when Stock Qty > (Daily Velocity * Days to Expiry).",
+    "report_summary": {
+        "total_risky_items": 6,
+        "total_potential_spoilage_units": 86.9,
+        "total_recommended_transfers": 5
+    },
+    "insights": [
+        {
+            "id": "near_expiry_critical",
+            "title": "Critical Near-Expiry Alerts",
+            "description": "Items expiring within 3 days with significant stock levels.",
+            "severity": "Critical",
+            "data": [
+                {
+                    "location": "LOC001",
+                    "product": "Sandwich (Turkey)",
+                    "stock": 15,
+                    "expiry": "2025-12-28",
+                    "days_remaining": 1,
+                    "velocity": 0.2,
+                    "waste_risk": "High (14.8 units expected to spoil)"
+                },
+                {
+                    "location": "LOC001",
+                    "product": "Yogurt (Strawberry)",
+                    "stock": 20,
+                    "expiry": "2025-12-29",
+                    "days_remaining": 2,
+                    "velocity": 0.5,
+                    "waste_risk": "High (19.0 units expected to spoil)"
+                }
+            ]
+        },
+        {
+            "id": "transfer_recommendations",
+            "title": "Cross-Site Transfer Plan",
+            "description": "Proactive moves to shift stock from low-velocity to high-velocity sites.",
+            "severity": "Medium",
+            "data": [
+                {
+                    "move": "19 Yogurt (Strawberry)",
+                    "from": "LOC001",
+                    "to": "LOC005",
+                    "reason": "Velocity at target (8.0/day) is 16x higher than source (0.5/day)"
+                },
+                {
+                    "move": "42 Smart Water 1L",
+                    "from": "LOC001",
+                    "to": "LOC002",
+                    "reason": "Source has 50 units but sells only 2.5/day with 3 days left."
+                }
+            ]
+        },
+        {
+            "id": "bundling_opportunities",
+            "title": "Bundling & Promotion Candidates",
+            "description": "Items at high risk of spoilage where no transfer is sufficient. Use for OpenAI bundling prompts.",
+            "severity": "Medium",
+            "data": [
+                {
+                    "location": "LOC001",
+                    "product": "Sandwich (Turkey)",
+                    "expiring": "Tomorrow",
+                    "suggested_action": "Bundle with a fast-seller for 50% discount."
+                }
+            ]
+        }
+    ],
+    "raw_data": "/c:/Users/IV-UDP-DT-0122/Downloads/shrinkage/spoilage_report.json"
+}

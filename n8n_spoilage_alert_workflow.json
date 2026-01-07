@@ -1,0 +1,85 @@
+{
+    "nodes": [
+        {
+            "parameters": {
+                "command": "python c:\\Users\\IV-UDP-DT-0122\\Downloads\\shrinkage\\spoilage_alert_agent.py"
+            },
+            "id": "run-spoilage-script",
+            "name": "Run Spoilage Script",
+            "type": "n8n-nodes-base.executeCommand",
+            "typeVersion": 1,
+            "position": [
+                450,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "fileContent": "={{ $json.stdout }}"
+            },
+            "id": "parse-report",
+            "name": "Read Spoilage Report",
+            "type": "n8n-nodes-base.readBinaryFile",
+            "typeVersion": 1,
+            "position": [
+                650,
+                300
+            ],
+            "disabled": true,
+            "notes": "Alternatively, read the spoilage_report.json file directly"
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https://api.openai.com/v1/chat/completions",
+                "sendBody": true,
+                "specifyBody": "json",
+                "jsonBody": "{\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"You are a Retail Merchandising Expert. Identify cross-selling opportunities for 'Risk Items' that are near expiry. Suggest creative bundles (e.g., 'Lunch Special: Sandwich + Chips') with specific discount percentages.\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"The following items are at risk of spoiling:\\n{{ JSON.stringify($json.bundling_prompt_data) }}\\n\\nPropose 3 bundling strategies to move this stock today.\"\n    }\n  ]\n}",
+                "options": {}
+            },
+            "id": "openai-bundling",
+            "name": "OpenAI Bundling Suggestions",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.1,
+            "position": [
+                850,
+                300
+            ]
+        },
+        {
+            "parameters": {},
+            "id": "manual-trigger",
+            "name": "When clicking \"Execute Workflow\"",
+            "type": "n8n-nodes-base.manualTrigger",
+            "typeVersion": 1,
+            "position": [
+                250,
+                300
+            ]
+        }
+    ],
+    "connections": {
+        "manual-trigger": {
+            "main": [
+                [
+                    {
+                        "node": "run-spoilage-script",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "run-spoilage-script": {
+            "main": [
+                [
+                    {
+                        "node": "openai-bundling",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    }
+}

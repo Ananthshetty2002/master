@@ -1,0 +1,895 @@
+{
+    "report_period": {
+        "start_date": "2025-10-10 00:00:01",
+        "end_date": "2025-10-17 23:59:12"
+    },
+    "ghost_disappearances": [
+        {
+            "Product ID": "PC16463",
+            "Shrinkage_Qty": 910.0,
+            "Shrinkage_Value": 971.88,
+            "Quantity_Start": 910.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "AVR20530",
+            "Shrinkage_Qty": 605.0,
+            "Shrinkage_Value": 4235.0,
+            "Quantity_Start": 605.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "AVR17376",
+            "Shrinkage_Qty": 570.0,
+            "Shrinkage_Value": 5278.487394957983,
+            "Quantity_Start": 570.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "PC14366",
+            "Shrinkage_Qty": 332.0,
+            "Shrinkage_Value": 0.0,
+            "Quantity_Start": 332.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "AVR26014",
+            "Shrinkage_Qty": 296.0,
+            "Shrinkage_Value": 133.82615384615386,
+            "Quantity_Start": 304.0,
+            "Quantity_End": 8.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "PC10849",
+            "Shrinkage_Qty": 263.0,
+            "Shrinkage_Value": 789.0,
+            "Quantity_Start": 263.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "PC16493",
+            "Shrinkage_Qty": 209.0,
+            "Shrinkage_Value": 0.0,
+            "Quantity_Start": 209.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "PC11022",
+            "Shrinkage_Qty": 196.0,
+            "Shrinkage_Value": 725.2,
+            "Quantity_Start": 201.0,
+            "Quantity_End": 5.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "PC10726",
+            "Shrinkage_Qty": 136.0,
+            "Shrinkage_Value": 1047.656833976834,
+            "Quantity_Start": 202.0,
+            "Quantity_End": 66.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "AVR21365",
+            "Shrinkage_Qty": 118.0,
+            "Shrinkage_Value": 675.8181818181819,
+            "Quantity_Start": 118.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0
+        }
+    ],
+    "high_loss_rate": [
+        {
+            "Product ID": "AVR26220",
+            "Shrinkage_Qty": 2.0,
+            "Quantity_Start": 1.0,
+            "Quantity_End": -1.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 2.0
+        },
+        {
+            "Product ID": "AVR20530",
+            "Shrinkage_Qty": 605.0,
+            "Quantity_Start": 605.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "PC16463",
+            "Shrinkage_Qty": 910.0,
+            "Quantity_Start": 910.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "PC14366",
+            "Shrinkage_Qty": 332.0,
+            "Quantity_Start": 332.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "PC10849",
+            "Shrinkage_Qty": 263.0,
+            "Quantity_Start": 263.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "PC16493",
+            "Shrinkage_Qty": 209.0,
+            "Quantity_Start": 209.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "AVR22951",
+            "Shrinkage_Qty": 90.0,
+            "Quantity_Start": 90.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "AVR21365",
+            "Shrinkage_Qty": 118.0,
+            "Quantity_Start": 118.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "AVR21366",
+            "Shrinkage_Qty": 33.0,
+            "Quantity_Start": 33.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "AVR21367",
+            "Shrinkage_Qty": 56.0,
+            "Quantity_Start": 56.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        }
+    ],
+    "top_absolute_losers": [
+        {
+            "Product ID": "PC16463",
+            "Location": "Stock",
+            "Shrinkage_Qty": 910.0,
+            "Quantity_Start": 910.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "AVR20530",
+            "Location": "Stock",
+            "Shrinkage_Qty": 605.0,
+            "Quantity_Start": 605.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "AVR17376",
+            "Location": "Stock",
+            "Shrinkage_Qty": 570.0,
+            "Quantity_Start": 570.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "PC14366",
+            "Location": "Stock",
+            "Shrinkage_Qty": 332.0,
+            "Quantity_Start": 332.0,
+            "Quantity_End": 0.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 1.0
+        },
+        {
+            "Product ID": "AVR26014",
+            "Location": "Stock",
+            "Shrinkage_Qty": 296.0,
+            "Quantity_Start": 304.0,
+            "Quantity_End": 8.0,
+            "Sales_Units": 0.0,
+            "Loss_Rate": 0.9736842105263158
+        }
+    ],
+    "financial_risk_summary": {
+        "top_10_by_value": [
+            {
+                "Product ID": "AVR17376",
+                "Location": "Stock",
+                "Shrinkage_Qty": 570.0,
+                "Implied_Unit_Price": 9.260504201680671,
+                "Shrinkage_Value": 5278.487394957983,
+                "Quantity_Start": 570.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR20530",
+                "Location": "Stock",
+                "Shrinkage_Qty": 605.0,
+                "Implied_Unit_Price": 7.0,
+                "Shrinkage_Value": 4235.0,
+                "Quantity_Start": 605.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "PC10726",
+                "Location": "Stock",
+                "Shrinkage_Qty": 136.0,
+                "Implied_Unit_Price": 7.703359073359073,
+                "Shrinkage_Value": 1047.656833976834,
+                "Quantity_Start": 202.0,
+                "Quantity_End": 66.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "PC16463",
+                "Location": "Stock",
+                "Shrinkage_Qty": 910.0,
+                "Implied_Unit_Price": 1.068,
+                "Shrinkage_Value": 971.88,
+                "Quantity_Start": 910.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "PC10849",
+                "Location": "Stock",
+                "Shrinkage_Qty": 263.0,
+                "Implied_Unit_Price": 3.0,
+                "Shrinkage_Value": 789.0,
+                "Quantity_Start": 263.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "PC11022",
+                "Location": "Stock",
+                "Shrinkage_Qty": 196.0,
+                "Implied_Unit_Price": 3.7,
+                "Shrinkage_Value": 725.2,
+                "Quantity_Start": 201.0,
+                "Quantity_End": 5.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR14918",
+                "Location": "Stock",
+                "Shrinkage_Qty": 84.0,
+                "Implied_Unit_Price": 8.329232995658465,
+                "Shrinkage_Value": 699.655571635311,
+                "Quantity_Start": 125.0,
+                "Quantity_End": 41.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR21365",
+                "Location": "Stock",
+                "Shrinkage_Qty": 118.0,
+                "Implied_Unit_Price": 5.727272727272728,
+                "Shrinkage_Value": 675.8181818181819,
+                "Quantity_Start": 118.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR22951",
+                "Location": "Stock",
+                "Shrinkage_Qty": 90.0,
+                "Implied_Unit_Price": 7.0,
+                "Shrinkage_Value": 630.0,
+                "Quantity_Start": 90.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR19525",
+                "Location": "Stock",
+                "Shrinkage_Qty": 50.0,
+                "Implied_Unit_Price": 9.36111111111111,
+                "Shrinkage_Value": 468.05555555555554,
+                "Quantity_Start": 63.0,
+                "Quantity_End": 13.0,
+                "Sales_Units": 0.0
+            }
+        ],
+        "high_unit_value_risks": [
+            {
+                "Product ID": "AVR20530",
+                "Shrinkage_Qty": 605.0,
+                "Implied_Unit_Price": 7.0,
+                "Quantity_Start": 605.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR17376",
+                "Shrinkage_Qty": 570.0,
+                "Implied_Unit_Price": 9.260504201680671,
+                "Quantity_Start": 570.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "PC10726",
+                "Shrinkage_Qty": 136.0,
+                "Implied_Unit_Price": 7.703359073359073,
+                "Quantity_Start": 202.0,
+                "Quantity_End": 66.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR21365",
+                "Shrinkage_Qty": 118.0,
+                "Implied_Unit_Price": 5.727272727272728,
+                "Quantity_Start": 118.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR22951",
+                "Shrinkage_Qty": 90.0,
+                "Implied_Unit_Price": 7.0,
+                "Quantity_Start": 90.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR14918",
+                "Shrinkage_Qty": 84.0,
+                "Implied_Unit_Price": 8.329232995658465,
+                "Quantity_Start": 125.0,
+                "Quantity_End": 41.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR19420",
+                "Shrinkage_Qty": 72.0,
+                "Implied_Unit_Price": 5.735542168674699,
+                "Quantity_Start": 75.0,
+                "Quantity_End": 3.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR21367",
+                "Shrinkage_Qty": 56.0,
+                "Implied_Unit_Price": 5.333333333333333,
+                "Quantity_Start": 56.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR19525",
+                "Shrinkage_Qty": 50.0,
+                "Implied_Unit_Price": 9.36111111111111,
+                "Quantity_Start": 63.0,
+                "Quantity_End": 13.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR17246",
+                "Shrinkage_Qty": 40.0,
+                "Implied_Unit_Price": 5.280643939393939,
+                "Quantity_Start": 42.0,
+                "Quantity_End": 2.0,
+                "Sales_Units": 0.0
+            }
+        ],
+        "loss_exceeds_sales": [
+            {
+                "Product ID": "AVR17376",
+                "Shrinkage_Value": 5278.487394957983,
+                "Sales_Value": 0.0,
+                "Quantity_Start": 570.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR20530",
+                "Shrinkage_Value": 4235.0,
+                "Sales_Value": 0.0,
+                "Quantity_Start": 605.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "PC10726",
+                "Shrinkage_Value": 1047.656833976834,
+                "Sales_Value": 0.0,
+                "Quantity_Start": 202.0,
+                "Quantity_End": 66.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "PC16463",
+                "Shrinkage_Value": 971.88,
+                "Sales_Value": 0.0,
+                "Quantity_Start": 910.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "PC10849",
+                "Shrinkage_Value": 789.0,
+                "Sales_Value": 0.0,
+                "Quantity_Start": 263.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "PC11022",
+                "Shrinkage_Value": 725.2,
+                "Sales_Value": 0.0,
+                "Quantity_Start": 201.0,
+                "Quantity_End": 5.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR14918",
+                "Shrinkage_Value": 699.655571635311,
+                "Sales_Value": 0.0,
+                "Quantity_Start": 125.0,
+                "Quantity_End": 41.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR21365",
+                "Shrinkage_Value": 675.8181818181819,
+                "Sales_Value": 0.0,
+                "Quantity_Start": 118.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR22951",
+                "Shrinkage_Value": 630.0,
+                "Sales_Value": 0.0,
+                "Quantity_Start": 90.0,
+                "Quantity_End": 0.0,
+                "Sales_Units": 0.0
+            },
+            {
+                "Product ID": "AVR19525",
+                "Shrinkage_Value": 468.05555555555554,
+                "Sales_Value": 0.0,
+                "Quantity_Start": 63.0,
+                "Quantity_End": 13.0,
+                "Sales_Units": 0.0
+            }
+        ],
+        "top_10_loss_total_value": 15520.753537943865
+    },
+    "unexpected_gains": [
+        {
+            "Product ID": "AVR23800",
+            "Shrinkage_Qty": -82.0,
+            "Quantity_Start": 0.0,
+            "Quantity_End": 82.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "AVR21371",
+            "Shrinkage_Qty": -72.0,
+            "Quantity_Start": 0.0,
+            "Quantity_End": 72.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "AVR24556",
+            "Shrinkage_Qty": -72.0,
+            "Quantity_Start": 0.0,
+            "Quantity_End": 72.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "PC10773",
+            "Shrinkage_Qty": -66.0,
+            "Quantity_Start": 0.0,
+            "Quantity_End": 66.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "AVR23974",
+            "Shrinkage_Qty": -61.0,
+            "Quantity_Start": 0.0,
+            "Quantity_End": 61.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "PC18962",
+            "Shrinkage_Qty": -59.0,
+            "Quantity_Start": 0.0,
+            "Quantity_End": 59.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "PC00888",
+            "Shrinkage_Qty": -45.0,
+            "Quantity_Start": 32.0,
+            "Quantity_End": 77.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "AVR16661",
+            "Shrinkage_Qty": -44.0,
+            "Quantity_Start": 0.0,
+            "Quantity_End": 44.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "AVR23799",
+            "Shrinkage_Qty": -40.0,
+            "Quantity_Start": 0.0,
+            "Quantity_End": 40.0,
+            "Sales_Units": 0.0
+        },
+        {
+            "Product ID": "AVR24555",
+            "Shrinkage_Qty": -38.0,
+            "Quantity_Start": 0.0,
+            "Quantity_End": 38.0,
+            "Sales_Units": 0.0
+        }
+    ],
+    "waste_analysis": {
+        "top_waste_products": [
+            {
+                "Product": "FR SLB Salad Chicken Caesar",
+                "Total_Waste_Cost": 318.92
+            },
+            {
+                "Product": "Pepsi 20oz",
+                "Total_Waste_Cost": 313.72
+            },
+            {
+                "Product": "FR Harvest Chicken Salad with Balsamic Dressing",
+                "Total_Waste_Cost": 197.60000000000002
+            },
+            {
+                "Product": "FR SLB Sub Turkey & Cheese",
+                "Total_Waste_Cost": 142.4
+            },
+            {
+                "Product": "Starry 20oz",
+                "Total_Waste_Cost": 116.96000000000001
+            },
+            {
+                "Product": "SS House Made Chicken Pesto on Ciabatta Sandwich",
+                "Total_Waste_Cost": 94.6
+            },
+            {
+                "Product": "FR SLB Croissant Ham",
+                "Total_Waste_Cost": 88.8
+            },
+            {
+                "Product": "Dr Pepper Zero 20oz",
+                "Total_Waste_Cost": 81.68
+            },
+            {
+                "Product": "FR SLB EL Cubano 8oz",
+                "Total_Waste_Cost": 78.4
+            },
+            {
+                "Product": "FR SLB Triangle Turkey Wheat",
+                "Total_Waste_Cost": 78.08
+            }
+        ],
+        "total_waste_cost": 3035.2799999999997
+    },
+    "staff_risk_audit": {
+        "high_risk_staff": [
+            {
+                "User Name": "Rony Perez",
+                "Site": "Motel 6 Anaheim Maingate Market",
+                "Total_shrink_value": 4548.18
+            },
+            {
+                "User Name": "Rony Perez",
+                "Site": "The Westin Long Beach",
+                "Total_shrink_value": 3774.54
+            },
+            {
+                "User Name": "Elmer Mancia",
+                "Site": "Hyatt Regency Los Angeles International Airport",
+                "Total_shrink_value": 3254.61
+            },
+            {
+                "User Name": "Rony Perez",
+                "Site": "Motel 6 Carlsbad",
+                "Total_shrink_value": 3143.23
+            },
+            {
+                "User Name": "Edward Smedley",
+                "Site": "Hilton Garden Inn-Home2 Suites Anaheim Resort",
+                "Total_shrink_value": 3023.62
+            },
+            {
+                "User Name": "Edward Smedley",
+                "Site": "Embassy Suites by Hilton Anaheim North",
+                "Total_shrink_value": 2864.75
+            },
+            {
+                "User Name": "Christopher Escamilla",
+                "Site": "Bobrick Market",
+                "Total_shrink_value": 2823.84
+            },
+            {
+                "User Name": "Andres Flores",
+                "Site": "Hyatt Place Pasadena",
+                "Total_shrink_value": 2695.82
+            },
+            {
+                "User Name": "Elmer Mancia",
+                "Site": "La Quinta Inn & Suites Pomona",
+                "Total_shrink_value": 2334.68
+            },
+            {
+                "User Name": "Rocardo Garcia",
+                "Site": "HIE - Manchester Market",
+                "Total_shrink_value": 2311.54
+            }
+        ],
+        "escalation_summary": {
+            "med_risk_users": 111,
+            "med_potential_added_loss": 104654.5710294118,
+            "high_risk_avg_loss": 1402.3895588235298
+        }
+    },
+    "overall_shrinkage_summary": {
+        "top_locations": [
+            {
+                "Location": "Stock",
+                "Total_Shrinkage_Qty": 3585.0,
+                "Total_Shrinkage_Value": 11583.417997631692
+            },
+            {
+                "Location": "Altura HOC 2nd Floor Market",
+                "Total_Shrinkage_Qty": 0.0,
+                "Total_Shrinkage_Value": 0.0
+            },
+            {
+                "Location": "Anaheim Desert Inn and Suites",
+                "Total_Shrinkage_Qty": 0.0,
+                "Total_Shrinkage_Value": 0.0
+            },
+            {
+                "Location": "Ayres Hotel Anaheim",
+                "Total_Shrinkage_Qty": 0.0,
+                "Total_Shrinkage_Value": 0.0
+            },
+            {
+                "Location": "Altura HOC 1st Floor Market",
+                "Total_Shrinkage_Qty": 0.0,
+                "Total_Shrinkage_Value": 0.0
+            },
+            {
+                "Location": "Ayres Hotel Fountain Valley",
+                "Total_Shrinkage_Qty": 0.0,
+                "Total_Shrinkage_Value": 0.0
+            },
+            {
+                "Location": "Ayres Hotel Manhattan Beach Hawthorne",
+                "Total_Shrinkage_Qty": 0.0,
+                "Total_Shrinkage_Value": 0.0
+            },
+            {
+                "Location": "Ayres Hotel Seal Beach",
+                "Total_Shrinkage_Qty": 0.0,
+                "Total_Shrinkage_Value": 0.0
+            },
+            {
+                "Location": "Ayres Hotel and Spa Mission Viejo",
+                "Total_Shrinkage_Qty": 0.0,
+                "Total_Shrinkage_Value": 0.0
+            },
+            {
+                "Location": "Ayres Suites Mission Viejo - Lake Forest",
+                "Total_Shrinkage_Qty": 0.0,
+                "Total_Shrinkage_Value": 0.0
+            }
+        ],
+        "top_items": [
+            {
+                "Location": "Stock",
+                "Product ID": "AVR17376",
+                "Shrinkage_Qty": 570.0,
+                "Shrinkage_Value": 5278.487394957983,
+                "Quantity_Start": 570.0,
+                "Quantity_End": 0.0
+            },
+            {
+                "Location": "Stock",
+                "Product ID": "AVR20530",
+                "Shrinkage_Qty": 605.0,
+                "Shrinkage_Value": 4235.0,
+                "Quantity_Start": 605.0,
+                "Quantity_End": 0.0
+            },
+            {
+                "Location": "Stock",
+                "Product ID": "PC10726",
+                "Shrinkage_Qty": 136.0,
+                "Shrinkage_Value": 1047.656833976834,
+                "Quantity_Start": 202.0,
+                "Quantity_End": 66.0
+            },
+            {
+                "Location": "Stock",
+                "Product ID": "PC16463",
+                "Shrinkage_Qty": 910.0,
+                "Shrinkage_Value": 971.88,
+                "Quantity_Start": 910.0,
+                "Quantity_End": 0.0
+            },
+            {
+                "Location": "Stock",
+                "Product ID": "PC10849",
+                "Shrinkage_Qty": 263.0,
+                "Shrinkage_Value": 789.0,
+                "Quantity_Start": 263.0,
+                "Quantity_End": 0.0
+            },
+            {
+                "Location": "Stock",
+                "Product ID": "PC11022",
+                "Shrinkage_Qty": 196.0,
+                "Shrinkage_Value": 725.2,
+                "Quantity_Start": 201.0,
+                "Quantity_End": 5.0
+            },
+            {
+                "Location": "Stock",
+                "Product ID": "AVR14918",
+                "Shrinkage_Qty": 84.0,
+                "Shrinkage_Value": 699.655571635311,
+                "Quantity_Start": 125.0,
+                "Quantity_End": 41.0
+            },
+            {
+                "Location": "Stock",
+                "Product ID": "AVR21365",
+                "Shrinkage_Qty": 118.0,
+                "Shrinkage_Value": 675.8181818181819,
+                "Quantity_Start": 118.0,
+                "Quantity_End": 0.0
+            },
+            {
+                "Location": "Stock",
+                "Product ID": "AVR22951",
+                "Shrinkage_Qty": 90.0,
+                "Shrinkage_Value": 630.0,
+                "Quantity_Start": 90.0,
+                "Quantity_End": 0.0
+            },
+            {
+                "Location": "Stock",
+                "Product ID": "AVR19525",
+                "Shrinkage_Qty": 50.0,
+                "Shrinkage_Value": 468.05555555555554,
+                "Quantity_Start": 63.0,
+                "Quantity_End": 13.0
+            }
+        ]
+    },
+    "par_recommendations": [
+        {
+            "Location": "Bobrick Market",
+            "Product ID": "PC16463",
+            "Description": "Pepsi 12oz",
+            "Avg_Daily_Sales": 1.2,
+            "Current_Par": 910.0,
+            "Recommended_Par": 2,
+            "Par_Difference": 908.0
+        },
+        {
+            "Location": "Long Beach Convention & Entertainment Center",
+            "Product ID": "PC16463",
+            "Description": "Pepsi 12oz",
+            "Avg_Daily_Sales": 1.2857142857142858,
+            "Current_Par": 910.0,
+            "Recommended_Par": 3,
+            "Par_Difference": 907.0
+        },
+        {
+            "Location": "Behr Main Den 1st Market",
+            "Product ID": "PC16463",
+            "Description": "Pepsi 12oz",
+            "Avg_Daily_Sales": 1.4,
+            "Current_Par": 910.0,
+            "Recommended_Par": 3,
+            "Par_Difference": 907.0
+        },
+        {
+            "Location": "Long Beach Convention Center Promenade",
+            "Product ID": "AVR20530",
+            "Description": "Aquafina Aluminum Bottle 16oz",
+            "Avg_Daily_Sales": 1.0,
+            "Current_Par": 605.0,
+            "Recommended_Par": 2,
+            "Par_Difference": 603.0
+        },
+        {
+            "Location": "Hyatt Place Pasadena",
+            "Product ID": "AVR20530",
+            "Description": "Aquafina Aluminum Bottle 16oz",
+            "Avg_Daily_Sales": 1.1428571428571428,
+            "Current_Par": 605.0,
+            "Recommended_Par": 2,
+            "Par_Difference": 603.0
+        },
+        {
+            "Location": "Sandbourne Santa Monica, Autograph Collection",
+            "Product ID": "AVR20530",
+            "Description": "Aquafina Aluminum Bottle 16oz",
+            "Avg_Daily_Sales": 1.8,
+            "Current_Par": 605.0,
+            "Recommended_Par": 4,
+            "Par_Difference": 601.0
+        },
+        {
+            "Location": "Hyatt Place Pasadena",
+            "Product ID": "AVR17376",
+            "Description": "Proud Source Alkaline Spring Water 750ml",
+            "Avg_Daily_Sales": 1.1428571428571428,
+            "Current_Par": 570.0,
+            "Recommended_Par": 2,
+            "Par_Difference": 568.0
+        },
+        {
+            "Location": "Long Beach Convention Center Promenade",
+            "Product ID": "AVR17376",
+            "Description": "Proud Source Alkaline Spring Water 750ml",
+            "Avg_Daily_Sales": 1.0,
+            "Current_Par": 570.0,
+            "Recommended_Par": 2,
+            "Par_Difference": 568.0
+        },
+        {
+            "Location": "The Westin Pasadena",
+            "Product ID": "AVR17376",
+            "Description": "Proud Source Alkaline Spring Water 750ml",
+            "Avg_Daily_Sales": 1.1428571428571428,
+            "Current_Par": 570.0,
+            "Recommended_Par": 2,
+            "Par_Difference": 568.0
+        },
+        {
+            "Location": "Sandbourne Santa Monica, Autograph Collection",
+            "Product ID": "AVR17376",
+            "Description": "Proud Source Alkaline Spring Water 750ml",
+            "Avg_Daily_Sales": 2.0,
+            "Current_Par": 570.0,
+            "Recommended_Par": 4,
+            "Par_Difference": 566.0
+        }
+    ],
+    "summary_metrics": {
+        "total_shrinkage_qty": 5505.0,
+        "total_shrinkage_value": 22485.56101137748,
+        "total_overage_qty": -1920.0
+    }
+}

@@ -1,0 +1,3314 @@
+{
+  "report_title": "Network Shrinkage & Spoilage Alerts - All Micromarkets",
+  "report_date": "2025-12-27",
+  "total_sites": 193,
+  "micromarkets": [
+    {
+      "name": "HIE - Rancho Cucamonga Market",
+      "shrinkage_total_qty": 716.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Smart Water 20oz",
+        "Dasani 20oz",
+        "Smart Water 1L",
+        "Coke 20oz",
+        "Snickers Ice Cream Bar"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 13,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 11.0,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 716.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "La Quinta Inn & Suites by Wyndham Thousand Oaks",
+      "shrinkage_total_qty": 423.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Coke 20oz",
+        "Snickers Ice Cream Bar",
+        "Dr Pepper 20oz",
+        "Chester's Fries Flamin Hot",
+        "Lays Limon 1.5oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 28,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 27.7,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 423.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Comfort Inn - Gaslamp Convention Center",
+      "shrinkage_total_qty": 197.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Smart Water 1L",
+        "Dr Pepper 20oz",
+        "Lays Regular Classic",
+        "Reeses PB Cup",
+        "Twix Caramel"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 197.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Holiday Inn Express & Suites Barstow",
+      "shrinkage_total_qty": 177.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Smart Water 1L",
+        "Smart Water 20oz",
+        "Powerade Mountain Berry Blast 20oz",
+        "Snickers Ice Cream Bar",
+        "Nestle Tollhouse Chocolate Chip Cookie Sandwich"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 177.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Long Beach Convention Center Promenade",
+      "shrinkage_total_qty": 172.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Proud Source Alkaline Spring Water 750ml",
+        "Aquafina Aluminum Bottle 16oz",
+        "Nestle Tollhouse Chocolate Chip Cookie Sandwich",
+        "Pepsi Diet 12oz Sleek Cans",
+        "Pepsi 16oz Can"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 172.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Holiday Inn Oceanside Camp Pendleton Area",
+      "shrinkage_total_qty": 159.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Smart Water 1L",
+        "Sour Patch Kids Watermelon",
+        "Cheetos Flamin Hot",
+        "Cheetos Crunchy",
+        "Core Power High Protein Shake Vanilla 14oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 159.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Ramada National City Market",
+      "shrinkage_total_qty": 154.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Hot Pocket Pepperoni Pizza",
+        "Anker USB-C to Lightning 6ft Cable",
+        "Twix Caramel",
+        "Hersheys Almond King",
+        "Coke 20oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 154.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "FFI - Moorpark Market",
+      "shrinkage_total_qty": 152.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Celsius Sparkling Wild Berry 12oz",
+        "Fiji Water 16.9oz",
+        "Aquafina 20oz",
+        "Gatorade Lemon Lime 20oz",
+        "Pepsi 20oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 16,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 11.2,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 152.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Ayres Hotel Manhattan Beach Hawthorne",
+      "shrinkage_total_qty": 146.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Starbucks Mocha Frappuccino RTD 9.5oz",
+        "Starbucks Caramel Frappuccino RTD 9.5oz",
+        "Core Power High Protein Shake Vanilla 14oz",
+        "Minute Maid Apple Juice 12oz",
+        "Minute Maid Lemonade 20oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 146.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Plus LAX Market",
+      "shrinkage_total_qty": 144.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Coke 20oz",
+        "Dr Pepper 20oz",
+        "Kit Kat King",
+        "Monster 16oz",
+        "Skittles Fruit"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 144.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Surestay Twentynine Palms Market",
+      "shrinkage_total_qty": 142.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Coke 20oz",
+        "Coke Zero 20oz",
+        "Cheetos Flamin Hot Limon",
+        "Sprite 20oz",
+        "Munchies Flamin Hot"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 41,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 38.3,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 142.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Ramada by Wyndham Barstow",
+      "shrinkage_total_qty": 132.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Cheetos Crunchy",
+        "Snickers",
+        "Doritos Nacho Cheese",
+        "Munchies Flamin Hot",
+        "Nestle Tollhouse Chocolate Chip Cookie Sandwich"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 132.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Courtyard Chino Hills",
+      "shrinkage_total_qty": 131.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Pepsi Diet 20 oz",
+        "Haagen Dazs Milk Chocolate Almond Ice Cream Bar",
+        "Nestle Tollhouse Chocolate Chip Cookie Sandwich",
+        "Naked Juice Smoothie Mighty Mango 15.2oz",
+        "String Cheese Frigo"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 131.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Oceanside Inn",
+      "shrinkage_total_qty": 121.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Butterfinger",
+        "Snickers",
+        "DayQuil",
+        "Nature's Bakery Fig Bar Strawberry",
+        "Cliff Bar Chocolate Chip"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 36,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 29.5,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 121.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Hyatt House Los Angeles-LAX-Manhattan Beach",
+      "shrinkage_total_qty": 118.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Mountain Dew 20oz",
+        "Crush Orange 20oz",
+        "Cliff Bar Peanut Butter",
+        "Twix Ice Cream Bar 3oz",
+        "Cheetos Crunchy 2.75oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 49,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 48.2,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 118.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Holiday Inn Express & Suites Hesperia Market",
+      "shrinkage_total_qty": 103.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Sprite 20oz",
+        "Dr Pepper 20oz",
+        "Munchies Flamin Hot",
+        "Minute Maid Lemonade 20oz",
+        "RXBAR Protein Blueberry"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 103.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "WorldMark Palm Springs",
+      "shrinkage_total_qty": 103.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Coke 20oz",
+        "Dr Pepper 20oz",
+        "Knotts Strawberry Cookie",
+        "Cheetos Flamin Hot Limon",
+        "Otis Muffin Wild Blueberry"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 50,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 41.0,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 103.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "WorldMark Big Bear",
+      "shrinkage_total_qty": 101.0,
+      "shrinkage_status": "CRITICAL",
+      "top_shrinkage_products": [
+        "Starbucks Mocha Frappuccino RTD 9.5oz",
+        "Coke 20oz",
+        "Cheetos Flamin Hot",
+        "Minute Maid Apple Juice 12oz",
+        "Cheetos Crunchy"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 34,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 31.3,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 101.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "BLVD Hotel & Spa",
+      "shrinkage_total_qty": 93.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Coke 20oz",
+        "San Pellegrino Sparkling Mineral Water 16.9oz",
+        "Celsius Sparkling Orange 12oz",
+        "Lunchables Ham & Cheddar",
+        "Dasani 20oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 93.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "First Service Residential Shared Services Market",
+      "shrinkage_total_qty": 93.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Celsius Sparkling Orange 12oz",
+        "Red Bull Sugar Free 8.4oz",
+        "Milk Shamrock Lowfat 7oz",
+        "Peace Tea Razzleberry",
+        "Peace Tea Georgia Peach"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 93.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Holiday Inn Diamond Bar-Pomona",
+      "shrinkage_total_qty": 92.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Fairlife 2% Reduced Fat Ultra-Filtered Milk 14oz",
+        "Sprite 20oz",
+        "Dolly Madison Chocolate Cupcakes",
+        "Core Power High Protein Shake Vanilla 14oz",
+        "Jack Links Teriyaki Beef Jerky 70 Cal"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 15,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 14.9,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 92.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Inn at the Park",
+      "shrinkage_total_qty": 92.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Dr Pepper 20oz",
+        "Smart Water 20oz",
+        "Cheetos Flamin Hot",
+        "Coke Zero 20oz",
+        "Rice Krispies Treats Original 1.41oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 6,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 5.6,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 92.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Ayres Hotel Anaheim",
+      "shrinkage_total_qty": 92.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Beer Kona Big Wave Liquid Aloha 16oz Can",
+        "Troop Tequila Paloma 200ml",
+        "Troop Vodka Lemonade 200ml",
+        "Beer Bud Light Aluminum Can 16oz",
+        "DayQuil"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 92.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Anaheim Desert Inn and Suites",
+      "shrinkage_total_qty": 86.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Core Power High Protein Shake Vanilla 14oz",
+        "Gatorlyte Zero Strawberry Kiwi 20 oz",
+        "Hillshire Italian Dry Salame",
+        "Kellogs Pop Tarts Strawberry",
+        "Chobani Blueberry"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 7,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 1.8,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 86.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Ayres Hotel and Spa Mission Viejo",
+      "shrinkage_total_qty": 86.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Beer Budweiser Aluminum Can 16oz",
+        "Beer Stella Artois Aluminum Can 16oz",
+        "Wine Allegretto Cabernet Sauvignon 2019",
+        "Red Bull Sugar Free 8.4oz",
+        "Wine Allegretto Cello Sauvignon Blanc 2023"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 41,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 35.0,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 86.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Crowne Plaza San Diego-Mission Valley",
+      "shrinkage_total_qty": 86.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Claritin",
+        "Tylenol Extra Strength",
+        "Sour Patch Kids Watermelon",
+        "Twix Caramel",
+        "Pocky Strawberry Sticks 2.47oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 86.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Queens Inn Anaheim",
+      "shrinkage_total_qty": 83.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Doritos Nacho Cheese",
+        "Pringles Sour Cream & Onion",
+        "Dr Pepper 20oz",
+        "Red Bull 8.4oz",
+        "Maruchan Chicken Cup Soup"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 83.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Lincoln Hotel Monterey Park",
+      "shrinkage_total_qty": 77.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "DayQuil",
+        "Nestle Crunch Dibs",
+        "Jack Links Teriyaki Beef Jerky 70 Cal",
+        "Dr Pepper 20oz",
+        "El Monterey Beef and Bean Burrito"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 48,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 41.7,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 77.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Motel 6 Westminster North",
+      "shrinkage_total_qty": 74.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Smart Water 1L",
+        "Coke Diet 20oz",
+        "Coke Zero 20oz",
+        "Doritos Nacho Cheese",
+        "Starbucks Mocha Frappuccino RTD 9.5oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 32,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 31.5,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 74.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Holiday Inn Express & Suites San Dimas",
+      "shrinkage_total_qty": 73.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Fairlife 2% Reduced Fat Ultra-Filtered Milk 14oz",
+        "Dr Pepper Zero 20oz",
+        "Powerade Lemon Lime 20oz",
+        "Munchies Flamin Hot",
+        "Cheetos Crunchy"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 73.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "MainStay Suites Moreno Valley",
+      "shrinkage_total_qty": 73.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Smart Water 20oz",
+        "Minute Maid Lemonade 20oz",
+        "Snickers",
+        "M&M Peanut",
+        "Gatorade Fruit Punch 20oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 73.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Motel 6 Carson",
+      "shrinkage_total_qty": 71.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Cheetos Flamin Hot Limon",
+        "Claritin",
+        "Pure Leaf Raspberry Tea - 18.5oz",
+        "Sprite 20oz",
+        "Twix Caramel"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 71.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "WorldMark San Diego Balboa Park",
+      "shrinkage_total_qty": 71.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Dasani 20oz",
+        "Cliff Bar Peanut Butter",
+        "Nature Valley Granola Peanut Butter",
+        "Maruchan Lime Chili Chicken Cup Soup",
+        "Nature's Bakery Fig Bar Blueberry"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 45,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 39.8,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 71.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Comfort Inn - Moreno Valley",
+      "shrinkage_total_qty": 68.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Monster Zero Ultra 16oz",
+        "Dr Pepper 20oz",
+        "Reeses PB Cup",
+        "Dasani 20oz",
+        "Cheetos Crunchy"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 68.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Ramada by Wyndham Hawthorne-LA Stadium",
+      "shrinkage_total_qty": 66.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Dr Pepper 20oz",
+        "Monster 16oz",
+        "Jack Links Teriyaki Beef Jerky 70 Cal",
+        "Advil",
+        "Jack Links Original"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 66.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "WorldMark - Oceanside Market",
+      "shrinkage_total_qty": 66.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Welchs Mixed Fruit Snack 2.25oz",
+        "Butterfinger",
+        "Dasani 20oz",
+        "Sour Patch Kids Watermelon",
+        "Reeses PB Cup"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 66.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Embassy Suites by Hilton Palm Desert",
+      "shrinkage_total_qty": 66.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Smart Water 1L",
+        "Peace Tea Georgia Peach 16oz",
+        "Trident Spearmint",
+        "Motrin",
+        "Hillshire Italian Dry Salame"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 35,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 27.8,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 66.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Desert Palms Market",
+      "shrinkage_total_qty": 62.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Maruchan Lime Chili Chicken Cup Soup",
+        "Disney Hat Adult RG Mickey Logo Grey Shimmer",
+        "Dramamine Motion Sickness Chewable",
+        "Blue Diamond Almonds Smokehouse",
+        "Cereal Cinnamon Toast Crunch"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 47,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 40.2,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 62.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Holiday Inn Express Port Hueneme",
+      "shrinkage_total_qty": 60.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Rice Krispies Treats Original 1.41oz",
+        "Nestle Tollhouse Chocolate Chip Cookie Sandwich",
+        "El Monterey Beef and Bean Burrito",
+        "Sweet Serenity Chocolate Chip Cookies",
+        "Hot Pocket Pepperoni Pizza"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 60.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "SureStay by Best Western Ontario Airport",
+      "shrinkage_total_qty": 59.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Sprite 20oz",
+        "Milk Shamrock Lowfat 7oz",
+        "Nature's Bakery Fig Bar Blueberry",
+        "Dolly Madison Chocolate Cupcakes",
+        "Sour Patch Kids Watermelon"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 59.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Plus Redondo Beach Inn",
+      "shrinkage_total_qty": 59.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Dr Pepper Zero 20oz",
+        "Dr Pepper 20oz",
+        "Kit Kat King",
+        "Rice Krispies Treats Original 1.41oz",
+        "Monster Zero Ultra 16oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 59.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Plus Meridian Market",
+      "shrinkage_total_qty": 59.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Coke 20oz",
+        "Digiorno Pepperoni Cheese Pizza",
+        "Hot Pocket Ham & Cheese",
+        "Twix Ice Cream Bar 3oz",
+        "Fiji Water 16.9oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 59.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Dolphin's Cove",
+      "shrinkage_total_qty": 56.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Gatorade Fruit Punch 20oz",
+        "Minute Maid Orange Juice 12oz",
+        "Core Power High Protein Shake Chocolate 14oz",
+        "Nature's Bakery Fig Bar Blueberry",
+        "Nature's Bakery Fig Bar Strawberry"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 56.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Travelodge Commerce Market",
+      "shrinkage_total_qty": 56.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Maruchan Chicken Cup Soup",
+        "Cheez-It",
+        "Cereal Honey Nut Cheerios",
+        "Twix Caramel",
+        "Powerade Zero Mixed Berry 20oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 22,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 17.0,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 56.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "WorldMark Palm Springs Plaza Resort & Spa",
+      "shrinkage_total_qty": 56.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Dasani 20oz",
+        "El Monterey Egg Sausage Cheese & Potato Burrito",
+        "Nestle Tollhouse Chocolate Chip Cookie Sandwich",
+        "Fairlife 2% Reduced Fat Ultra-Filtered Milk 14oz",
+        "Fiji Water 16.9oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 11,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 9.8,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 56.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "San Manuel Service Center",
+      "shrinkage_total_qty": 54.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Sprite 20oz",
+        "Coke Diet 20oz",
+        "Sahale Honey Almonds",
+        "FR SLB Triangle Ham Wheat",
+        "FR SLB Triangle Club Wheat"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 11,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 8.9,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 54.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Hilton Garden Inn-Home2 Suites Anaheim Resort",
+      "shrinkage_total_qty": 53.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Butterfinger",
+        "Blue Diamond Almonds Roasted Salted",
+        "FR ESL Buffalo Chicken Pinwheels 10.05oz",
+        "Benadryl",
+        "Disney Head Straw Tumbler Minnie"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 16,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 10.2,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 53.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Altura HOC 1st Floor Market",
+      "shrinkage_total_qty": 53.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Coke 20oz",
+        "Hillshire Genoa Salame",
+        "Coke Diet 12oz",
+        "Chobani Strawberry",
+        "Minute Maid Apple Juice 12oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 19,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 14.2,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 53.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Best Western Norwalk Inn",
+      "shrinkage_total_qty": 52.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Smart Water 1L",
+        "Sprite 20oz",
+        "Powerade Fruit Punch 20oz",
+        "Doritos Nacho Cheese",
+        "SnakClub Energizer Trail Mix Premium"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 48,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 43.5,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 52.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Quality Inn & Suites Camarillo-Oxnard",
+      "shrinkage_total_qty": 48.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Cheetos Crunchy",
+        "Smartfood White Cheddar Popcorn",
+        "Dr Pepper Zero 20oz",
+        "Butterfinger",
+        "Fairlife 2% Reduced Fat Ultra-Filtered Milk 14oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 48.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Club Wyndham Harbour Lights",
+      "shrinkage_total_qty": 46.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Reeses PB Cup",
+        "Cheetos Flamin Hot",
+        "Smartfood White Cheddar Popcorn",
+        "Hersheys Almond King",
+        "Cheetos Flamin Hot Limon"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 20,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 19.0,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 46.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Clarion Hotel Market",
+      "shrinkage_total_qty": 45.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Trident Spearmint",
+        "Monster 16oz",
+        "Nongshim Spicy Shrimp Noodle Soup",
+        "Nongshim Hot and Spicy Noodle Soup",
+        "Red Bull 8.4oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 45.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Motel 6 Anaheim Maingate Market",
+      "shrinkage_total_qty": 44.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Bumble Bee Tuna Mayo & Crackers 3.5oz",
+        "Monster 16oz",
+        "Bumble Bee Chicken Salad & Crackers 3.5oz",
+        "Secret Outlast Deodorant",
+        "Stouffers Lasagna with Meat Sauce"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 44.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Bobrick Market",
+      "shrinkage_total_qty": 43.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Trader Joe's 1",
+        "Nature Valley Granola Oat & Honey",
+        "Doritos Cool Ranch",
+        "Butterfinger",
+        "Nature Valley Granola Peanut Butter"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 9,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 1.5,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 43.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Cimarron Resort Condominium Association",
+      "shrinkage_total_qty": 43.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Minute Maid Apple Juice 12oz",
+        "Coke Diet 20oz",
+        "Dr Pepper Zero 20oz",
+        "Coke 20oz",
+        "Red Bull Sugar Free 8.4oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 37,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 34.3,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 43.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Four Points Sheraton - Ventura",
+      "shrinkage_total_qty": 42.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Munchies Flamin Hot",
+        "Dramamine Motion Sickness Chewable",
+        "Haagen Dazs Chocolate Ice Cream 14oz",
+        "Hersheys Almond King",
+        "Amys Enchilada Cheese"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 42.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Days Inn & Suites Anaheim",
+      "shrinkage_total_qty": 41.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Otis Muffin Banana Nut",
+        "Pepto Bismol",
+        "Smartfood White Cheddar Popcorn",
+        "Cheetos Flamin Hot Limon",
+        "SnakClub Energizer Trail Mix Premium"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 41.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "SureStay Plus Hotel By Best Western Upland Market",
+      "shrinkage_total_qty": 40.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Smart Water 20oz",
+        "Cereal Cinnamon Toast Crunch",
+        "Sour Patch Kids Watermelon",
+        "Starbucks Vanilla Frapuccino RTD 9.5oz",
+        "Red Vines Original 4oz Peg"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 46,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 45.6,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 40.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Hotel Dena",
+      "shrinkage_total_qty": 40.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Boom Chicka Popcorn Sea Salt 4.8oz",
+        "FR SLB Thai Beef Pinwheels 9oz",
+        "Tonys Chocolonely Milk Chocolate Bar 6.35oz",
+        "Payday Bar",
+        "Tresemme Non Aerosol Hairspray"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 10,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 7.5,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 40.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "SureStay Hotel by Best Western Beverly Hills",
+      "shrinkage_total_qty": 40.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Coke 20oz",
+        "Coke Diet 20oz",
+        "Cheetos Crunchy",
+        "Crest Tooth Paste and Brush",
+        "Dr Pepper Zero 20oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 18,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 9.6,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 40.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Sandbourne Santa Monica, Autograph Collection",
+      "shrinkage_total_qty": 39.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Twix Ice Cream Bar 3oz",
+        "Nature's Bakery Fig Bar Strawberry",
+        "Butterfinger",
+        "Bare Baked Crunchy Cinnamon Apple Chips",
+        "Nestle Crunch Dibs"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 39.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "The Hotel Amarano Burbank-Hollywood",
+      "shrinkage_total_qty": 39.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Snickers",
+        "Miss Vickies Sea Salt & Vinegar XVL 1.875oz",
+        "Kit Kat King",
+        "Quaker Oatmeal Maple & Brown",
+        "Hersheys Almond King"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 39.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Comfort Suites Barstow",
+      "shrinkage_total_qty": 38.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Smart Water 20oz",
+        "Cheetos Puffs",
+        "Cliff Bar Chocolate Chip",
+        "Razor",
+        "NyQuil"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 38.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "HIE - Manchester Market",
+      "shrinkage_total_qty": 36.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Cheetos Flamin Hot",
+        "Doritos Cool Ranch",
+        "Butterfinger",
+        "Core Power High Protein Shake Vanilla 14oz",
+        "M&M Peanut"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 22,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 12.0,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 36.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Embassy Suites by Hilton Anaheim North",
+      "shrinkage_total_qty": 36.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Disney Key Chain RG Get Stitch",
+        "Digiorno Four Cheese Pizza",
+        "Disney Mug RG Daisy Purple",
+        "Disney Mug RG Stitch Blue",
+        "Hot Pocket Ham & Cheese"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 18,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 15.0,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 36.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Executive Residency by Best Western Victorville",
+      "shrinkage_total_qty": 35.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Anker Power Port 32W Wall Charger",
+        "Doritos Cool Ranch",
+        "Butterfinger",
+        "Anker USB-C to USB-C 10ft Cable",
+        "Tylenol Extra Strength"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 22,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 16.8,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 35.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Best Western Plus Pavilions",
+      "shrinkage_total_qty": 35.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Rice Krispies Treats Original 1.41oz",
+        "Clear Eyes Solution 0.2oz",
+        "Bounce Fabric Softner",
+        "Boulder Hickory BBQ Chips",
+        "Dunkin Donuts Mocha 13.7oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 35.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Baymont by Wyndham Monterey Park",
+      "shrinkage_total_qty": 34.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Fiji Water 16.9oz",
+        "Rice Krispies Treats Original 1.41oz",
+        "Skittles Fruit",
+        "Sprite 20oz",
+        "Albanese Gummi Bears 12 Flavor - 3.5oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 34.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Fairfield by Marriott Anaheim North-Buena Park",
+      "shrinkage_total_qty": 34.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "El Monterey Egg Sausage Cheese & Potato Burrito",
+        "Hot Pocket Ham & Cheese",
+        "Twix Ice Cream Bar 3oz",
+        "Stouffers Mac and Cheese",
+        "Skittles Fruit"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 49,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 47.2,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 34.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Comfort Inn & Suites Near Universal N. Hollywood",
+      "shrinkage_total_qty": 33.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Sour Patch Kids",
+        "Skittles Fruit",
+        "Kit Kat King",
+        "Rice Krispies Treats Original 1.41oz",
+        "Sprite 20oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 33.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Plus Heritage Inn Rancho Cucamonga",
+      "shrinkage_total_qty": 33.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Snickers",
+        "Cheetos Flamin Hot",
+        "Skittles Fruit",
+        "Lays Regular Classic",
+        "Sour Patch Kids"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 35,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 20.5,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 33.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Motel 6 Carlsbad",
+      "shrinkage_total_qty": 32.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Jack Links Teriyaki Beef Jerky 70 Cal",
+        "Sour Patch Kids Watermelon",
+        "Dasani 20oz",
+        "Skittles Fruit",
+        "Cliff Bar Chocolate Chip"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 42,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 37.2,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 32.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Sheraton Gateway Los Angeles Hotel",
+      "shrinkage_total_qty": 31.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "RXBAR Protein Blueberry",
+        "Cliff Bar Peanut Butter",
+        "Nature's Bakery Fig Bar Strawberry",
+        "FR SLB EL Cubano 8oz",
+        "Dentek Flossers"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 34,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 29.0,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 31.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Best Western - Glendora Market",
+      "shrinkage_total_qty": 30.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Doritos Nacho Cheese",
+        "Dolly Madison Chocolate Cupcakes",
+        "Tampax Regular",
+        "Tylenol Extra Strength",
+        "Welchs Mixed Fruit Snack 2.25oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 7,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 1.6,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 30.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Del Sol Inn Anaheim",
+      "shrinkage_total_qty": 30.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Snickers Ice Cream Bar",
+        "Twix Ice Cream Bar 3oz",
+        "Nestle Tollhouse Chocolate Chip Cookie Sandwich",
+        "Sour Patch Kids",
+        "Peace Tea Razzleberry 16oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 30.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Holiday Inn & Suites Anaheim",
+      "shrinkage_total_qty": 30.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Maruchan Ramen Bowl Soup Hot & Spicy",
+        "Disney Fannypack RG Mickey Pack Black",
+        "El Monterey Egg Sausage Cheese & Potato Burrito",
+        "Pert 2 in 1 Shampoo & Conditioner",
+        "Sheila G's Brittle Salted Caramel Brownie 2.75oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 30.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "E-Central Downtown Los Angeles Hotel",
+      "shrinkage_total_qty": 30.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "String Cheese Frigo",
+        "El Monterey Egg Sausage Cheese & Potato Burrito",
+        "Fanta Orange 20oz",
+        "Hillshire Italian Dry Salame",
+        "Dramamine Motion Sickness Chewable"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 16,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 5.5,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 30.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Holiday Inn Express & Suites Ventura",
+      "shrinkage_total_qty": 29.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Stouffers Mac and Cheese",
+        "Sweet Serenity Chocolate Chip Cookies",
+        "Cheetos Crunchy",
+        "Orchard Valley Almonds Dark Chocolate",
+        "Sour Patch Kids Watermelon"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 29.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Homewood Suites by Hilton Carlsbad",
+      "shrinkage_total_qty": 29.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Smart Water 20oz",
+        "Snickers Ice Cream Bar",
+        "Blue Diamond Almonds Whole Natural",
+        "Maruchan Lime Chili Chicken Cup Soup",
+        "SnakClub Energizer Trail Mix Premium"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 30,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 27.3,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 29.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Comfort Inn - Huntington Beach",
+      "shrinkage_total_qty": 29.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Coke Zero 20oz",
+        "Hot Pocket Pepperoni Pizza",
+        "Snickers Ice Cream Bar",
+        "Trident Spearmint",
+        "Hersheys Almond King"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 34,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 28.8,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 29.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Ayres Suites Mission Viejo - Lake Forest",
+      "shrinkage_total_qty": 29.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Maruchan Lime Chili Chicken Cup Soup",
+        "Trident Spearmint",
+        "Rxbar Protein Honey Cinnamon Peanut Butter",
+        "Sour Patch Kids",
+        "Anker USB-C to USB-C 10ft Cable"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 27,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 26.4,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 29.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Staybridge Suites Oxnard River Ridge",
+      "shrinkage_total_qty": 27.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Dreyer's Oreo Bar 2.75oz",
+        "Digiorno Four Cheese Pizza",
+        "Dolly Madison Chocolate Cupcakes",
+        "Dramamine Motion Sickness Chewable",
+        "Boulder Jalapeno Cheddar Chips"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 27.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Miyako Torrance Market",
+      "shrinkage_total_qty": 26.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Dr Pepper 20oz",
+        "Maruchan Ramen Bowl Soup Hot & Spicy",
+        "Kind Cranberry Almond & Antiox",
+        "Skittles Fruit",
+        "Secret Outlast Deodorant"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 34,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 29.6,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 26.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Ultraserv Lounge Market",
+      "shrinkage_total_qty": 25.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "FR SLB Multigrain Turkey & Bacon Club",
+        "FR Parfait Mixed Berry",
+        "SS Energy Bites",
+        "Trident Spearmint",
+        "Sweet Serenity Chocolate Chip Cookies"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 25.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Ramada Anaheim Convention Center",
+      "shrinkage_total_qty": 25.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Red Bull 8.4oz",
+        "Monster 16oz",
+        "Peace Tea Razzleberry 16oz",
+        "Cereal Cinnamon Toast Crunch",
+        "Dolly Madison Chocolate Cupcakes"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 25.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Holiday Inn Express - Lake Forest Market",
+      "shrinkage_total_qty": 25.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Dasani 20oz",
+        "Otis Muffin Wild Blueberry",
+        "Dolly Madison Golden Cream Cake",
+        "Pringles Original",
+        "Crest Tooth Paste and Brush"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 25.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "The Westin Pasadena",
+      "shrinkage_total_qty": 24.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Pepsi 20oz",
+        "Quaker Oatmeal Apple & Cinnamon",
+        "Tonys Chocolonely Milk Chocolate Bar 6.35oz",
+        "Twix Ice Cream Bar 3oz",
+        "Quaker Oatmeal Maple & Brown"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 22,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 16.0,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 24.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Hyatt Regency Los Angeles International Airport",
+      "shrinkage_total_qty": 23.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "SS Hummus & Friends Snack Box",
+        "Crush Orange 20oz",
+        "FR Harvest Chicken Salad with Balsamic Dressing",
+        "FTY Cheese Enchilada with Spanish Rice & Beans",
+        "SS Kings Hawaiian Pretzel Bun Trio"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 6,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 5.4,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 23.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Miyako LA Downtown Market",
+      "shrinkage_total_qty": 23.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Hot Pocket Pepperoni Pizza",
+        "Digiorno Four Cheese Pizza",
+        "Chapstick",
+        "Digiorno Pepperoni Cheese Pizza",
+        "Dunkin Donuts French Vanilla 13.7 oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 23.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Staybridge Suites Palmdale",
+      "shrinkage_total_qty": 22.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Nestle Crunch Dibs",
+        "Welchs Mixed Fruit Snack 2.25oz",
+        "Anker Power Port 32W Wall Charger",
+        "Nongshim Spicy Shin Noodle Soup",
+        "Knotts Strawberry Cookie"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 20,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 18.6,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 22.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Holiday Inn & Suites Barstow",
+      "shrinkage_total_qty": 22.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Hersheys Almond King",
+        "Cheez-It",
+        "Powerade Lemon Lime 20oz",
+        "Hot Pocket Pepperoni Pizza",
+        "Sour Patch Kids Watermelon"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 41,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 36.2,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 22.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Club Wyndham Oceanside Pier Resort",
+      "shrinkage_total_qty": 21.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Hersheys Almond King",
+        "Doritos Cool Ranch",
+        "Reeses PB Cup",
+        "Nature's Bakery Fig Bar Blueberry",
+        "Digiorno Four Cheese Pizza"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 8,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 7.4,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 21.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Best Western Plus West Covina Inn",
+      "shrinkage_total_qty": 21.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Kit Kat King",
+        "Pepto Bismol",
+        "Old Spice Deodorant",
+        "Powerade Lemon Lime 20oz",
+        "Nature's Bakery Fig Bar Blueberry"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 11,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 8.4,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 21.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Fairfield Inn/TownePlace Suites Barstow",
+      "shrinkage_total_qty": 20.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Skittles Sour",
+        "Gatorade Cool Blue 20oz",
+        "Nature Valley Granola Peanut Butter",
+        "Cheez-It",
+        "Chex Mix"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 49,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 48.0,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 20.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Hawthorn Suites by Wyndham Victorville Market",
+      "shrinkage_total_qty": 20.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Minute Maid Apple Juice 12oz",
+        "Advil",
+        "Coke Diet 20oz",
+        "Hersheys Almond King",
+        "Blue Diamond Almonds Smokehouse"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 43,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 38.6,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 20.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Behr Main Den 1st Market",
+      "shrinkage_total_qty": 20.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Nemos Chocolate Square Cake",
+        "FR ESL Buffalo Chicken Pinwheels 10.05oz",
+        "El Monterey Bean and Cheese Burrito",
+        "Bumble Bee Tuna Mayo & Crackers 3.5oz",
+        "Dole Apple Juice"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 16,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 14.5,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 20.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Best Western Diamond Bar",
+      "shrinkage_total_qty": 19.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Cereal Honey Nut Cheerios",
+        "Benadryl",
+        "Cliff Bar Chocolate Chip",
+        "Red Vines Original 4oz Peg",
+        "Nature's Bakery Fig Bar Strawberry"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 29,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 28.1,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 19.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Holiday Inn Express Pasadena Market",
+      "shrinkage_total_qty": 19.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Bumble Bee Tuna Mayo & Crackers 3.5oz",
+        "Crest Tooth Paste and Brush",
+        "Pringles Sour Cream & Onion",
+        "Snickers",
+        "Cheez-It"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 19.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Ayres Hotel Chino Hills",
+      "shrinkage_total_qty": 19.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Beer Bud Light 12oz",
+        "Beer Estrella Jalisco Can 12oz",
+        "Core Power High Protein Shake Chocolate 14oz",
+        "Claritin",
+        "Wine Allegretto Cello Cabernet Sauvignon 2020"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 19.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "La Quinta Inn and Suites La Habra",
+      "shrinkage_total_qty": 19.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Twix Caramel",
+        "Sweet Serenity Chocolate Chip Cookies",
+        "El Monterey Egg Sausage Cheese & Potato Burrito",
+        "Wonderful Pistachios 100Cal Sweet Chili 1.25oz",
+        "Nongshim Spicy Shrimp Noodle Soup"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 38,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 37.0,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 19.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Holiday Inn El Monte",
+      "shrinkage_total_qty": 18.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Life Saver Gummies 5 Flavor Peg 7oz",
+        "Anker Power Port 32W Wall Charger",
+        "El Monterey Beef and Bean Burrito",
+        "Nongshim Hot and Spicy Noodle Soup",
+        "Cereal Froot Loops"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 45,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 42.2,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 18.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Comfort Inn - Encinitas Near Legoland",
+      "shrinkage_total_qty": 18.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Pringles Original",
+        "Skittles Sour",
+        "Peace Tea Georgia Peach 16oz",
+        "M&M Peanut",
+        "M&M Plain"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 18.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "DoubleTree by Hilton Hotel Los Angeles - Rosemead",
+      "shrinkage_total_qty": 18.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Trident Spearmint",
+        "Chapstick",
+        "Cliff Bar Peanut Butter",
+        "Tresemme Non Aerosol Hairspray",
+        "Haagen Dazs Chocolate Ice Cream 14oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 18.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "HIE - Twentynine Palms Market",
+      "shrinkage_total_qty": 17.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Coke 20oz",
+        "Boulder Avocado Oil Kettle Chips",
+        "Mentos Mint",
+        "Starbucks Mocha Frappuccino RTD 9.5oz",
+        "Amys Enchilada Cheese"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 49,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 46.2,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 17.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Quality Inn Placentia Anaheim Fullerton",
+      "shrinkage_total_qty": 17.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Hersheys Almond King",
+        "Kit Kat King",
+        "Starbucks Vanilla Frapuccino RTD 9.5oz",
+        "Coke Diet 20oz",
+        "Stouffers Mac and Cheese"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 11,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 2.2,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 17.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Residence Inn San Diego North San Marcos",
+      "shrinkage_total_qty": 16.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Snickers",
+        "Reeses PB Cup",
+        "El Monterey Jalapeno Egg Cheese Burrito",
+        "Red Bull 8.4oz",
+        "Stouffers Mac and Cheese"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 41,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 39.1,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 16.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Holiday Inn Santa Ana",
+      "shrinkage_total_qty": 16.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Rxbar Protein Honey Cinnamon Peanut Butter",
+        "Blue Diamond Almonds Whole Natural",
+        "Cereal Cinnamon Toast Crunch",
+        "Cereal Froot Loops",
+        "Bumble Bee Tuna Mayo & Crackers 3.5oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 16.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Holiday Inn Hotel & Suites Monterey Park",
+      "shrinkage_total_qty": 16.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Sour Patch Kids",
+        "Jack Links Peppered Beef Jerky 80 cal.",
+        "Sour Patch Kids Watermelon",
+        "El Monterey Jalapeno Egg Cheese Burrito",
+        "Maruchan Chicken Cup Soup"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 16.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Plus Stovall's Inn",
+      "shrinkage_total_qty": 16.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Disney Key Chain RG Disney Logo w/ Character Colors",
+        "Dentek Flossers",
+        "Disney Aluminum Water Bottle RG Pop Mick Heads Silver",
+        "Cliff Bar Chocolate Chip",
+        "Disney Plush Small 11\" RG Red Minnie"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 16.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "The Westin Long Beach",
+      "shrinkage_total_qty": 15.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Nongshim Spicy Shrimp Noodle Soup",
+        "SS Better Bites Bistro Box",
+        "Cereal Froot Loops",
+        "Kars Roasted Salted Peanut",
+        "Benadryl"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 28,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 24.0,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 15.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Peacock Suites",
+      "shrinkage_total_qty": 15.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Gatorade Fruit Punch 20oz",
+        "Red Vines Original 4oz Peg",
+        "Albanese Gummi Bears 12 Flavor - 3.5oz",
+        "Doritos Cool Ranch",
+        "Coke Diet 20oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 23,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 20.3,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 15.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Ayres Suites Yorba Linda",
+      "shrinkage_total_qty": 15.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Sour Patch Kids Watermelon",
+        "Ares Liquid Detergent HE",
+        "RXBAR Protein Blueberry",
+        "Chapstick",
+        "Bounce Fabric Softner"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 15.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Vistar Fontana",
+      "shrinkage_total_qty": 14.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "FR Burrito Breakfast Egg & Sausage",
+        "Cheez-It White Cheddar 1.5oz",
+        "Albanese Gummi Bears 12 Flavor - 3.5oz",
+        "Jack Links Peppered Beef Jerky 80 cal.",
+        "Nature Valley Granola Oat & Honey"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 14.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Behr Cub Den Market",
+      "shrinkage_total_qty": 14.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "String Cheese Frigo",
+        "Nature Valley Granola Oat & Honey",
+        "Blue Diamond Almonds Smokehouse",
+        "Maruchan Lime Chili Chicken Cup Soup",
+        "Nongshim Mild Chicken Noodle Soup"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 14.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Hesperia Victorville Suites",
+      "shrinkage_total_qty": 14.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Tylenol Extra Strength",
+        "Gatorade Fruit Punch 20oz",
+        "Secret Outlast Deodorant",
+        "Chapstick",
+        "Monster Zero Ultra 16oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 14.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "SpringHill Suites By Marriott Redlands",
+      "shrinkage_total_qty": 14.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Starbucks Vanilla Frapuccino RTD 9.5oz",
+        "Anker USB-C to Lightning 6ft Cable",
+        "Chapstick",
+        "Gillette Shaving Cream",
+        "Old Spice Deodorant"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 7,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 1.4,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 14.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "The Anza A Calabasas Hotel",
+      "shrinkage_total_qty": 13.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Trident Spearmint",
+        "Gillette Shaving Cream",
+        "Skittles Fruit",
+        "Burt's Bees Cucumber & Mint Facial Towelettes",
+        "Wonderful Pistachios No Shell 2.5oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 13.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Hyatt Place Pasadena",
+      "shrinkage_total_qty": 12.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Alka Seltzer",
+        "Maruchan Shrimp Cup Soup",
+        "FR SLB Multigrain Turkey & Bacon Club",
+        "Easy Mac Original Cups",
+        "Lays Chile Lemon 2.25oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 12.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Behr Garry Market",
+      "shrinkage_total_qty": 12.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Monster Mango 16oz",
+        "El Monterey Egg Sausage Cheese & Potato Burrito",
+        "Jack Links Original",
+        "Dove Vanilla Dark Chocolate Bar",
+        "Twix Ice Cream Bar 3oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 12.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Behr Standard Market",
+      "shrinkage_total_qty": 12.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "FR ESL Buffalo Chicken Pinwheels 10.05oz",
+        "Coke Diet 12oz",
+        "Nestle Crunch Dibs",
+        "FR SLB EL Cubano 8oz",
+        "Kars Roasted Salted Peanut"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 12.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Plus LA Mid-Town Hotel",
+      "shrinkage_total_qty": 12.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Anker USB-C to Lightning 6ft Cable",
+        "Core Power High Protein Shake Chocolate 14oz",
+        "Nature's Bakery Fig Bar Blueberry",
+        "Blue Diamond Almonds Whole Natural",
+        "Scope Mouthwash"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 12.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Motel 6 Buena Park",
+      "shrinkage_total_qty": 12.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Cheetos Crunchy",
+        "Anker USB-C to USB-C 10ft Cable",
+        "Snickers",
+        "Sour Patch Kids",
+        "Benadryl"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 12.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Hampton Inn & Suites Barstow",
+      "shrinkage_total_qty": 12.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Cheez-It",
+        "Sour Patch Kids",
+        "M&M Peanut",
+        "Grandmas Chocolate Chip Cookie",
+        "Cereal Froot Loops"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 42,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 29.5,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 12.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Crowne Plaza Costa Mesa Orange County",
+      "shrinkage_total_qty": 11.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Gillette Shaving Cream",
+        "CA Thermal Tumbler Rose Gold",
+        "Maruchan Ramen Bowl Soup Hot & Spicy",
+        "Anker Power Port 32W Wall Charger",
+        "Jack Links Peppered Beef Jerky 80 cal."
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 11.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Comfort Inn - Anaheim",
+      "shrinkage_total_qty": 10.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Red Vines Original 4oz Peg",
+        "Dentek Flossers",
+        "Old Spice Deodorant",
+        "Cereal Honey Nut Cheerios",
+        "Dunkin Donuts Original 13.7oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 8,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 6.8,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 10.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Fairfield Inn Los Alamitos Market",
+      "shrinkage_total_qty": 10.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Old Spice Deodorant",
+        "Digiorno Four Cheese Pizza",
+        "DayQuil",
+        "Clear Eyes Solution 0.2oz",
+        "Chapstick"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 10.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Hyatt Place San Diego Vista-Carlsbad",
+      "shrinkage_total_qty": 10.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Wonderful Pistachios No Shell 2.5oz",
+        "RXBAR Protein Blueberry",
+        "Starbucks Vanilla Frapuccino RTD 9.5oz",
+        "Gillette Shaving Cream",
+        "Scope Mouthwash"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 8,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 3.8,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 10.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Comfort Suites Oceanside Camp Pendleton",
+      "shrinkage_total_qty": 10.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Jack Links Teriyaki Beef Jerky 70 Cal",
+        "Maruchan Lime Chili Chicken Cup Soup",
+        "Maruchan Lime Chili Shrimp Cup Soup",
+        "Cliff Bar Chocolate Chip",
+        "Red Bull 8.4oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 6,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 2.0,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 10.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Holiday Inn Express & Suites Chatsworth",
+      "shrinkage_total_qty": 10.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Sour Patch Kids Watermelon",
+        "Cliff Bar Peanut Butter",
+        "Anker USB-C to Lightning 6ft Cable",
+        "Gillette Shaving Cream",
+        "Cereal Cinnamon Toast Crunch"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 10.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Plus Park Place Anaheim",
+      "shrinkage_total_qty": 9.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Old Spice Deodorant",
+        "Disney Mug RG Stitch Blue",
+        "Disney Key Chain RG Minnie Face Palm",
+        "Disney Hat Adult RG Mickey Logo Grey Shimmer",
+        "Burt's Bees Cucumber & Mint Facial Towelettes"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 17,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 15.0,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 9.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "City24 Hotel- Little Italy Mission Hills",
+      "shrinkage_total_qty": 9.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Maruchan Lime Chili Chicken Cup Soup",
+        "Tums Ultra Berry",
+        "Tylenol Extra Strength",
+        "Cliff Bar Chocolate Chip",
+        "NyQuil"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 9.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Marina Inn Market",
+      "shrinkage_total_qty": 9.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Boulder Hickory BBQ Chips",
+        "Dr Pepper Diet 20oz",
+        "El Monterey Bean and Cheese Burrito",
+        "M&M Plain",
+        "Dr Pepper 20oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 25,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 14.6,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 9.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Holiday Inn Express San Clemente",
+      "shrinkage_total_qty": 8.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Red Vines Original 4oz Peg",
+        "Bumble Bee Tuna Mayo & Crackers 3.5oz",
+        "Bumble Bee Chicken Salad & Crackers 3.5oz",
+        "Razor"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 8.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Holiday Inn Express & Suites Corona",
+      "shrinkage_total_qty": 8.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Secret Outlast Deodorant",
+        "Gillette Shaving Cream",
+        "Chapstick",
+        "Stouffers Mac and Cheese",
+        "Banana Boat Sport Sunscreen"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 35,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 33.5,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 8.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Crowne Plaza San Pedro",
+      "shrinkage_total_qty": 8.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "CA Key Chain Beach Surfing Rectangle",
+        "CA Mug Two Tone Blue",
+        "Rxbar Protein Honey Cinnamon Peanut Butter",
+        "Burt's Bees Cucumber & Mint Facial Towelettes",
+        "Disney Aluminum Water Bottle RG Pop Mick Heads Silver"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 8.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Altura HOC 2nd Floor Market",
+      "shrinkage_total_qty": 8.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Smart Water 20oz",
+        "Monster Zero Ultra 16oz",
+        "Coke Zero 12oz",
+        "Monster Low Carb 16oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 8.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Travelodge LAX South",
+      "shrinkage_total_qty": 7.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Sour Patch Kids Watermelon",
+        "Bumble Bee Tuna Mayo & Crackers 3.5oz",
+        "Red Bull Sugar Free 8.4oz",
+        "Chapstick",
+        "Stouffers Lasagna with Meat Sauce"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 7.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "First Service Residential HQ Market",
+      "shrinkage_total_qty": 7.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Jack Links Teriyaki Beef Jerky 70 Cal",
+        "Dole Mixed Fruit",
+        "Bare Baked Crunchy Cinnamon Apple Chips",
+        "Nongshim Hot and Spicy Noodle Soup",
+        "SnakClub Energizer Trail Mix Premium"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 19,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 18.5,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 7.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Comfort Suites - San Clemente",
+      "shrinkage_total_qty": 7.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Doritos Cool Ranch",
+        "Nature's Bakery Fig Bar Blueberry",
+        "Cereal Froot Loops",
+        "Anker USB-C to USB-C 10ft Cable",
+        "Dramamine Motion Sickness Chewable"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 7.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "La Quinta Inn & Suites Pomona",
+      "shrinkage_total_qty": 7.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Hot Pocket Ham & Cheese",
+        "Bumble Bee Chicken Salad & Crackers 3.5oz",
+        "Peace Tea Razzleberry 16oz",
+        "Peace Tea Georgia Peach 16oz",
+        "Cliff Bar Chocolate Chip"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 7.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Holiday Inn Oxnard-Ventura",
+      "shrinkage_total_qty": 6.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "M&M Plain",
+        "Digiorno Four Cheese Pizza",
+        "Gillette Shaving Cream",
+        "Tums Ultra Berry",
+        "Old Spice Deodorant"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 6.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Ayres Hotel Seal Beach",
+      "shrinkage_total_qty": 5.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "NyQuil",
+        "Skittles Sour",
+        "Blue Diamond Almonds Smokehouse",
+        "Tresemme Non Aerosol Hairspray"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 32,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 26.0,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 5.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Ramada Inn Burbank Market",
+      "shrinkage_total_qty": 5.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Gummi Bears Gummi Factory",
+        "Trident Spearmint",
+        "Core Power High Protein Shake Vanilla 14oz",
+        "Digiorno Four Cheese Pizza"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 22,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 19.4,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 5.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Ayres Hotel Fountain Valley",
+      "shrinkage_total_qty": 5.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Pepto Bismol",
+        "Blue Diamond Almonds Whole Natural",
+        "Tums Ultra Berry",
+        "Razor"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 5.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Plus Thousand Oaks Inn",
+      "shrinkage_total_qty": 5.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Anker USB-C to Lightning 6ft Cable",
+        "Anker USB-C to USB-C 10ft Cable",
+        "Peace Tea Georgia Peach 16oz",
+        "Chapstick",
+        "Dunkin Donuts Mocha 13.7oz"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 5.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "DoubleTree by Hilton Pomona",
+      "shrinkage_total_qty": 5.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Nongshim Spicy Shrimp Noodle Soup",
+        "Monster Mango 16oz",
+        "Tums Ultra Berry"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 30,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 28.5,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 5.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Kings Inn Anaheim Market",
+      "shrinkage_total_qty": 4.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Digiorno Pepperoni Cheese Pizza",
+        "Disney Sunglasses RG Black Mickey",
+        "Amys Enchilada Cheese"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 43,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 35.8,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 4.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "WorldMark Indio Activities Center Market",
+      "shrinkage_total_qty": 4.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Razor",
+        "Anker USB-C to Lightning 6ft Cable",
+        "Old Spice Deodorant"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 24,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 20.1,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 4.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Holiday Inn Ontario Airport Market",
+      "shrinkage_total_qty": 4.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Midol",
+        "Cereal Froot Loops"
+      ],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 4.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Behr Midway Coatings Cantina Market",
+      "shrinkage_total_qty": 3.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Sour Patch Kids",
+        "El Monterey Jalapeno Egg Cheese Burrito",
+        "Milk Shamrock Lowfat 7oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 19,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 18.0,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 3.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Behr Killz Corner Market",
+      "shrinkage_total_qty": 3.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Snapple Zero Sugar Peach Tea 16oz",
+        "San Pellegrino Sparkling Mineral Water 16.9oz",
+        "Welchs Mixed Fruit Snack 2.25oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 30,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 16.5,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 3.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "WorldMark Mission Valley",
+      "shrinkage_total_qty": 3.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Banana Boat Sport Sunscreen",
+        "Nature Valley Granola Oat & Honey",
+        "Stouffers Mac and Cheese"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 36,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 27.0,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 3.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Fairfield by Marriott West Covina",
+      "shrinkage_total_qty": 2.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "DayQuil",
+        "Anker USB-C to USB-C 10ft Cable"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 7,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 0.5,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 2.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Long Beach Convention & Entertainment Center",
+      "shrinkage_total_qty": 1.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Dreyer's Oreo Bar 2.75oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 22,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 20.2,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 1.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Behr Yale Market",
+      "shrinkage_total_qty": 1.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [
+        "Cheez-It White Cheddar 1.5oz"
+      ],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 43,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 39.5,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 1.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Cintas Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Capri Suites Anaheim",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 33,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 29.5,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Behr Health Hub Cooler Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 12,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 10.7,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Best Western Plus - San Pedro Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Best Western Plus Irvine Spectrum Hotel",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 34,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 30.7,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Best Western Plus Marina Shores Hotel",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "City Express Rancho Cucamonga",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 30,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 27.5,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Hyatt Palm Springs",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Hotel Chino Hills",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 7,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 5.2,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Hotel Emporium Inc.",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Home2 Suites by Hilton Employee Lounge",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Holiday Inn Victorville",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Downey Inn",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 48,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 46.4,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "FFI - Mission Viejo Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 47,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 41.3,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "First Service Residential North IE Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Hampton IC Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Four Points by Sheraton LAX Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Hampton Cafeteria Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Heather Village Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 33,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 21.0,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Hampton Warehouse Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Yogurt (Strawberry)",
+          "stock": 18,
+          "expiry_date": "2025-12-28",
+          "days_remaining": 1,
+          "waste_risk_qty": 16.6,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Yogurt (Strawberry)."
+    },
+    {
+      "name": "Hampton Inn Channel Islands Harbor Oxnard",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Hilton Garden Inn Palm Springs-Rancho Mirage",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 9,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 4.8,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Kofax Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Motel 6 Ontario Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 37,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 34.6,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "Motel 6 Los Angeles - LAX",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Optima Tax 3rd Fl Lounge",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 50,
+          "expiry_date": "2025-12-31",
+          "days_remaining": 4,
+          "waste_risk_qty": 42.0,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Optima Tax 2nd Fl Customer Service Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Manning and Kass Los Angeles Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Motel 6 Anaheim",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Miyako Torrance Market (copy)",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Ramada by Wyndham Poway North San Diego",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "San Manuel - Commons 1st Floor",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Sandwich (Turkey)",
+          "stock": 15,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 11.1,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Sandwich (Turkey)."
+    },
+    {
+      "name": "Sheraton Universal Hotel",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "Sonesta ES Suites Chatsworth",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Fruit Cup",
+          "stock": 32,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 24.0,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Fruit Cup."
+    },
+    {
+      "name": "Rodeway Inn Guasti Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Salad",
+          "stock": 45,
+          "expiry_date": "2026-01-01",
+          "days_remaining": 5,
+          "waste_risk_qty": 43.5,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Salad."
+    },
+    {
+      "name": "The Pierpont Inn Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 36,
+          "expiry_date": "2025-12-29",
+          "days_remaining": 2,
+          "waste_risk_qty": 31.4,
+          "action": "Bundle/Discount"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Milk."
+    },
+    {
+      "name": "Ultraserv Main Warehouse Cerritos",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for all items."
+    },
+    {
+      "name": "WorldMark Indio Lobby Market",
+      "shrinkage_total_qty": 0.0,
+      "shrinkage_status": "MONITOR",
+      "top_shrinkage_products": [],
+      "spoilage_items": [
+        {
+          "product": "Milk",
+          "stock": 13,
+          "expiry_date": "2025-12-30",
+          "days_remaining": 3,
+          "waste_risk_qty": 11.5,
+          "action": "Transfer"
+        }
+      ],
+      "site_action_summary": "Audit required for 0.0 missing units. Check expiry for Milk."
+    }
+  ]
+}

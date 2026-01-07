@@ -1,0 +1,83 @@
+[
+  {
+    "location": "Location_Alpha",
+    "product": "Iced_Coffee",
+    "par_level": 50,
+    "daily_avg_sales": 31.25,
+    "par_utilization_pct": "62.5%",
+    "waste_risk_pct": "37.5%",
+    "alert": "HIGH_WASTE"
+  },
+  {
+    "location": "Location_Alpha",
+    "product": "Hot_Soup",
+    "par_level": 30,
+    "daily_avg_sales": 22.87,
+    "par_utilization_pct": "76.23%",
+    "waste_risk_pct": "23.77%",
+    "alert": "OK"
+  },
+  {
+    "location": "Location_Alpha",
+    "product": "Salad_Bowl",
+    "par_level": 40,
+    "daily_avg_sales": 30.67,
+    "par_utilization_pct": "76.68%",
+    "waste_risk_pct": "23.32%",
+    "alert": "OK"
+  },
+  {
+    "location": "Location_Beta",
+    "product": "Iced_Coffee",
+    "par_level": 80,
+    "daily_avg_sales": 16.15,
+    "par_utilization_pct": "20.19%",
+    "waste_risk_pct": "79.81%",
+    "alert": "HIGH_WASTE"
+  },
+  {
+    "location": "Location_Beta",
+    "product": "Hot_Soup",
+    "par_level": 20,
+    "daily_avg_sales": 15.07,
+    "par_utilization_pct": "75.35%",
+    "waste_risk_pct": "24.65%",
+    "alert": "OK"
+  },
+  {
+    "location": "Location_Beta",
+    "product": "Salad_Bowl",
+    "par_level": 20,
+    "daily_avg_sales": 14.88,
+    "par_utilization_pct": "74.4%",
+    "waste_risk_pct": "25.6%",
+    "alert": "OK"
+  },
+  {
+    "location": "Location_Gamma",
+    "product": "Iced_Coffee",
+    "par_level": 40,
+    "daily_avg_sales": 24.86,
+    "par_utilization_pct": "62.15%",
+    "waste_risk_pct": "37.85%",
+    "alert": "HIGH_WASTE"
+  },
+  {
+    "location": "Location_Gamma",
+    "product": "Hot_Soup",
+    "par_level": 40,
+    "daily_avg_sales": 30.33,
+    "par_utilization_pct": "75.83%",
+    "waste_risk_pct": "24.17%",
+    "alert": "OK"
+  },
+  {
+    "location": "Location_Gamma",
+    "product": "Salad_Bowl",
+    "par_level": 40,
+    "daily_avg_sales": 29.98,
+    "par_utilization_pct": "74.95%",
+    "waste_risk_pct": "25.05%",
+    "alert": "OK"
+  }
+]

@@ -1,0 +1,181 @@
+{
+  "current_date": "2025-12-27",
+  "risky_items": [
+    {
+      "location": "LOC001",
+      "product_id": "PC10555",
+      "product_name": "Sandwich (Turkey)",
+      "stock_qty": 15,
+      "expiry_date": "2025-12-28",
+      "days_to_expiry": 1,
+      "daily_velocity": 0.2,
+      "expected_sales_before_expiry": 0.2,
+      "potential_spoilage_qty": 14.8
+    },
+    {
+      "location": "LOC003",
+      "product_id": "PC10555",
+      "product_name": "Sandwich (Turkey)",
+      "stock_qty": 2,
+      "expiry_date": "2025-12-28",
+      "days_to_expiry": 1,
+      "daily_velocity": 1.0,
+      "expected_sales_before_expiry": 1.0,
+      "potential_spoilage_qty": 1.0
+    },
+    {
+      "location": "LOC001",
+      "product_id": "PC10243",
+      "product_name": "Yogurt (Strawberry)",
+      "stock_qty": 20,
+      "expiry_date": "2025-12-29",
+      "days_to_expiry": 2,
+      "daily_velocity": 0.5,
+      "expected_sales_before_expiry": 1.0,
+      "potential_spoilage_qty": 19.0
+    },
+    {
+      "location": "LOC001",
+      "product_id": "PC10726",
+      "product_name": "Smart Water 1L",
+      "stock_qty": 50,
+      "expiry_date": "2025-12-30",
+      "days_to_expiry": 3,
+      "daily_velocity": 2.5,
+      "expected_sales_before_expiry": 7.5,
+      "potential_spoilage_qty": 42.5
+    },
+    {
+      "location": "LOC002",
+      "product_id": "PC10243",
+      "product_name": "Yogurt (Strawberry)",
+      "stock_qty": 5,
+      "expiry_date": "2025-12-30",
+      "days_to_expiry": 3,
+      "daily_velocity": 0.0,
+      "expected_sales_before_expiry": 0.0,
+      "potential_spoilage_qty": 5.0
+    },
+    {
+      "location": "LOC005",
+      "product_id": "PC10726",
+      "product_name": "Smart Water 1L",
+      "stock_qty": 5,
+      "expiry_date": "2025-12-31",
+      "days_to_expiry": 4,
+      "daily_velocity": 0.1,
+      "expected_sales_before_expiry": 0.4,
+      "potential_spoilage_qty": 4.6
+    }
+  ],
+  "transfers": [
+    {
+      "product_name": "Smart Water 1L",
+      "qty": 42,
+      "expiry": "12/30",
+      "source": "LOC001",
+      "target": "LOC002",
+      "reason": "Slow mover at LOC001 (2.5/day) vs Fast at LOC002 (5.0/day)"
+    },
+    {
+      "product_name": "Yogurt (Strawberry)",
+      "qty": 19,
+      "expiry": "12/29",
+      "source": "LOC001",
+      "target": "LOC005",
+      "reason": "Slow mover at LOC001 (0.5/day) vs Fast at LOC005 (8.0/day)"
+    },
+    {
+      "product_name": "Sandwich (Turkey)",
+      "qty": 14,
+      "expiry": "12/28",
+      "source": "LOC001",
+      "target": "LOC003",
+      "reason": "Slow mover at LOC001 (0.2/day) vs Fast at LOC003 (1.0/day)"
+    },
+    {
+      "product_name": "Yogurt (Strawberry)",
+      "qty": 5,
+      "expiry": "12/30",
+      "source": "LOC002",
+      "target": "LOC005",
+      "reason": "Slow mover at LOC002 (0.0/day) vs Fast at LOC005 (8.0/day)"
+    },
+    {
+      "product_name": "Smart Water 1L",
+      "qty": 4,
+      "expiry": "12/31",
+      "source": "LOC005",
+      "target": "LOC002",
+      "reason": "Slow mover at LOC005 (0.1/day) vs Fast at LOC002 (5.0/day)"
+    }
+  ],
+  "bundling_prompt_data": [
+    {
+      "location": "LOC001",
+      "product_id": "PC10726",
+      "product_name": "Smart Water 1L",
+      "stock_qty": 50,
+      "expiry_date": "2025-12-30",
+      "days_to_expiry": 3,
+      "daily_velocity": 2.5,
+      "expected_sales_before_expiry": 7.5,
+      "potential_spoilage_qty": 42.5
+    },
+    {
+      "location": "LOC001",
+      "product_id": "PC10243",
+      "product_name": "Yogurt (Strawberry)",
+      "stock_qty": 20,
+      "expiry_date": "2025-12-29",
+      "days_to_expiry": 2,
+      "daily_velocity": 0.5,
+      "expected_sales_before_expiry": 1.0,
+      "potential_spoilage_qty": 19.0
+    },
+    {
+      "location": "LOC001",
+      "product_id": "PC10555",
+      "product_name": "Sandwich (Turkey)",
+      "stock_qty": 15,
+      "expiry_date": "2025-12-28",
+      "days_to_expiry": 1,
+      "daily_velocity": 0.2,
+      "expected_sales_before_expiry": 0.2,
+      "potential_spoilage_qty": 14.8
+    },
+    {
+      "location": "LOC002",
+      "product_id": "PC10243",
+      "product_name": "Yogurt (Strawberry)",
+      "stock_qty": 5,
+      "expiry_date": "2025-12-30",
+      "days_to_expiry": 3,
+      "daily_velocity": 0.0,
+      "expected_sales_before_expiry": 0.0,
+      "potential_spoilage_qty": 5.0
+    },
+    {
+      "location": "LOC005",
+      "product_id": "PC10726",
+      "product_name": "Smart Water 1L",
+      "stock_qty": 5,
+      "expiry_date": "2025-12-31",
+      "days_to_expiry": 4,
+      "daily_velocity": 0.1,
+      "expected_sales_before_expiry": 0.4,
+      "potential_spoilage_qty": 4.6
+    },
+    {
+      "location": "LOC003",
+      "product_id": "PC10555",
+      "product_name": "Sandwich (Turkey)",
+      "stock_qty": 2,
+      "expiry_date": "2025-12-28",
+      "days_to_expiry": 1,
+      "daily_velocity": 1.0,
+      "expected_sales_before_expiry": 1.0,
+      "potential_spoilage_qty": 1.0
+    }
+  ]
+}

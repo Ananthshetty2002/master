@@ -1,0 +1,102 @@
+{
+    "insights": [
+        {
+            "id": "ghost_disappearances",
+            "title": "Ghost Disappearances",
+            "description": "Products with high inventory loss (>10 units) but zero recorded sales.",
+            "severity": "High",
+            "n8n_questions": [
+                "Identify products that have high inventory loss but zero sales recorded.",
+                "Which items are disappearing from stock without generating any revenue?",
+                "List top 10 'Ghost' items by quantity lost."
+            ]
+        },
+        {
+            "id": "high_loss_rate",
+            "title": "High Loss Rate",
+            "description": "Products where Shrinkage Quantity is greater than 50% of the Starting Inventory.",
+            "severity": "Critical",
+            "n8n_questions": [
+                "Which products have varying loss rates greater than 50%?",
+                "Show me items where we lost more than half of the starting inventory.",
+                "Rank locations by the percentage of inventory lost."
+            ]
+        },
+        {
+            "id": "top_absolute_losers",
+            "title": "Top Absolute Losers",
+            "description": "Items with the highest total quantity lost, regardless of sales volume.",
+            "severity": "Medium",
+            "n8n_questions": [
+                "What are the top 5 products by quantity lost across all locations?",
+                "Which location has the highest total shrinkage quantity?"
+            ]
+        },
+        {
+            "id": "financial_risk_summary",
+            "title": "Financial Risk Summary",
+            "description": "Products where estimated shrinkage value exceeds $100 or represents a high cost to the business.",
+            "severity": "Critical",
+            "n8n_questions": [
+                "What is the total estimated value of inventory lost across the top 10 products?",
+                "Which high-value items (over $5/unit) have the highest shrinkage?",
+                "Identify items where the loss value is greater than the total sales value."
+            ]
+        },
+        {
+            "id": "unexpected_gains",
+            "title": "Unexpected Gains (Negative Shrink)",
+            "description": "Items showing negative shrinkage (End > Start - Sales), implying restock errors or audit inaccuracies.",
+            "severity": "Low",
+            "n8n_questions": [
+                "Which products show physically impossible gains (negative shrinkage)?",
+                "List locations or items that likely received stock without a recorded transfer."
+            ]
+        },
+        {
+            "id": "waste_analysis",
+            "title": "Waste Analysis (Spoilage)",
+            "description": "Daily waste cost trends and high-waste products (e.g., Life Water, Smart Water).",
+            "severity": "Medium",
+            "n8n_questions": [
+                "What is the daily average cost of waste?",
+                "Identify specific items with the highest spoilage cost.",
+                "Is there a trend in waste over the last week?"
+            ]
+        },
+        {
+            "id": "staff_risk_audit",
+            "title": "Staff Risk & Escalation",
+            "description": "Risk scores for staff based on shrinkage patterns and potential financial impact of lack of monitoring.",
+            "severity": "High",
+            "n8n_questions": [
+                "Which staff members have the highest risk scores?",
+                "What is the potential added loss if medium-risk staff behave like high-risk staff?",
+                "Provide a summary of risk bands (High, Medium, Low) and their average loss."
+            ]
+        },
+        {
+            "id": "overall_shrinkage_summary",
+            "title": "Overall Shrinkage Summary",
+            "description": "Summary of top locations and items by shrinkage impact.",
+            "severity": "Critical",
+            "n8n_questions": [
+                "Which locations have the highest total shrinkage?",
+                "What are the top 10 products contributing to shrinkage across all sites?",
+                "Provide a high-level summary of locations and items needing immediate audit."
+            ]
+        },
+        {
+            "id": "par_recommendations",
+            "title": "Par Level Recommendations",
+            "description": "Suggested par levels based on historical weekday-average sales to reduce overstock and waste.",
+            "severity": "Medium",
+            "n8n_questions": [
+                "Which products have par levels significantly higher than their average daily sales?",
+                "What is the recommended par level for items with high waste?",
+                "Identify top 10 items where reducing the par level could save money on waste."
+            ]
+        }
+    ],
+    "engine_context": "You are a Loss Prevention Analyst Agent. Use the attached 'shrinkage_report.csv' data to answer the user's questions. Definitions: 'Shrinkage' is missing inventory. 'Ghost' means Sales=0. 'Loss Rate' is Shrinkage/Start Qty."
+}
