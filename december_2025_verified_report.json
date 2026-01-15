@@ -1,0 +1,7764 @@
+{
+  "report_metadata": {
+    "report_title": "December 2025 Verified Shrinkage & Inventory Report (Dec 8-31)",
+    "generated_at": "2026-01-13T11:23:56.260970",
+    "status": "\ud83d\udea8 DATA INCOMPLETE (Missing Sales Reports)",
+    "overall_conclusion": "This report covers the period from Dec 8 to Dec 31, 2025. Start Qty and End Qty are pulled from the Stock Analysis Reports in the December folders."
+  },
+  "section_1_verified_warehouse_loss": {
+    "location": "Stock (Warehouse)",
+    "period": "DEC 8-31, 2025",
+    "status": "\u2705 VERIFIED",
+    "shrinkage_qty": 3585.0,
+    "shrinkage_value": 11583.42,
+    "note": "This is the ONLY location with complete data.",
+    "source_start": "DEC 8-19/CSVStock Analysis Report.csv (Initial Qty)"
+  },
+  "section_2_micromarket_data_gap": {
+    "category": "Retail Sites (Micromarkets)",
+    "site_count": 192,
+    "status": "\u274c CALCULATION IMPOSSIBLE",
+    "reason": "Missing 'Sales By Product' CSV files.",
+    "impact": "Shrinkage for these sites is currently reported as .00 because we have inventory (Start/End) but no Sales reports for the Dec 8-31 period.",
+    "sites_affected": [
+      "Altura HOC 1st Floor Market",
+      "Altura HOC 2nd Floor Market",
+      "Anaheim Desert Inn and Suites",
+      "Ayres Hotel Anaheim",
+      "Ayres Hotel Chino Hills",
+      "Ayres Hotel Fountain Valley",
+      "Ayres Hotel Manhattan Beach Hawthorne",
+      "Ayres Hotel Seal Beach",
+      "Ayres Hotel and Spa Mission Viejo",
+      "Ayres Suites Mission Viejo - Lake Forest",
+      "Ayres Suites Yorba Linda",
+      "BLVD Hotel & Spa",
+      "Baymont by Wyndham Monterey Park",
+      "Behr Cub Den Market",
+      "Behr Garry Market",
+      "Behr Killz Corner Market",
+      "Behr Main Den 1st Market",
+      "Behr Midway Coatings Cantina Market",
+      "Behr Standard Market",
+      "Behr Yale Market",
+      "Best Western - Glendora Market",
+      "Best Western Diamond Bar",
+      "Best Western Hesperia Victorville Suites",
+      "Best Western Norwalk Inn",
+      "Best Western Oceanside Inn",
+      "Best Western Plus Heritage Inn Rancho Cucamonga",
+      "Best Western Plus LA Mid-Town Hotel",
+      "Best Western Plus LAX Market",
+      "Best Western Plus Meridian Market",
+      "Best Western Plus Park Place Anaheim",
+      "Best Western Plus Pavilions",
+      "Best Western Plus Redondo Beach Inn",
+      "Best Western Plus Stovall's Inn",
+      "Best Western Plus Thousand Oaks Inn",
+      "Best Western Plus West Covina Inn",
+      "Bobrick Market",
+      "Cimarron Resort Condominium Association",
+      "City24 Hotel- Little Italy Mission Hills",
+      "Clarion Hotel Market",
+      "Club Wyndham Harbour Lights",
+      "Club Wyndham Oceanside Pier Resort",
+      "Comfort Inn & Suites Near Universal N. Hollywood",
+      "Comfort Inn - Anaheim",
+      "Comfort Inn - Encinitas Near Legoland",
+      "Comfort Inn - Gaslamp Convention Center",
+      "Comfort Inn - Huntington Beach",
+      "Comfort Inn - Moreno Valley",
+      "Comfort Suites - San Clemente",
+      "Comfort Suites Barstow",
+      "Comfort Suites Oceanside Camp Pendleton",
+      "Courtyard Chino Hills",
+      "Crowne Plaza Costa Mesa Orange County",
+      "Crowne Plaza San Diego-Mission Valley",
+      "Crowne Plaza San Pedro",
+      "Days Inn & Suites Anaheim",
+      "Del Sol Inn Anaheim",
+      "Desert Palms Market",
+      "Dolphin's Cove",
+      "DoubleTree by Hilton Hotel Los Angeles - Rosemead",
+      "DoubleTree by Hilton Pomona",
+      "E-Central Downtown Los Angeles Hotel",
+      "Embassy Suites by Hilton Anaheim North",
+      "Embassy Suites by Hilton Palm Desert",
+      "Executive Residency by Best Western Victorville",
+      "FFI - Moorpark Market",
+      "Fairfield Inn Los Alamitos Market",
+      "Fairfield Inn/TownePlace Suites Barstow",
+      "Fairfield by Marriott Anaheim North-Buena Park",
+      "Fairfield by Marriott West Covina",
+      "First Service Residential HQ Market",
+      "First Service Residential Shared Services Market",
+      "Four Points Sheraton - Ventura",
+      "HIE - Manchester Market",
+      "HIE - Rancho Cucamonga Market",
+      "HIE - Twentynine Palms Market",
+      "Hampton Inn & Suites Barstow",
+      "Hawthorn Suites by Wyndham Victorville Market",
+      "Hilton Garden Inn-Home2 Suites Anaheim Resort",
+      "Holiday Inn & Suites Anaheim",
+      "Holiday Inn & Suites Barstow",
+      "Holiday Inn Diamond Bar-Pomona",
+      "Holiday Inn El Monte",
+      "Holiday Inn Express & Suites Barstow",
+      "Holiday Inn Express & Suites Chatsworth",
+      "Holiday Inn Express & Suites Corona",
+      "Holiday Inn Express & Suites Hesperia Market",
+      "Holiday Inn Express & Suites San Dimas",
+      "Holiday Inn Express & Suites Ventura",
+      "Holiday Inn Express - Lake Forest Market",
+      "Holiday Inn Express Pasadena Market",
+      "Holiday Inn Express Port Hueneme",
+      "Holiday Inn Express San Clemente",
+      "Holiday Inn Hotel & Suites Monterey Park",
+      "Holiday Inn Oceanside Camp Pendleton Area",
+      "Holiday Inn Ontario Airport Market",
+      "Holiday Inn Oxnard-Ventura",
+      "Holiday Inn Santa Ana",
+      "Homewood Suites by Hilton Carlsbad",
+      "Hotel Dena",
+      "Hotel Emporium Inc.",
+      "Hyatt House Los Angeles-LAX-Manhattan Beach",
+      "Hyatt Place Pasadena",
+      "Hyatt Place San Diego Vista-Carlsbad",
+      "Hyatt Regency Los Angeles International Airport",
+      "Inn at the Park",
+      "Kings Inn Anaheim Market",
+      "La Quinta Inn & Suites Pomona",
+      "La Quinta Inn & Suites by Wyndham Thousand Oaks",
+      "La Quinta Inn and Suites La Habra",
+      "Lincoln Hotel Monterey Park",
+      "Long Beach Convention & Entertainment Center",
+      "Long Beach Convention Center Promenade",
+      "MainStay Suites Moreno Valley",
+      "Marina Inn Market",
+      "Miyako LA Downtown Market",
+      "Miyako Torrance Market",
+      "Motel 6 Anaheim Maingate Market",
+      "Motel 6 Buena Park",
+      "Motel 6 Carlsbad",
+      "Motel 6 Carson",
+      "Motel 6 Westminster North",
+      "Peacock Suites",
+      "Quality Inn & Suites Camarillo-Oxnard",
+      "Quality Inn Placentia Anaheim Fullerton",
+      "Queens Inn Anaheim",
+      "Ramada Anaheim Convention Center",
+      "Ramada Inn Burbank Market",
+      "Ramada National City Market",
+      "Ramada by Wyndham Barstow",
+      "Ramada by Wyndham Hawthorne-LA Stadium",
+      "Residence Inn San Diego North San Marcos",
+      "San Manuel Service Center",
+      "Sandbourne Santa Monica, Autograph Collection",
+      "Sheraton Gateway Los Angeles Hotel",
+      "SpringHill Suites By Marriott Redlands",
+      "Staybridge Suites Oxnard River Ridge",
+      "Staybridge Suites Palmdale",
+      "SureStay Hotel by Best Western Beverly Hills",
+      "SureStay Plus Hotel By Best Western Upland Market",
+      "SureStay by Best Western Ontario Airport",
+      "Surestay Twentynine Palms Market",
+      "The Anza A Calabasas Hotel",
+      "The Hotel Amarano Burbank-Hollywood",
+      "The Westin Long Beach",
+      "The Westin Pasadena",
+      "Travelodge Commerce Market",
+      "Travelodge LAX South",
+      "Ultraserv Lounge Market",
+      "Vistar Fontana",
+      "WorldMark - Oceanside Market",
+      "WorldMark Big Bear",
+      "WorldMark Indio Activities Center Market",
+      "WorldMark Mission Valley",
+      "WorldMark Palm Springs",
+      "WorldMark Palm Springs Plaza Resort & Spa",
+      "WorldMark San Diego Balboa Park"
+    ]
+  },
+  "section_3_inventory_snapshots": {
+    "note": "We CAN reliably report Start and End quantities even without sales.",
+    "by_location": [
+      {
+        "location": "Stock",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 7555.0,
+        "end_qty": 3970.0,
+        "net_inventory_change": -3585.0
+      },
+      {
+        "location": "Altura HOC 1st Floor Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Altura HOC 2nd Floor Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Anaheim Desert Inn and Suites",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ayres Hotel Anaheim",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ayres Hotel Chino Hills",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ayres Hotel Fountain Valley",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ayres Hotel Manhattan Beach Hawthorne",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ayres Hotel Seal Beach",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ayres Hotel and Spa Mission Viejo",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ayres Suites Mission Viejo - Lake Forest",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ayres Suites Yorba Linda",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "BLVD Hotel & Spa",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Baymont by Wyndham Monterey Park",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Behr Cub Den Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Behr Garry Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Behr Killz Corner Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Behr Main Den 1st Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Behr Midway Coatings Cantina Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Behr Standard Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Behr Yale Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western - Glendora Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Diamond Bar",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Hesperia Victorville Suites",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Norwalk Inn",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Oceanside Inn",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Plus Heritage Inn Rancho Cucamonga",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Plus LA Mid-Town Hotel",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Plus LAX Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Plus Meridian Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Plus Park Place Anaheim",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Plus Pavilions",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Plus Redondo Beach Inn",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Plus Stovall's Inn",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Plus Thousand Oaks Inn",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Best Western Plus West Covina Inn",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Bobrick Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Cimarron Resort Condominium Association",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "City24 Hotel- Little Italy Mission Hills",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Clarion Hotel Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Club Wyndham Harbour Lights",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Club Wyndham Oceanside Pier Resort",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Comfort Inn & Suites Near Universal N. Hollywood",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Comfort Inn - Anaheim",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Comfort Inn - Encinitas Near Legoland",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Comfort Inn - Gaslamp Convention Center",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Comfort Inn - Huntington Beach",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Comfort Inn - Moreno Valley",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Comfort Suites - San Clemente",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Comfort Suites Barstow",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Comfort Suites Oceanside Camp Pendleton",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Courtyard Chino Hills",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Crowne Plaza Costa Mesa Orange County",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Crowne Plaza San Diego-Mission Valley",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Crowne Plaza San Pedro",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Days Inn & Suites Anaheim",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Del Sol Inn Anaheim",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Desert Palms Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Dolphin's Cove",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "DoubleTree by Hilton Hotel Los Angeles - Rosemead",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "DoubleTree by Hilton Pomona",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "E-Central Downtown Los Angeles Hotel",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Embassy Suites by Hilton Anaheim North",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Embassy Suites by Hilton Palm Desert",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Executive Residency by Best Western Victorville",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "FFI - Moorpark Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Fairfield Inn Los Alamitos Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Fairfield Inn/TownePlace Suites Barstow",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Fairfield by Marriott Anaheim North-Buena Park",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Fairfield by Marriott West Covina",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "First Service Residential HQ Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "First Service Residential Shared Services Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Four Points Sheraton - Ventura",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "HIE - Manchester Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "HIE - Rancho Cucamonga Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "HIE - Twentynine Palms Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Hampton Inn & Suites Barstow",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Hawthorn Suites by Wyndham Victorville Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Hilton Garden Inn-Home2 Suites Anaheim Resort",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn & Suites Anaheim",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn & Suites Barstow",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Diamond Bar-Pomona",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn El Monte",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Express & Suites Barstow",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Express & Suites Chatsworth",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Express & Suites Corona",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Express & Suites Hesperia Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Express & Suites San Dimas",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Express & Suites Ventura",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Express - Lake Forest Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Express Pasadena Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Express Port Hueneme",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Express San Clemente",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Hotel & Suites Monterey Park",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Oceanside Camp Pendleton Area",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Ontario Airport Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Oxnard-Ventura",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Holiday Inn Santa Ana",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Homewood Suites by Hilton Carlsbad",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Hotel Dena",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Hotel Emporium Inc.",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Hyatt House Los Angeles-LAX-Manhattan Beach",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Hyatt Place Pasadena",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Hyatt Place San Diego Vista-Carlsbad",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Hyatt Regency Los Angeles International Airport",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Inn at the Park",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Kings Inn Anaheim Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "La Quinta Inn & Suites Pomona",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "La Quinta Inn & Suites by Wyndham Thousand Oaks",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "La Quinta Inn and Suites La Habra",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Lincoln Hotel Monterey Park",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Long Beach Convention & Entertainment Center",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Long Beach Convention Center Promenade",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "MainStay Suites Moreno Valley",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Marina Inn Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Miyako LA Downtown Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Miyako Torrance Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Motel 6 Anaheim Maingate Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Motel 6 Buena Park",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Motel 6 Carlsbad",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Motel 6 Carson",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Motel 6 Westminster North",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Peacock Suites",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Quality Inn & Suites Camarillo-Oxnard",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Quality Inn Placentia Anaheim Fullerton",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Queens Inn Anaheim",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ramada Anaheim Convention Center",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ramada Inn Burbank Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ramada National City Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ramada by Wyndham Barstow",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ramada by Wyndham Hawthorne-LA Stadium",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Residence Inn San Diego North San Marcos",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "San Manuel Service Center",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Sandbourne Santa Monica, Autograph Collection",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Sheraton Gateway Los Angeles Hotel",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "SpringHill Suites By Marriott Redlands",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Staybridge Suites Oxnard River Ridge",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Staybridge Suites Palmdale",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "SureStay Hotel by Best Western Beverly Hills",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "SureStay Plus Hotel By Best Western Upland Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "SureStay by Best Western Ontario Airport",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Surestay Twentynine Palms Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "The Anza A Calabasas Hotel",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "The Hotel Amarano Burbank-Hollywood",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "The Westin Long Beach",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "The Westin Pasadena",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Travelodge Commerce Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Travelodge LAX South",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Ultraserv Lounge Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "Vistar Fontana",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "WorldMark - Oceanside Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "WorldMark Big Bear",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "WorldMark Indio Activities Center Market",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "WorldMark Mission Valley",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "WorldMark Palm Springs",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "WorldMark Palm Springs Plaza Resort & Spa",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      },
+      {
+        "location": "WorldMark San Diego Balboa Park",
+        "period": "DEC 8-31, 2025",
+        "start_qty": 0.0,
+        "end_qty": 0.0,
+        "net_inventory_change": 0.0
+      }
+    ],
+    "by_product": [
+      {
+        "id": "PC16463",
+        "start": 910.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20530",
+        "start": 605.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR17376",
+        "start": 570.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC14366",
+        "start": 332.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26014",
+        "start": 304.0,
+        "end": 8.0
+      },
+      {
+        "id": "PC10849",
+        "start": 263.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC16493",
+        "start": 209.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC11022",
+        "start": 201.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC10726",
+        "start": 202.0,
+        "end": 66.0
+      },
+      {
+        "id": "AVR21365",
+        "start": 118.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR22951",
+        "start": 90.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC16473",
+        "start": 90.0,
+        "end": 5.0
+      },
+      {
+        "id": "AVR14918",
+        "start": 125.0,
+        "end": 41.0
+      },
+      {
+        "id": "PC14015",
+        "start": 104.0,
+        "end": 20.0
+      },
+      {
+        "id": "AVR23588",
+        "start": 75.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19420",
+        "start": 75.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC14011",
+        "start": 70.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR21367",
+        "start": 56.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19525",
+        "start": 63.0,
+        "end": 13.0
+      },
+      {
+        "id": "AVR17246",
+        "start": 42.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR23584",
+        "start": 37.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10861",
+        "start": 44.0,
+        "end": 7.0
+      },
+      {
+        "id": "AVR21366",
+        "start": 33.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20336",
+        "start": 35.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC10788",
+        "start": 60.0,
+        "end": 30.0
+      },
+      {
+        "id": "PC10970",
+        "start": 32.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC11040",
+        "start": 23.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10969",
+        "start": 36.0,
+        "end": 15.0
+      },
+      {
+        "id": "AVR23583",
+        "start": 20.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10900",
+        "start": 27.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC14010",
+        "start": 35.0,
+        "end": 15.0
+      },
+      {
+        "id": "AVR00601",
+        "start": 26.0,
+        "end": 7.0
+      },
+      {
+        "id": "AVR16059",
+        "start": 21.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC10811",
+        "start": 28.0,
+        "end": 9.0
+      },
+      {
+        "id": "PC16533",
+        "start": 20.0,
+        "end": 4.0
+      },
+      {
+        "id": "AVR23602",
+        "start": 21.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC11068",
+        "start": 23.0,
+        "end": 8.0
+      },
+      {
+        "id": "PC16264",
+        "start": 17.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC10816",
+        "start": 14.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC11050",
+        "start": 18.0,
+        "end": 4.0
+      },
+      {
+        "id": "AVR25514",
+        "start": 13.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10958",
+        "start": 19.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC10959",
+        "start": 18.0,
+        "end": 5.0
+      },
+      {
+        "id": "AVR00146",
+        "start": 24.0,
+        "end": 13.0
+      },
+      {
+        "id": "AVR19413",
+        "start": 11.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19467",
+        "start": 11.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10994",
+        "start": 17.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC11010",
+        "start": 22.0,
+        "end": 11.0
+      },
+      {
+        "id": "PC14009",
+        "start": 28.0,
+        "end": 17.0
+      },
+      {
+        "id": "PC16246",
+        "start": 23.0,
+        "end": 12.0
+      },
+      {
+        "id": "AVR14642",
+        "start": 13.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR15586",
+        "start": 10.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR15729",
+        "start": 10.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10794",
+        "start": 13.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC10821",
+        "start": 11.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC16462",
+        "start": 13.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR16101",
+        "start": 9.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10822",
+        "start": 11.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC10937",
+        "start": 19.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10964",
+        "start": 12.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC11045",
+        "start": 15.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC16526",
+        "start": 10.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR00149",
+        "start": 27.0,
+        "end": 19.0
+      },
+      {
+        "id": "AVR09658",
+        "start": 15.0,
+        "end": 7.0
+      },
+      {
+        "id": "AVR16098",
+        "start": 8.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19414",
+        "start": 10.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR19511",
+        "start": 17.0,
+        "end": 9.0
+      },
+      {
+        "id": "PC10799",
+        "start": 8.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10894",
+        "start": 17.0,
+        "end": 9.0
+      },
+      {
+        "id": "PC10955",
+        "start": 23.0,
+        "end": 15.0
+      },
+      {
+        "id": "PC11026",
+        "start": 9.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC16506",
+        "start": 11.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC16521",
+        "start": 10.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR19466",
+        "start": 9.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR19999",
+        "start": 18.0,
+        "end": 11.0
+      },
+      {
+        "id": "AVR20474",
+        "start": 13.0,
+        "end": 6.0
+      },
+      {
+        "id": "AVR26219",
+        "start": 7.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC00885",
+        "start": 21.0,
+        "end": 14.0
+      },
+      {
+        "id": "PC10874",
+        "start": 9.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC10893",
+        "start": 8.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC10935",
+        "start": 17.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC11091",
+        "start": 17.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC11163",
+        "start": 11.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC14008",
+        "start": 19.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC16065",
+        "start": 9.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC16249",
+        "start": 14.0,
+        "end": 7.0
+      },
+      {
+        "id": "AVR00150",
+        "start": 6.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR18728",
+        "start": 11.0,
+        "end": 5.0
+      },
+      {
+        "id": "AVR20335",
+        "start": 10.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC10795",
+        "start": 9.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC10827",
+        "start": 10.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC10978",
+        "start": 9.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC11039",
+        "start": 11.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC16495",
+        "start": 10.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC19079",
+        "start": 6.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR14634",
+        "start": 15.0,
+        "end": 10.0
+      },
+      {
+        "id": "AVR15123",
+        "start": 10.0,
+        "end": 5.0
+      },
+      {
+        "id": "AVR15436",
+        "start": 8.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR19412",
+        "start": 5.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19421",
+        "start": 10.0,
+        "end": 5.0
+      },
+      {
+        "id": "AVR25513",
+        "start": 15.0,
+        "end": 10.0
+      },
+      {
+        "id": "AVR26212",
+        "start": 9.0,
+        "end": 4.0
+      },
+      {
+        "id": "AVR26222",
+        "start": 6.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC10882",
+        "start": 10.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC10941",
+        "start": 7.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC10943",
+        "start": 11.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC10984",
+        "start": 13.0,
+        "end": 8.0
+      },
+      {
+        "id": "PC16485",
+        "start": 13.0,
+        "end": 8.0
+      },
+      {
+        "id": "PC16496",
+        "start": 5.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC21237",
+        "start": 10.0,
+        "end": 5.0
+      },
+      {
+        "id": "AVR08848",
+        "start": 6.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR19286",
+        "start": 7.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR19514",
+        "start": 4.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26225",
+        "start": 5.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC10856",
+        "start": 10.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC10880",
+        "start": 9.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC10901",
+        "start": 10.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC10947",
+        "start": 4.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC11018",
+        "start": 4.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC11156",
+        "start": 18.0,
+        "end": 14.0
+      },
+      {
+        "id": "PC16250",
+        "start": 6.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR19406",
+        "start": 8.0,
+        "end": 5.0
+      },
+      {
+        "id": "AVR19407",
+        "start": 13.0,
+        "end": 10.0
+      },
+      {
+        "id": "AVR19510",
+        "start": 11.0,
+        "end": 8.0
+      },
+      {
+        "id": "AVR20457",
+        "start": 3.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR22118",
+        "start": 11.0,
+        "end": 8.0
+      },
+      {
+        "id": "AVR25675",
+        "start": 8.0,
+        "end": 5.0
+      },
+      {
+        "id": "AVR25677",
+        "start": 6.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC00887",
+        "start": 20.0,
+        "end": 17.0
+      },
+      {
+        "id": "PC10761",
+        "start": 8.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC10891",
+        "start": 15.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC10892",
+        "start": 8.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC10895",
+        "start": 6.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC10924",
+        "start": 3.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10962",
+        "start": 9.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC10987",
+        "start": 15.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC11002",
+        "start": 6.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC11005",
+        "start": 5.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC11007",
+        "start": 8.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC11019",
+        "start": 3.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC11025",
+        "start": 5.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC11038",
+        "start": 9.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC11051",
+        "start": 7.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC16247",
+        "start": 0.0,
+        "end": -3.0
+      },
+      {
+        "id": "PC16271",
+        "start": 6.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC16274",
+        "start": 5.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC16488",
+        "start": 10.0,
+        "end": 7.0
+      },
+      {
+        "id": "AVR14641",
+        "start": 19.0,
+        "end": 17.0
+      },
+      {
+        "id": "AVR15563",
+        "start": 5.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR15564",
+        "start": 0.0,
+        "end": -2.0
+      },
+      {
+        "id": "AVR19408",
+        "start": 10.0,
+        "end": 8.0
+      },
+      {
+        "id": "AVR19900",
+        "start": 2.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26217",
+        "start": 4.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR26220",
+        "start": 1.0,
+        "end": -1.0
+      },
+      {
+        "id": "AVR26238",
+        "start": 2.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10765",
+        "start": 7.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC10823",
+        "start": 11.0,
+        "end": 9.0
+      },
+      {
+        "id": "PC10833",
+        "start": 6.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC10876",
+        "start": 6.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC10931",
+        "start": 3.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC10942",
+        "start": 2.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC11084",
+        "start": 7.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC16248",
+        "start": 7.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC16263",
+        "start": 2.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC16522",
+        "start": 4.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC21222",
+        "start": 15.0,
+        "end": 13.0
+      },
+      {
+        "id": "AVR00145",
+        "start": 7.0,
+        "end": 6.0
+      },
+      {
+        "id": "AVR15434",
+        "start": 3.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR16060",
+        "start": 1.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR16884",
+        "start": 4.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR18525",
+        "start": 4.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR19515",
+        "start": 3.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR19517",
+        "start": 2.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR24779",
+        "start": 7.0,
+        "end": 6.0
+      },
+      {
+        "id": "AVR26215",
+        "start": 2.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR26234",
+        "start": 3.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR26241",
+        "start": 1.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26245",
+        "start": 3.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR26250",
+        "start": 1.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10762",
+        "start": 3.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC10805",
+        "start": 13.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC10859",
+        "start": 11.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10875",
+        "start": 10.0,
+        "end": 9.0
+      },
+      {
+        "id": "PC10886",
+        "start": 9.0,
+        "end": 8.0
+      },
+      {
+        "id": "PC10936",
+        "start": 3.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC10971",
+        "start": 7.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC11004",
+        "start": 11.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC11023",
+        "start": 3.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC11043",
+        "start": 8.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC14363",
+        "start": 3.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC21853",
+        "start": 15.0,
+        "end": 14.0
+      },
+      {
+        "id": "AVR11110",
+        "start": 3.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR15036",
+        "start": 1.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR15646",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR15664",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR15738",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR16058",
+        "start": 7.0,
+        "end": 7.0
+      },
+      {
+        "id": "AVR16195",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR17375",
+        "start": 38.0,
+        "end": 38.0
+      },
+      {
+        "id": "AVR17709",
+        "start": 9.0,
+        "end": 9.0
+      },
+      {
+        "id": "AVR18527",
+        "start": 4.0,
+        "end": 4.0
+      },
+      {
+        "id": "AVR20752",
+        "start": 8.0,
+        "end": 8.0
+      },
+      {
+        "id": "AVR23051",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23182",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26221",
+        "start": 1.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR26226",
+        "start": 2.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR26230",
+        "start": 1.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR26232",
+        "start": 1.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR26239",
+        "start": 1.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR26249",
+        "start": 1.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR27451",
+        "start": 4.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC00889",
+        "start": 16.0,
+        "end": 16.0
+      },
+      {
+        "id": "PC10724",
+        "start": 1.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC10751",
+        "start": 1.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC10800",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10881",
+        "start": 4.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC10897",
+        "start": 10.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10923",
+        "start": 2.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC10939",
+        "start": 10.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10968",
+        "start": 11.0,
+        "end": 11.0
+      },
+      {
+        "id": "PC11013",
+        "start": 7.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC11015",
+        "start": 3.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC11021",
+        "start": 5.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC11049",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC11054",
+        "start": 5.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC11073",
+        "start": 3.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC11092",
+        "start": 10.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC14014",
+        "start": 7.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC14016",
+        "start": 9.0,
+        "end": 9.0
+      },
+      {
+        "id": "PC16535",
+        "start": 15.0,
+        "end": 15.0
+      },
+      {
+        "id": "PC19076",
+        "start": 6.0,
+        "end": 6.0
+      },
+      {
+        "id": "AVR11112",
+        "start": 6.0,
+        "end": 7.0
+      },
+      {
+        "id": "AVR14655",
+        "start": 1.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR16080",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR17756",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR18805",
+        "start": 2.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR19716",
+        "start": 1.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR22396",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR24552",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR24663",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR26020",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR26229",
+        "start": 1.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR26235",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR26237",
+        "start": 1.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR27339",
+        "start": 1.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR27341",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR27342",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR27343",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR27445",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR27614",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "AVR28084",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC10733",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC10798",
+        "start": 11.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC10870",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC10884",
+        "start": 1.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC10890",
+        "start": 3.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC10899",
+        "start": 5.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC10986",
+        "start": 9.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10988",
+        "start": 10.0,
+        "end": 11.0
+      },
+      {
+        "id": "PC11008",
+        "start": 11.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC11027",
+        "start": 10.0,
+        "end": 11.0
+      },
+      {
+        "id": "PC11042",
+        "start": 5.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC11048",
+        "start": 6.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC11055",
+        "start": 0.0,
+        "end": 1.0
+      },
+      {
+        "id": "PC11081",
+        "start": 5.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC16501",
+        "start": 3.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC21863",
+        "start": 7.0,
+        "end": 8.0
+      },
+      {
+        "id": "AVR00141",
+        "start": 7.0,
+        "end": 9.0
+      },
+      {
+        "id": "AVR18528",
+        "start": 13.0,
+        "end": 15.0
+      },
+      {
+        "id": "AVR18758",
+        "start": 5.0,
+        "end": 7.0
+      },
+      {
+        "id": "AVR20000",
+        "start": 6.0,
+        "end": 8.0
+      },
+      {
+        "id": "AVR26024",
+        "start": 0.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR26244",
+        "start": 0.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR26246",
+        "start": 1.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR26365",
+        "start": 0.0,
+        "end": 2.0
+      },
+      {
+        "id": "PC10807",
+        "start": 14.0,
+        "end": 16.0
+      },
+      {
+        "id": "PC10832",
+        "start": 1.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC10932",
+        "start": 5.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC10961",
+        "start": 5.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC11011",
+        "start": 5.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC11074",
+        "start": 3.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC16273",
+        "start": 12.0,
+        "end": 14.0
+      },
+      {
+        "id": "PC16492",
+        "start": 0.0,
+        "end": 2.0
+      },
+      {
+        "id": "AVR00140",
+        "start": 14.0,
+        "end": 17.0
+      },
+      {
+        "id": "AVR00148",
+        "start": 11.0,
+        "end": 14.0
+      },
+      {
+        "id": "AVR17394",
+        "start": 6.0,
+        "end": 9.0
+      },
+      {
+        "id": "AVR26211",
+        "start": 1.0,
+        "end": 4.0
+      },
+      {
+        "id": "AVR26227",
+        "start": 5.0,
+        "end": 8.0
+      },
+      {
+        "id": "AVR26240",
+        "start": 0.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC10725",
+        "start": 41.0,
+        "end": 44.0
+      },
+      {
+        "id": "PC10730",
+        "start": 0.0,
+        "end": 3.0
+      },
+      {
+        "id": "PC10808",
+        "start": 4.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC10851",
+        "start": 4.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC10906",
+        "start": 7.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10909",
+        "start": 9.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC11062",
+        "start": 9.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC14367",
+        "start": 13.0,
+        "end": 16.0
+      },
+      {
+        "id": "PC16483",
+        "start": 7.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC19049",
+        "start": 0.0,
+        "end": 3.0
+      },
+      {
+        "id": "AVR15128",
+        "start": 4.0,
+        "end": 8.0
+      },
+      {
+        "id": "AVR16128",
+        "start": 5.0,
+        "end": 9.0
+      },
+      {
+        "id": "AVR19465",
+        "start": 6.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10744",
+        "start": 0.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC10806",
+        "start": 9.0,
+        "end": 13.0
+      },
+      {
+        "id": "PC10824",
+        "start": 6.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10831",
+        "start": 11.0,
+        "end": 15.0
+      },
+      {
+        "id": "PC10841",
+        "start": 0.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC10888",
+        "start": 7.0,
+        "end": 11.0
+      },
+      {
+        "id": "PC10889",
+        "start": 1.0,
+        "end": 5.0
+      },
+      {
+        "id": "PC10934",
+        "start": 11.0,
+        "end": 15.0
+      },
+      {
+        "id": "PC10980",
+        "start": 0.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC10990",
+        "start": 2.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC11063",
+        "start": 3.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC11088",
+        "start": 3.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC14365",
+        "start": 13.0,
+        "end": 17.0
+      },
+      {
+        "id": "PC16523",
+        "start": 6.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC16525",
+        "start": 0.0,
+        "end": 4.0
+      },
+      {
+        "id": "PC21186",
+        "start": 7.0,
+        "end": 11.0
+      },
+      {
+        "id": "PC21854",
+        "start": 11.0,
+        "end": 15.0
+      },
+      {
+        "id": "AVR17700",
+        "start": 5.0,
+        "end": 10.0
+      },
+      {
+        "id": "AVR22954",
+        "start": 1.0,
+        "end": 6.0
+      },
+      {
+        "id": "AVR25676",
+        "start": 1.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC10789",
+        "start": 1.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC10848",
+        "start": 5.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10938",
+        "start": 5.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10972",
+        "start": 5.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC11028",
+        "start": 5.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC11064",
+        "start": 17.0,
+        "end": 22.0
+      },
+      {
+        "id": "PC11078",
+        "start": 8.0,
+        "end": 13.0
+      },
+      {
+        "id": "PC14007",
+        "start": 16.0,
+        "end": 21.0
+      },
+      {
+        "id": "PC16494",
+        "start": 0.0,
+        "end": 5.0
+      },
+      {
+        "id": "AVR15125",
+        "start": 9.0,
+        "end": 15.0
+      },
+      {
+        "id": "AVR17147",
+        "start": 3.0,
+        "end": 9.0
+      },
+      {
+        "id": "AVR23097",
+        "start": 11.0,
+        "end": 17.0
+      },
+      {
+        "id": "AVR25915",
+        "start": 0.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC10812",
+        "start": 5.0,
+        "end": 11.0
+      },
+      {
+        "id": "PC10813",
+        "start": 9.0,
+        "end": 15.0
+      },
+      {
+        "id": "PC10850",
+        "start": 7.0,
+        "end": 13.0
+      },
+      {
+        "id": "PC10885",
+        "start": 0.0,
+        "end": 6.0
+      },
+      {
+        "id": "PC11024",
+        "start": 1.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC11087",
+        "start": 6.0,
+        "end": 12.0
+      },
+      {
+        "id": "AVR06020",
+        "start": 0.0,
+        "end": 7.0
+      },
+      {
+        "id": "AVR20024",
+        "start": 0.0,
+        "end": 7.0
+      },
+      {
+        "id": "AVR25510",
+        "start": 0.0,
+        "end": 7.0
+      },
+      {
+        "id": "PC10825",
+        "start": 6.0,
+        "end": 13.0
+      },
+      {
+        "id": "PC10852",
+        "start": 9.0,
+        "end": 16.0
+      },
+      {
+        "id": "PC11035",
+        "start": 2.0,
+        "end": 9.0
+      },
+      {
+        "id": "AVR00147",
+        "start": 10.0,
+        "end": 18.0
+      },
+      {
+        "id": "AVR19464",
+        "start": 0.0,
+        "end": 8.0
+      },
+      {
+        "id": "AVR21356",
+        "start": 3.0,
+        "end": 11.0
+      },
+      {
+        "id": "AVR25916",
+        "start": 0.0,
+        "end": 8.0
+      },
+      {
+        "id": "PC10866",
+        "start": 12.0,
+        "end": 20.0
+      },
+      {
+        "id": "PC10946",
+        "start": 7.0,
+        "end": 15.0
+      },
+      {
+        "id": "PC10948",
+        "start": 0.0,
+        "end": 8.0
+      },
+      {
+        "id": "PC16475",
+        "start": 4.0,
+        "end": 12.0
+      },
+      {
+        "id": "AVR00156",
+        "start": 6.0,
+        "end": 15.0
+      },
+      {
+        "id": "AVR06055",
+        "start": 1.0,
+        "end": 10.0
+      },
+      {
+        "id": "AVR24440",
+        "start": 0.0,
+        "end": 9.0
+      },
+      {
+        "id": "AVR24780",
+        "start": 9.0,
+        "end": 18.0
+      },
+      {
+        "id": "AVR24781",
+        "start": 0.0,
+        "end": 9.0
+      },
+      {
+        "id": "AVR25913",
+        "start": 0.0,
+        "end": 9.0
+      },
+      {
+        "id": "PC00886",
+        "start": 3.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC10925",
+        "start": 1.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10989",
+        "start": 1.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC10993",
+        "start": 0.0,
+        "end": 10.0
+      },
+      {
+        "id": "PC11020",
+        "start": 9.0,
+        "end": 19.0
+      },
+      {
+        "id": "PC11162",
+        "start": 6.0,
+        "end": 16.0
+      },
+      {
+        "id": "AVR20396",
+        "start": 0.0,
+        "end": 11.0
+      },
+      {
+        "id": "AVR20398",
+        "start": 0.0,
+        "end": 11.0
+      },
+      {
+        "id": "AVR25678",
+        "start": 3.0,
+        "end": 14.0
+      },
+      {
+        "id": "AVR27258",
+        "start": 0.0,
+        "end": 11.0
+      },
+      {
+        "id": "PC10790",
+        "start": 4.0,
+        "end": 15.0
+      },
+      {
+        "id": "PC10877",
+        "start": 5.0,
+        "end": 16.0
+      },
+      {
+        "id": "PC10944",
+        "start": 4.0,
+        "end": 15.0
+      },
+      {
+        "id": "AVR00144",
+        "start": 18.0,
+        "end": 30.0
+      },
+      {
+        "id": "AVR19409",
+        "start": 5.0,
+        "end": 17.0
+      },
+      {
+        "id": "AVR23420",
+        "start": 0.0,
+        "end": 12.0
+      },
+      {
+        "id": "AVR23586",
+        "start": 0.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC16458",
+        "start": 0.0,
+        "end": 12.0
+      },
+      {
+        "id": "PC21202",
+        "start": 5.0,
+        "end": 17.0
+      },
+      {
+        "id": "AVR18526",
+        "start": 2.0,
+        "end": 15.0
+      },
+      {
+        "id": "AVR23581",
+        "start": 0.0,
+        "end": 13.0
+      },
+      {
+        "id": "AVR23587",
+        "start": 0.0,
+        "end": 13.0
+      },
+      {
+        "id": "PC10796",
+        "start": 7.0,
+        "end": 20.0
+      },
+      {
+        "id": "PC11061",
+        "start": 9.0,
+        "end": 22.0
+      },
+      {
+        "id": "PC16510",
+        "start": 0.0,
+        "end": 13.0
+      },
+      {
+        "id": "PC16529",
+        "start": 0.0,
+        "end": 13.0
+      },
+      {
+        "id": "AVR22622",
+        "start": 0.0,
+        "end": 14.0
+      },
+      {
+        "id": "AVR23419",
+        "start": 0.0,
+        "end": 14.0
+      },
+      {
+        "id": "AVR27452",
+        "start": 0.0,
+        "end": 14.0
+      },
+      {
+        "id": "PC16236",
+        "start": 3.0,
+        "end": 17.0
+      },
+      {
+        "id": "AVR25829",
+        "start": 0.0,
+        "end": 15.0
+      },
+      {
+        "id": "PC10809",
+        "start": 16.0,
+        "end": 31.0
+      },
+      {
+        "id": "PC14364",
+        "start": 2.0,
+        "end": 17.0
+      },
+      {
+        "id": "AVR19411",
+        "start": 0.0,
+        "end": 16.0
+      },
+      {
+        "id": "AVR25914",
+        "start": 0.0,
+        "end": 16.0
+      },
+      {
+        "id": "PC10801",
+        "start": 0.0,
+        "end": 16.0
+      },
+      {
+        "id": "PC10896",
+        "start": 4.0,
+        "end": 20.0
+      },
+      {
+        "id": "PC14013",
+        "start": 11.0,
+        "end": 27.0
+      },
+      {
+        "id": "PC10997",
+        "start": 6.0,
+        "end": 23.0
+      },
+      {
+        "id": "PC16275",
+        "start": 0.0,
+        "end": 17.0
+      },
+      {
+        "id": "PC10793",
+        "start": 9.0,
+        "end": 27.0
+      },
+      {
+        "id": "PC11101",
+        "start": 8.0,
+        "end": 26.0
+      },
+      {
+        "id": "AVR22599",
+        "start": 1.0,
+        "end": 20.0
+      },
+      {
+        "id": "AVR26023",
+        "start": 0.0,
+        "end": 19.0
+      },
+      {
+        "id": "PC10855",
+        "start": 0.0,
+        "end": 19.0
+      },
+      {
+        "id": "PC10991",
+        "start": 5.0,
+        "end": 24.0
+      },
+      {
+        "id": "PC11016",
+        "start": 2.0,
+        "end": 21.0
+      },
+      {
+        "id": "AVR18857",
+        "start": 1.0,
+        "end": 22.0
+      },
+      {
+        "id": "AVR25512",
+        "start": 10.0,
+        "end": 33.0
+      },
+      {
+        "id": "PC10907",
+        "start": 13.0,
+        "end": 36.0
+      },
+      {
+        "id": "PC11157",
+        "start": 40.0,
+        "end": 67.0
+      },
+      {
+        "id": "AVR17386",
+        "start": 0.0,
+        "end": 28.0
+      },
+      {
+        "id": "AVR23975",
+        "start": 0.0,
+        "end": 30.0
+      },
+      {
+        "id": "PC18972",
+        "start": 0.0,
+        "end": 34.0
+      },
+      {
+        "id": "AVR28072",
+        "start": 0.0,
+        "end": 36.0
+      },
+      {
+        "id": "AVR24555",
+        "start": 0.0,
+        "end": 38.0
+      },
+      {
+        "id": "AVR23799",
+        "start": 0.0,
+        "end": 40.0
+      },
+      {
+        "id": "AVR16661",
+        "start": 0.0,
+        "end": 44.0
+      },
+      {
+        "id": "PC00888",
+        "start": 32.0,
+        "end": 77.0
+      },
+      {
+        "id": "PC18962",
+        "start": 0.0,
+        "end": 59.0
+      },
+      {
+        "id": "AVR23974",
+        "start": 0.0,
+        "end": 61.0
+      },
+      {
+        "id": "PC10773",
+        "start": 0.0,
+        "end": 66.0
+      },
+      {
+        "id": "AVR21371",
+        "start": 0.0,
+        "end": 72.0
+      },
+      {
+        "id": "AVR24556",
+        "start": 0.0,
+        "end": 72.0
+      },
+      {
+        "id": "AVR23800",
+        "start": 0.0,
+        "end": 82.0
+      },
+      {
+        "id": "AVR18397",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10732",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10965",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR13201",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19076",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20373",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20374",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20385",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20388",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20399",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20406",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20409",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR21353",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR21355",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23687",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20400",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR22416",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR24782",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26021",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26022",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR27657",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR17385",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR22398",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23798",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23805",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23971",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR24662",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26364",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10838",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR17707",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20432",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23972",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23977",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR11641",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR14657",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR14658",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR14659",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR14660",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19079",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19083",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19084",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19085",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20424",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC20295",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC20296",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC20297",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC20298",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC20299",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26248",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR27340",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR27438",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR27449",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR28666",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10804",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC16270",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26214",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10803",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC16524",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10992",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26247",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC19048",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10820",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20365",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20367",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20368",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20369",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20386",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20390",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20393",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20402",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20403",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26295",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19075",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19884",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20377",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20381",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20382",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20383",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20384",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20401",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20404",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20407",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20410",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20411",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR22623",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23422",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR02387",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR10757",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC11056",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR17367",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20378",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20394",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20408",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR21354",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20729",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26018",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26019",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10818",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20395",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19175",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19176",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20412",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20413",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20414",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20416",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20419",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20420",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20426",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20428",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20447",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20460",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20461",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10904",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR00154",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20379",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20380",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20391",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20450",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR00532",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23426",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23582",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23688",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10905",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC16471",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC16472",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20387",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20007",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR15041",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10898",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23689",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23425",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR26252",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR17105",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19174",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20113",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20422",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20448",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "PC10731",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR16196",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR19516",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR15836",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20731",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR21368",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR22955",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR17701",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR22950",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR22952",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR22953",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23585",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20761",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR22632",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23052",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23053",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23054",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23055",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR23056",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR28643",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR27766",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR27768",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR15005",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR11644",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR27767",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR27820",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR27936",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR15040",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR15044",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR15303",
+        "start": 0.0,
+        "end": 0.0
+      },
+      {
+        "id": "AVR20728",
+        "start": 0.0,
+        "end": 0.0
+      }
+    ],
+    "period": "DEC 8-31, 2025",
+    "source_details": {
+      "start_qty_source": "DEC 8-19/CSVStock Analysis Report.csv (Column: Initial Qty)",
+      "end_qty_source": "DEC 23-31/new_dec_stock_analysis.csv (Column: End Qty)",
+      "note": "Verified against raw Stock Analysis Reports"
+    }
+  },
+  "section_4_november_baseline": {
+    "period": "November 2025",
+    "label": "November Spoilage & Overage baseline",
+    "spoilage_events": [
+      {
+        "product": null,
+        "location": "LOC001",
+        "expiry": "2025-12-28",
+        "risk": 0
+      },
+      {
+        "product": null,
+        "location": "LOC003",
+        "expiry": "2025-12-28",
+        "risk": 0
+      },
+      {
+        "product": null,
+        "location": "LOC001",
+        "expiry": "2025-12-29",
+        "risk": 0
+      },
+      {
+        "product": null,
+        "location": "LOC001",
+        "expiry": "2025-12-30",
+        "risk": 0
+      },
+      {
+        "product": null,
+        "location": "LOC002",
+        "expiry": "2025-12-30",
+        "risk": 0
+      },
+      {
+        "product": null,
+        "location": "LOC005",
+        "expiry": "2025-12-31",
+        "risk": 0
+      }
+    ]
+  },
+  "section_5_multi_period_inventory": {
+    "phase_1_dec_8_to_19": {
+      "label": "PHASE 1 (Dec 8-19, 2025)",
+      "source": "DEC 8-19/CSVStock Analysis Report.csv",
+      "locations": [
+        {
+          "location": "Altura Credit Union HOC",
+          "start_qty": 913.0,
+          "end_qty": 6891.09
+        },
+        {
+          "location": "Anaheim Desert Inn and Suites",
+          "start_qty": 2872.0,
+          "end_qty": 12968.799999999996
+        },
+        {
+          "location": "Ayres Hotel Anaheim",
+          "start_qty": 1748.0,
+          "end_qty": 9352.9
+        },
+        {
+          "location": "Ayres Hotel Chino Hills",
+          "start_qty": 1650.0,
+          "end_qty": 8658.12
+        },
+        {
+          "location": "Ayres Hotel Fountain Valley",
+          "start_qty": 807.0,
+          "end_qty": 6860.839999999999
+        },
+        {
+          "location": "Ayres Hotel Manhattan Beach Hawthorne",
+          "start_qty": 2224.0,
+          "end_qty": 14330.319999999998
+        },
+        {
+          "location": "Ayres Hotel Seal Beach",
+          "start_qty": 1028.0,
+          "end_qty": 7257.12
+        },
+        {
+          "location": "Ayres Hotel & Spa Mission Viejo",
+          "start_qty": 1108.0,
+          "end_qty": 7372.179999999999
+        },
+        {
+          "location": "Ayres Suites Mission Viejo - Lake Forest",
+          "start_qty": 1401.0,
+          "end_qty": 11040.029999999999
+        },
+        {
+          "location": "Ayres Suites Yorba Linda",
+          "start_qty": 1131.0,
+          "end_qty": 5986.18
+        },
+        {
+          "location": "BLVD Hotel & Spa",
+          "start_qty": 2207.0,
+          "end_qty": 9671.449999999999
+        },
+        {
+          "location": "Baymont by Wyndham Monterey Park",
+          "start_qty": 498.0,
+          "end_qty": 5200.289999999999
+        },
+        {
+          "location": "Behr Paint Company - Saint Andrews",
+          "start_qty": 2639.0,
+          "end_qty": 21722.980000000003
+        },
+        {
+          "location": "Behr Paint Company - Garry",
+          "start_qty": 790.0,
+          "end_qty": 5136.61
+        },
+        {
+          "location": "Behr Paint Company - Midway Coatings Cantina",
+          "start_qty": 393.0,
+          "end_qty": 5699.400000000001
+        },
+        {
+          "location": "Behr Paint Company - Standard",
+          "start_qty": 1391.0,
+          "end_qty": 6744.699999999999
+        },
+        {
+          "location": "Behr Paint Company - Yale",
+          "start_qty": 532.0,
+          "end_qty": 5549.4
+        },
+        {
+          "location": "Best Western Route 66 Glendora Inn",
+          "start_qty": 522.0,
+          "end_qty": 5510.48
+        },
+        {
+          "location": "Best Western Diamond Bar Hotel & Suites",
+          "start_qty": 143.0,
+          "end_qty": 2173.3
+        },
+        {
+          "location": "Best Western Hesperia Victorville Suites",
+          "start_qty": 584.0,
+          "end_qty": 5143.64
+        },
+        {
+          "location": "Best Western Norwalk Inn",
+          "start_qty": 898.0,
+          "end_qty": 6721.279999999997
+        },
+        {
+          "location": "Best Western Oceanside Inn",
+          "start_qty": 1343.0,
+          "end_qty": 9703.789999999997
+        },
+        {
+          "location": "Best Western Plus - San Pedro",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Best Western Plus Heritage Inn Rancho Cucamonga Ontario",
+          "start_qty": 1021.0,
+          "end_qty": 6171.52
+        },
+        {
+          "location": "Best Western Plus Irvine Spectrum Hotel",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Best Western Plus La Mid-Town Hotel",
+          "start_qty": 846.0,
+          "end_qty": 6302.840000000001
+        },
+        {
+          "location": "Best Western Plus Suites Hotel - Los Angeles Lax Airport",
+          "start_qty": 1108.0,
+          "end_qty": 9070.9
+        },
+        {
+          "location": "Best Western Plus Meridian Inn & Suites, Anaheim-Orange",
+          "start_qty": 1438.0,
+          "end_qty": 8761.829999999998
+        },
+        {
+          "location": "Best Western Plus Park Place Inn Mini Suites",
+          "start_qty": 1666.0,
+          "end_qty": 10594.879999999997
+        },
+        {
+          "location": "Best Western Plus Pavilions",
+          "start_qty": 539.0,
+          "end_qty": 6127.850000000001
+        },
+        {
+          "location": "Best Western Plus Redondo Beach Inn",
+          "start_qty": 1256.0,
+          "end_qty": 8694.41
+        },
+        {
+          "location": "Best Western Plus Stovall's Inn",
+          "start_qty": 1698.0,
+          "end_qty": 11601.929999999997
+        },
+        {
+          "location": "Best Western Plus Thousand Oaks Inn",
+          "start_qty": 1023.0,
+          "end_qty": 6928.869999999999
+        },
+        {
+          "location": "Best Western Plus West Covina Inn",
+          "start_qty": 1430.0,
+          "end_qty": 9289.820000000002
+        },
+        {
+          "location": "Bobrick Washroom Equipment Inc",
+          "start_qty": -108.0,
+          "end_qty": 9629.630000000001
+        },
+        {
+          "location": "Capri Suites Anaheim",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Cimarron Resort Condominium Association",
+          "start_qty": 386.0,
+          "end_qty": 1857.21
+        },
+        {
+          "location": "Cintas",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "City24 Hotel- Little Italy Mission Hills",
+          "start_qty": 719.0,
+          "end_qty": 5530.91
+        },
+        {
+          "location": "Clarion Hotel Anaheim Resort",
+          "start_qty": 2768.0,
+          "end_qty": 11341.47
+        },
+        {
+          "location": "Club Wyndham Harbour Lights",
+          "start_qty": 839.0,
+          "end_qty": 6413.07
+        },
+        {
+          "location": "Club Wyndham Oceanside Pier Resort",
+          "start_qty": 1333.0,
+          "end_qty": 9309.939999999999
+        },
+        {
+          "location": "Comfort Inn & Suites Near Universal - N. Hollywood",
+          "start_qty": 1079.0,
+          "end_qty": 7144.379999999999
+        },
+        {
+          "location": "Comfort Inn Anaheim Resort",
+          "start_qty": 1181.0,
+          "end_qty": 9618.939999999999
+        },
+        {
+          "location": "Comfort Inn Encinitas Near Legoland",
+          "start_qty": 1189.0,
+          "end_qty": 9212.03
+        },
+        {
+          "location": "Comfort Inn Gaslamp Convention Center",
+          "start_qty": 1144.0,
+          "end_qty": 8631.839999999998
+        },
+        {
+          "location": "Comfort Inn & Suites Huntington Beach",
+          "start_qty": 789.0,
+          "end_qty": 7331.489999999999
+        },
+        {
+          "location": "Comfort Inn & Suites Moreno Valley Near March Air Reserve Base",
+          "start_qty": 929.0,
+          "end_qty": 7294.690000000001
+        },
+        {
+          "location": "Comfort Suites San Clemente Beach",
+          "start_qty": 450.0,
+          "end_qty": 4167.01
+        },
+        {
+          "location": "Comfort Suites Barstow",
+          "start_qty": 1203.0,
+          "end_qty": 8298.700000000003
+        },
+        {
+          "location": "Comfort Suites Oceanside Camp Pendleton",
+          "start_qty": 1206.0,
+          "end_qty": 8769.939999999999
+        },
+        {
+          "location": "Courtyard Chino Hills",
+          "start_qty": 1273.0,
+          "end_qty": 10601.270000000002
+        },
+        {
+          "location": "Crowne Plaza Costa Mesa Orange County",
+          "start_qty": 2066.0,
+          "end_qty": 13893.61
+        },
+        {
+          "location": "Crowne Plaza San Diego - Mission Valley",
+          "start_qty": 2006.0,
+          "end_qty": 10522.089999999995
+        },
+        {
+          "location": "Crowne Plaza Los Angeles Harbor Hotel",
+          "start_qty": 2311.0,
+          "end_qty": 10609.480000000001
+        },
+        {
+          "location": "Days Inn & Suites by Wyndham Anaheim At Disneyland Park",
+          "start_qty": 754.0,
+          "end_qty": 6025.679999999999
+        },
+        {
+          "location": "Del Sol Inn",
+          "start_qty": 1762.0,
+          "end_qty": 13253.049999999997
+        },
+        {
+          "location": "Desert Palms Hotel and Suites",
+          "start_qty": 2957.0,
+          "end_qty": 14396.49
+        },
+        {
+          "location": "Dolphin's Cove",
+          "start_qty": 1108.0,
+          "end_qty": 6866.010000000002
+        },
+        {
+          "location": "DoubleTree by Hilton Hotel Los Angeles - Rosemead",
+          "start_qty": 2141.0,
+          "end_qty": 13278.709999999997
+        },
+        {
+          "location": "DoubleTree by Hilton Pomona",
+          "start_qty": 1386.0,
+          "end_qty": 8602.739999999998
+        },
+        {
+          "location": "E-Central Downtown Los Angeles Hotel",
+          "start_qty": 2226.0,
+          "end_qty": 13043.179999999998
+        },
+        {
+          "location": "Embassy Suites by Hilton Anaheim North",
+          "start_qty": 2509.0,
+          "end_qty": 13247.14
+        },
+        {
+          "location": "Embassy Suites by Hilton Palm Desert",
+          "start_qty": 2146.0,
+          "end_qty": 13046.78
+        },
+        {
+          "location": "Executive Residency by Best Western Victorville",
+          "start_qty": 1013.0,
+          "end_qty": 6383.590000000002
+        },
+        {
+          "location": "Fairfield Inn by Marriott Mission Viejo Orange County",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Fairfield Inn & Suites by Marriott Moorpark Ventura County",
+          "start_qty": 1331.0,
+          "end_qty": 7873.99
+        },
+        {
+          "location": "Fairfield Inn & Suites by Marriott Anaheim Los Alamitos",
+          "start_qty": 852.0,
+          "end_qty": 7038.200000000001
+        },
+        {
+          "location": "Fairfield Inn & Suites & TownePlace Suites by Marriott Barstow",
+          "start_qty": 1827.0,
+          "end_qty": 11719.440000000002
+        },
+        {
+          "location": "Fairfield by Marriott Anaheim North - Buena Park",
+          "start_qty": 1091.0,
+          "end_qty": 8589.17
+        },
+        {
+          "location": "Fairfield Inn by Marriott - West Covina",
+          "start_qty": 930.0,
+          "end_qty": 7458.949999999998
+        },
+        {
+          "location": "First Service Residential",
+          "start_qty": 1181.0,
+          "end_qty": 12087.8
+        },
+        {
+          "location": "Four Points by Sheraton Ventura Harbor Resort",
+          "start_qty": 1678.0,
+          "end_qty": 9147.509999999998
+        },
+        {
+          "location": "Four Points by Sheraton Los Angeles International Airport",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Holiday Inn Express & Suites Anaheim Resort Area",
+          "start_qty": 1066.0,
+          "end_qty": 5084.539999999999
+        },
+        {
+          "location": "Holiday Inn Express & Suites Ontario Airport-Mills Mall",
+          "start_qty": 716.0,
+          "end_qty": 5657.4800000000005
+        },
+        {
+          "location": "Holiday Inn Express & Suites Twentynine Palms- Joshua Tree",
+          "start_qty": 1056.0,
+          "end_qty": 7744.1900000000005
+        },
+        {
+          "location": "Hampton Products",
+          "start_qty": 26.0,
+          "end_qty": 2.0799999999999983
+        },
+        {
+          "location": "Hampton Inn & Suites Barstow",
+          "start_qty": 1072.0,
+          "end_qty": 9384.66
+        },
+        {
+          "location": "Hampton Inn Channel Islands Harbor - Oxnard",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Hawthorn Suites by Wyndham Victorville",
+          "start_qty": 768.0,
+          "end_qty": 5494.349999999999
+        },
+        {
+          "location": "Heather Village",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Hilton Garden Inn Palm Springs-Rancho Mirage",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Hilton Garden Inn-Home2 Suites Anaheim Resort",
+          "start_qty": 3284.0,
+          "end_qty": 15878.22
+        },
+        {
+          "location": "Holiday Inn & Suites Anaheim, an IHG Hotel",
+          "start_qty": 2811.0,
+          "end_qty": 14420.75
+        },
+        {
+          "location": "Holiday Inn & Suites Barstow",
+          "start_qty": 1389.0,
+          "end_qty": 8277.53
+        },
+        {
+          "location": "Holiday Inn Diamond Bar - Pomona",
+          "start_qty": 1319.0,
+          "end_qty": 9287.9
+        },
+        {
+          "location": "Holiday Inn El Monte",
+          "start_qty": 1693.0,
+          "end_qty": 13452.269999999999
+        },
+        {
+          "location": "Holiday Inn Express & Suites - Barstow",
+          "start_qty": 1329.0,
+          "end_qty": 9277.459999999997
+        },
+        {
+          "location": "Holiday Inn Express & Suites Chatsworth",
+          "start_qty": 1236.0,
+          "end_qty": 9381.169999999998
+        },
+        {
+          "location": "Holiday Inn Express & Suites Corona",
+          "start_qty": 1288.0,
+          "end_qty": 8057.95
+        },
+        {
+          "location": "Holiday Inn Express & Suites Hesperia",
+          "start_qty": 1359.0,
+          "end_qty": 9447.310000000001
+        },
+        {
+          "location": "Holiday Inn Express & Suites San Dimas",
+          "start_qty": 1012.0,
+          "end_qty": 7944.500000000001
+        },
+        {
+          "location": "Holiday Inn Express & Suites Ventura",
+          "start_qty": 1316.0,
+          "end_qty": 7667.010000000001
+        },
+        {
+          "location": "Holiday Inn Express & Suites Lake Forest - Irvine East",
+          "start_qty": 510.0,
+          "end_qty": 4513.16
+        },
+        {
+          "location": "Holiday Inn Express & Suites Pasadena - Los Angeles",
+          "start_qty": 804.0,
+          "end_qty": 5788.440000000001
+        },
+        {
+          "location": "Holiday Inn Express - Port Hueneme",
+          "start_qty": 1071.0,
+          "end_qty": 7221.160000000001
+        },
+        {
+          "location": "Holiday Inn Express San Clemente N - Beach Area",
+          "start_qty": 596.0,
+          "end_qty": 5166.86
+        },
+        {
+          "location": "Holiday Inn & Suites Monterey Park Los Angeles, an IHG Hotel",
+          "start_qty": 1711.0,
+          "end_qty": 11763.25
+        },
+        {
+          "location": "Holiday Inn Oceanside Camp Pendleton Area",
+          "start_qty": 1500.0,
+          "end_qty": 8487.299999999997
+        },
+        {
+          "location": "Holiday Inn Ontario Airport",
+          "start_qty": 1149.0,
+          "end_qty": 7862.100000000001
+        },
+        {
+          "location": "Holiday Inn Oxnard-Ventura",
+          "start_qty": 1075.0,
+          "end_qty": 8654.449999999999
+        },
+        {
+          "location": "Holiday Inn Santa Ana",
+          "start_qty": 1093.0,
+          "end_qty": 8989.220000000001
+        },
+        {
+          "location": "Holiday Inn Victorville",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Homewood Suites by Hilton Carlsbad",
+          "start_qty": 969.0,
+          "end_qty": 5861.530000000001
+        },
+        {
+          "location": "Hotel Dena",
+          "start_qty": 4008.0,
+          "end_qty": 14603.659999999996
+        },
+        {
+          "location": "Ultraserv Automated Services",
+          "start_qty": 543.0,
+          "end_qty": 7342.37
+        },
+        {
+          "location": "Hyatt House Los Angeles-LAX-Manhattan Beach",
+          "start_qty": 2169.0,
+          "end_qty": 14871.23
+        },
+        {
+          "location": "Hyatt Palm Springs",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Hyatt Place Pasadena",
+          "start_qty": 1557.0,
+          "end_qty": 7676.030000000001
+        },
+        {
+          "location": "Hyatt Place San Diego Vista-Carlsbad",
+          "start_qty": 2043.0,
+          "end_qty": 9923.37
+        },
+        {
+          "location": "Hyatt Regency Los Angeles International Airport",
+          "start_qty": 3331.0,
+          "end_qty": 12169.079999999998
+        },
+        {
+          "location": "Inn at the Park",
+          "start_qty": 1002.0,
+          "end_qty": 7488.179999999999
+        },
+        {
+          "location": "Kings Inn Anaheim at The Park & Convention Center",
+          "start_qty": 1915.0,
+          "end_qty": 9662.199999999999
+        },
+        {
+          "location": "Kofax Inc",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "La Quinta Inn & Suites by Wyndham Pomona",
+          "start_qty": 1360.0,
+          "end_qty": 9039.65
+        },
+        {
+          "location": "La Quinta Inn & Suites by Wyndham Thousand Oaks-Newbury Park",
+          "start_qty": 1166.0,
+          "end_qty": 9916.72
+        },
+        {
+          "location": "La Quinta Inn & Suites La Habra",
+          "start_qty": 1155.0,
+          "end_qty": 9124.54
+        },
+        {
+          "location": "Lincoln Hotel",
+          "start_qty": 1244.0,
+          "end_qty": 9055.4
+        },
+        {
+          "location": "Long Beach Convention & Entertainment Center",
+          "start_qty": 5288.0,
+          "end_qty": 19681.409999999993
+        },
+        {
+          "location": "MainStay Suites Moreno Valley Near March Air Reserve Base",
+          "start_qty": 702.0,
+          "end_qty": 6920.25
+        },
+        {
+          "location": "Manning and Kass",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Dana Point Marina Inn",
+          "start_qty": 1091.0,
+          "end_qty": 7539.899999999999
+        },
+        {
+          "location": "Miyako Hotel Los Angeles",
+          "start_qty": 1088.0,
+          "end_qty": 9235.57
+        },
+        {
+          "location": "Miyako Hybrid Hotel",
+          "start_qty": 1195.0,
+          "end_qty": 10377.279999999999
+        },
+        {
+          "location": "Motel 6 Anaheim Convention Center",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Motel 6 Anaheim Maingate",
+          "start_qty": 2212.0,
+          "end_qty": 13079.3
+        },
+        {
+          "location": "Motel 6 Buena Park",
+          "start_qty": 482.0,
+          "end_qty": 4774.139999999999
+        },
+        {
+          "location": "Motel 6 Carlsbad",
+          "start_qty": 1907.0,
+          "end_qty": 8765.789999999999
+        },
+        {
+          "location": "Motel 6 Carson",
+          "start_qty": 2128.0,
+          "end_qty": 9388.74
+        },
+        {
+          "location": "Motel 6 Ontario Convention Center - Airport",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Motel 6 Westminster North",
+          "start_qty": 1059.0,
+          "end_qty": 5942.150000000001
+        },
+        {
+          "location": "Optima Tax Relief",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Peacock Suites",
+          "start_qty": 999.0,
+          "end_qty": 7753.459999999998
+        },
+        {
+          "location": "Quality Inn & Suites Camarillo-Oxnard",
+          "start_qty": 714.0,
+          "end_qty": 6005.2
+        },
+        {
+          "location": "Quality Inn Placentia Anaheim Fullerton",
+          "start_qty": 1435.0,
+          "end_qty": 9115.21
+        },
+        {
+          "location": "Queens Inn Anaheim",
+          "start_qty": 602.0,
+          "end_qty": 5846.14
+        },
+        {
+          "location": "Ramada by Wyndham Anaheim Convention Center",
+          "start_qty": 853.0,
+          "end_qty": 6174.419999999999
+        },
+        {
+          "location": "Ramada by Wyndham Burbank Airport",
+          "start_qty": 1085.0,
+          "end_qty": 8137.649999999999
+        },
+        {
+          "location": "Ramada by Wyndham San Diego National City",
+          "start_qty": 1081.0,
+          "end_qty": 7458.169999999999
+        },
+        {
+          "location": "Ramada by Wyndham Barstow",
+          "start_qty": 1523.0,
+          "end_qty": 9090.919999999998
+        },
+        {
+          "location": "Ramada by Wyndham Hawthorne - LA Stadium",
+          "start_qty": 910.0,
+          "end_qty": 6307.92
+        },
+        {
+          "location": "Ramada by Wyndham Poway",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "Residence Inn San Diego North San Marcos",
+          "start_qty": 458.0,
+          "end_qty": 6791.53
+        },
+        {
+          "location": "Rodeway Inn Ontario Mills Mall",
+          "start_qty": 3.0,
+          "end_qty": 50.0
+        },
+        {
+          "location": "San Manuel Admin Office Commons",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "San Manuel Service Center",
+          "start_qty": 586.0,
+          "end_qty": 3887.9699999999993
+        },
+        {
+          "location": "Sandbourne Santa Monica, Autograph Collection",
+          "start_qty": 2920.0,
+          "end_qty": 14456.41
+        },
+        {
+          "location": "Sheraton Gateway Los Angeles Hotel",
+          "start_qty": 3507.0,
+          "end_qty": 14316.359999999997
+        },
+        {
+          "location": "Sheraton Universal Hotel",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "SpringHill Suites by Marriott Riverside Redlands",
+          "start_qty": 1268.0,
+          "end_qty": 10230.209999999997
+        },
+        {
+          "location": "Staybridge Suites Oxnard River Ridge",
+          "start_qty": 1197.0,
+          "end_qty": 10349.33
+        },
+        {
+          "location": "Staybridge Suites Palmdale",
+          "start_qty": 953.0,
+          "end_qty": 7453.570000000001
+        },
+        {
+          "location": "SureStay Hotel By Best Western Beverly Hills",
+          "start_qty": 1025.0,
+          "end_qty": 8241.84
+        },
+        {
+          "location": "SureStay Plus by Best Western Upland",
+          "start_qty": 651.0,
+          "end_qty": 5955.379999999999
+        },
+        {
+          "location": "SureStay Hotel By Best Western Ontario Airport",
+          "start_qty": 814.0,
+          "end_qty": 7494.01
+        },
+        {
+          "location": "SureStay Plus By Best Western Twentynine Palms Joshua Tree",
+          "start_qty": 1079.0,
+          "end_qty": 8538.46
+        },
+        {
+          "location": "The Anza A Calabasas Hotel",
+          "start_qty": 793.0,
+          "end_qty": 6153.899999999998
+        },
+        {
+          "location": "The Hotel Amarano Burbank-Hollywood",
+          "start_qty": 1666.0,
+          "end_qty": 11709.4
+        },
+        {
+          "location": "The Pierpont Inn",
+          "start_qty": 0.0,
+          "end_qty": 0.0
+        },
+        {
+          "location": "The Westin Long Beach",
+          "start_qty": 4290.0,
+          "end_qty": 15474.209999999992
+        },
+        {
+          "location": "The Westin Pasadena",
+          "start_qty": 3184.0,
+          "end_qty": 13946.04
+        },
+        {
+          "location": "Travelodge by Wyndham Commerce Los Angeles",
+          "start_qty": 547.0,
+          "end_qty": 4422.24
+        },
+        {
+          "location": "Travelodge LAX South - El Segundo",
+          "start_qty": 686.0,
+          "end_qty": 6240.85
+        },
+        {
+          "location": "Vistar Southern California",
+          "start_qty": 1216.0,
+          "end_qty": 7697.9400000000005
+        },
+        {
+          "location": "WorldMark Oceanside",
+          "start_qty": 1257.0,
+          "end_qty": 7772.25
+        },
+        {
+          "location": "WorldMark Big Bear",
+          "start_qty": 927.0,
+          "end_qty": 7517.759999999999
+        },
+        {
+          "location": "WorldMark Indio",
+          "start_qty": 2054.0,
+          "end_qty": 6994.97
+        },
+        {
+          "location": "WorldMark Mission Valley",
+          "start_qty": 961.0,
+          "end_qty": 7238.2699999999995
+        },
+        {
+          "location": "WorldMark Palm Springs",
+          "start_qty": 1110.0,
+          "end_qty": 8672.920000000002
+        },
+        {
+          "location": "WorldMark Palms Springs Plaza Resort & Spa",
+          "start_qty": 1183.0,
+          "end_qty": 7444.009999999999
+        },
+        {
+          "location": "WorldMark San Diego Balboa Park",
+          "start_qty": 1158.0,
+          "end_qty": 7754.549999999998
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Bev Water",
+          "start_qty": 34420.0,
+          "end_qty": 52151.74999999999
+        },
+        {
+          "product_name": "Fresh Food",
+          "start_qty": 1060.0,
+          "end_qty": 200.0
+        },
+        {
+          "product_name": "Snack",
+          "start_qty": 8578.0,
+          "end_qty": 80675.61
+        },
+        {
+          "product_name": "Candy",
+          "start_qty": 23287.0,
+          "end_qty": 155931.71000000005
+        },
+        {
+          "product_name": "Chips",
+          "start_qty": 16297.0,
+          "end_qty": 122558.13999999997
+        },
+        {
+          "product_name": "Bev Juice",
+          "start_qty": 3072.0,
+          "end_qty": 21283.829999999998
+        },
+        {
+          "product_name": "Bev 20 Oz Bottle",
+          "start_qty": 22133.0,
+          "end_qty": 104398.0100000001
+        },
+        {
+          "product_name": "Hot Food",
+          "start_qty": 6541.0,
+          "end_qty": 64546.49000000001
+        },
+        {
+          "product_name": "Fresh",
+          "start_qty": 1190.0,
+          "end_qty": 10362.34
+        },
+        {
+          "product_name": "Pastry",
+          "start_qty": 1586.0,
+          "end_qty": 15026.990000000002
+        },
+        {
+          "product_name": "Nuts",
+          "start_qty": 4601.0,
+          "end_qty": 44769.38999999998
+        },
+        {
+          "product_name": "Bev Other",
+          "start_qty": 6771.0,
+          "end_qty": 40578.809999999976
+        },
+        {
+          "product_name": "Bev Energy Drinks",
+          "start_qty": 7278.0,
+          "end_qty": 47352.849999999984
+        },
+        {
+          "product_name": "Bev 12 Oz Can",
+          "start_qty": 2305.0,
+          "end_qty": 10439.22
+        },
+        {
+          "product_name": "Cookies & Crackers",
+          "start_qty": 3121.0,
+          "end_qty": 28320.609999999993
+        },
+        {
+          "product_name": "Healthy Bars",
+          "start_qty": 6532.0,
+          "end_qty": 51280.049999999974
+        },
+        {
+          "product_name": "Bev Coffee & Tea",
+          "start_qty": 4737.0,
+          "end_qty": 36299.76999999999
+        },
+        {
+          "product_name": "Souvenirs Disney",
+          "start_qty": 2099.0,
+          "end_qty": 20481.269999999997
+        },
+        {
+          "product_name": "Sundry Items",
+          "start_qty": 21723.0,
+          "end_qty": 202737.78000000006
+        },
+        {
+          "product_name": "Cereal",
+          "start_qty": 2290.0,
+          "end_qty": 24593.64
+        },
+        {
+          "product_name": "Laundry",
+          "start_qty": 2887.0,
+          "end_qty": 17524.589999999993
+        },
+        {
+          "product_name": "Frozen Ice Cream",
+          "start_qty": 11420.0,
+          "end_qty": 48760.679999999986
+        },
+        {
+          "product_name": "Electronics",
+          "start_qty": 971.0,
+          "end_qty": 23208.329999999998
+        },
+        {
+          "product_name": "Frozen Food",
+          "start_qty": 9450.0,
+          "end_qty": 81957.07
+        },
+        {
+          "product_name": "Bev Beer & Wine",
+          "start_qty": 454.0,
+          "end_qty": 0.0
+        },
+        {
+          "product_name": "Candy Gum & Mints",
+          "start_qty": 740.0,
+          "end_qty": 7566.71
+        },
+        {
+          "product_name": "California Merchandise",
+          "start_qty": 13.0,
+          "end_qty": 41.67
+        },
+        {
+          "product_name": "Souvenirs Universal",
+          "start_qty": 37.0,
+          "end_qty": 0.0
+        },
+        {
+          "product_name": "OCS Coffee",
+          "start_qty": 598.0,
+          "end_qty": 686.68
+        },
+        {
+          "product_name": "Souvenirs California",
+          "start_qty": 128.0,
+          "end_qty": 854.17
+        },
+        {
+          "product_name": "Trader Joe's",
+          "start_qty": -1356.0,
+          "end_qty": 0.0
+        },
+        {
+          "product_name": "Condiments",
+          "start_qty": 65.0,
+          "end_qty": 799.99
+        },
+        {
+          "product_name": "Souvenirs",
+          "start_qty": 32.0,
+          "end_qty": 125.0
+        }
+      ]
+    },
+    "phase_2_dec_23_to_31": {
+      "label": "PHASE 2 (Dec 23-31, 2025)",
+      "source": "venv/DEC 23-31/new_dec_stock_analysis.csv",
+      "locations": [
+        {
+          "location": "Altura Credit Union HOC",
+          "start_qty": 1529.9100000000003,
+          "end_qty": 0
+        },
+        {
+          "location": "Anaheim Desert Inn and Suites",
+          "start_qty": 1872.9199999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Ayres Hotel Anaheim",
+          "start_qty": 1411.55,
+          "end_qty": 0
+        },
+        {
+          "location": "Ayres Hotel Chino Hills",
+          "start_qty": 1322.2400000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Ayres Hotel Fountain Valley",
+          "start_qty": 1645.6000000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Ayres Hotel Manhattan Beach Hawthorne",
+          "start_qty": 1601.4499999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Ayres Hotel Seal Beach",
+          "start_qty": 1419.4,
+          "end_qty": 0
+        },
+        {
+          "location": "Ayres Hotel & Spa Mission Viejo",
+          "start_qty": 938.07,
+          "end_qty": 0
+        },
+        {
+          "location": "Ayres Suites Mission Viejo - Lake Forest",
+          "start_qty": 1356.3,
+          "end_qty": 0
+        },
+        {
+          "location": "Ayres Suites Yorba Linda",
+          "start_qty": 1063.11,
+          "end_qty": 0
+        },
+        {
+          "location": "BLVD Hotel & Spa",
+          "start_qty": 1415.18,
+          "end_qty": 0
+        },
+        {
+          "location": "Baymont by Wyndham Monterey Park",
+          "start_qty": 1053.0600000000004,
+          "end_qty": 0
+        },
+        {
+          "location": "Behr Paint Company - Saint Andrews",
+          "start_qty": 3040.8700000000003,
+          "end_qty": 0
+        },
+        {
+          "location": "Behr Paint Company - Garry",
+          "start_qty": 1265.5400000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Behr Paint Company - Midway Coatings Cantina",
+          "start_qty": 1237.8899999999999,
+          "end_qty": 0
+        },
+        {
+          "location": "Behr Paint Company - Standard",
+          "start_qty": 1579.3500000000004,
+          "end_qty": 0
+        },
+        {
+          "location": "Behr Paint Company - Yale",
+          "start_qty": 1344.3000000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Route 66 Glendora Inn",
+          "start_qty": 1193.4599999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Diamond Bar Hotel & Suites",
+          "start_qty": 1125.27,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Hesperia Victorville Suites",
+          "start_qty": 1283.7099999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Norwalk Inn",
+          "start_qty": 1214.6599999999999,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Oceanside Inn",
+          "start_qty": 1544.0800000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus - San Pedro",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus Heritage Inn Rancho Cucamonga Ontario",
+          "start_qty": 1226.93,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus Irvine Spectrum Hotel",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus La Mid-Town Hotel",
+          "start_qty": 1172.0800000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus Suites Hotel - Los Angeles Lax Airport",
+          "start_qty": 1413.1399999999999,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus Marina Shores Hotel",
+          "start_qty": 1490.29,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus Meridian Inn & Suites, Anaheim-Orange",
+          "start_qty": 1590.79,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus Park Place Inn Mini Suites",
+          "start_qty": 1737.4,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus Pavilions",
+          "start_qty": 1104.44,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus Redondo Beach Inn",
+          "start_qty": 1677.0700000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus Stovall's Inn",
+          "start_qty": 1621.66,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus Thousand Oaks Inn",
+          "start_qty": 1571.06,
+          "end_qty": 0
+        },
+        {
+          "location": "Best Western Plus West Covina Inn",
+          "start_qty": 1618.0100000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Bobrick Washroom Equipment Inc",
+          "start_qty": 4503.250000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Capri Suites Anaheim",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Cimarron Resort Condominium Association",
+          "start_qty": 448.77,
+          "end_qty": 0
+        },
+        {
+          "location": "Cintas",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites Ontario Airport-Mills Mall",
+          "start_qty": 1489.9399999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "City24 Hotel- Little Italy Mission Hills",
+          "start_qty": 1250.2400000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Clarion Hotel Anaheim Resort",
+          "start_qty": 1231.7599999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Club Wyndham Harbour Lights",
+          "start_qty": 1234.0900000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Club Wyndham Oceanside Pier Resort",
+          "start_qty": 1607.0099999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Comfort Inn & Suites Near Universal - N. Hollywood",
+          "start_qty": 1208.88,
+          "end_qty": 0
+        },
+        {
+          "location": "Comfort Inn Anaheim Resort",
+          "start_qty": 1605.5299999999997,
+          "end_qty": 0
+        },
+        {
+          "location": "Comfort Inn Encinitas Near Legoland",
+          "start_qty": 1463.73,
+          "end_qty": 0
+        },
+        {
+          "location": "Comfort Inn Gaslamp Convention Center",
+          "start_qty": 1259.74,
+          "end_qty": 0
+        },
+        {
+          "location": "Comfort Inn & Suites Huntington Beach",
+          "start_qty": 1714.5100000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Comfort Inn & Suites Moreno Valley Near March Air Reserve Base",
+          "start_qty": 1105.14,
+          "end_qty": 0
+        },
+        {
+          "location": "Comfort Suites San Clemente Beach",
+          "start_qty": 1298.45,
+          "end_qty": 0
+        },
+        {
+          "location": "Comfort Suites Barstow",
+          "start_qty": 1590.1100000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Comfort Suites Oceanside Camp Pendleton",
+          "start_qty": 1603.24,
+          "end_qty": 0
+        },
+        {
+          "location": "Courtyard Chino Hills",
+          "start_qty": 1481.9699999999996,
+          "end_qty": 0
+        },
+        {
+          "location": "Crowne Plaza Costa Mesa Orange County",
+          "start_qty": 1697.1499999999999,
+          "end_qty": 0
+        },
+        {
+          "location": "Crowne Plaza San Diego - Mission Valley",
+          "start_qty": 1720.5099999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Crowne Plaza Los Angeles Harbor Hotel",
+          "start_qty": 1857.2,
+          "end_qty": 0
+        },
+        {
+          "location": "Days Inn & Suites by Wyndham Anaheim At Disneyland Park",
+          "start_qty": 1143.4899999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Del Sol Inn",
+          "start_qty": 1622.3300000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Desert Palms Hotel and Suites",
+          "start_qty": 1527.2799999999997,
+          "end_qty": 0
+        },
+        {
+          "location": "Dolphin's Cove",
+          "start_qty": 1008.23,
+          "end_qty": 0
+        },
+        {
+          "location": "DoubleTree by Hilton Hotel Los Angeles - Rosemead",
+          "start_qty": 1563.6699999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "DoubleTree by Hilton Pomona",
+          "start_qty": 1519.3099999999997,
+          "end_qty": 0
+        },
+        {
+          "location": "Downey Inn",
+          "start_qty": 1591.81,
+          "end_qty": 0
+        },
+        {
+          "location": "E-Central Downtown Los Angeles Hotel",
+          "start_qty": 1426.11,
+          "end_qty": 0
+        },
+        {
+          "location": "Embassy Suites by Hilton Anaheim North",
+          "start_qty": 1653.8100000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Embassy Suites by Hilton Palm Desert",
+          "start_qty": 1801.8500000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Executive Residency by Best Western Victorville",
+          "start_qty": 1308.91,
+          "end_qty": 0
+        },
+        {
+          "location": "Fairfield Inn by Marriott Mission Viejo Orange County",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Fairfield Inn & Suites by Marriott Moorpark Ventura County",
+          "start_qty": 1051.8,
+          "end_qty": 0
+        },
+        {
+          "location": "Fairfield Inn & Suites by Marriott Anaheim Los Alamitos",
+          "start_qty": 1590.37,
+          "end_qty": 0
+        },
+        {
+          "location": "Fairfield Inn & Suites & TownePlace Suites by Marriott Barstow",
+          "start_qty": 1535.4800000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Fairfield by Marriott Anaheim North - Buena Park",
+          "start_qty": 1348.7700000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Fairfield Inn by Marriott - West Covina",
+          "start_qty": 1407.38,
+          "end_qty": 0
+        },
+        {
+          "location": "First Service Residential",
+          "start_qty": 1971.8999999999999,
+          "end_qty": 0
+        },
+        {
+          "location": "Four Points by Sheraton Ventura Harbor Resort",
+          "start_qty": 1334.33,
+          "end_qty": 0
+        },
+        {
+          "location": "Four Points by Sheraton Los Angeles International Airport",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites Anaheim Resort Area",
+          "start_qty": 987.83,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites Twentynine Palms- Joshua Tree",
+          "start_qty": 1721.0300000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Hampton Products",
+          "start_qty": 21.53,
+          "end_qty": 0
+        },
+        {
+          "location": "Hampton Inn & Suites Barstow",
+          "start_qty": 1741.2100000000003,
+          "end_qty": 0
+        },
+        {
+          "location": "Hampton Inn Channel Islands Harbor - Oxnard",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Hawthorn Suites by Wyndham Victorville",
+          "start_qty": 1366.02,
+          "end_qty": 0
+        },
+        {
+          "location": "Heather Village",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Hilton Garden Inn Palm Springs-Rancho Mirage",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Hilton Garden Inn-Home2 Suites Anaheim Resort",
+          "start_qty": 1378.76,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn & Suites Anaheim, an IHG Hotel",
+          "start_qty": 1764.38,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn & Suites Barstow",
+          "start_qty": 1578.4299999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Diamond Bar - Pomona",
+          "start_qty": 1359.02,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn El Monte",
+          "start_qty": 1582.5900000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites - Barstow",
+          "start_qty": 1136.2,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites Chatsworth",
+          "start_qty": 1537.3100000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites Corona",
+          "start_qty": 1455.6199999999997,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites Hesperia",
+          "start_qty": 1539.4599999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites San Dimas",
+          "start_qty": 1135.5,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites Ventura",
+          "start_qty": 1079.8100000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites Lake Forest - Irvine East",
+          "start_qty": 1227.3500000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express & Suites Pasadena - Los Angeles",
+          "start_qty": 1212.6699999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express - Port Hueneme",
+          "start_qty": 1014.6800000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Express San Clemente N - Beach Area",
+          "start_qty": 1215.6000000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn & Suites Monterey Park Los Angeles, an IHG Hotel",
+          "start_qty": 1435.2199999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Oceanside Camp Pendleton Area",
+          "start_qty": 1243.36,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Ontario Airport",
+          "start_qty": 1301.1200000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Oxnard-Ventura",
+          "start_qty": 1519.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Santa Ana",
+          "start_qty": 1516.73,
+          "end_qty": 0
+        },
+        {
+          "location": "Holiday Inn Victorville",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Homewood Suites by Hilton Carlsbad",
+          "start_qty": 1253.3,
+          "end_qty": 0
+        },
+        {
+          "location": "Hotel Dena",
+          "start_qty": 1448.64,
+          "end_qty": 0
+        },
+        {
+          "location": "Ultraserv Automated Services",
+          "start_qty": 1859.1799999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Hyatt House Los Angeles-LAX-Manhattan Beach",
+          "start_qty": 1606.91,
+          "end_qty": 0
+        },
+        {
+          "location": "Hyatt Palm Springs",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Hyatt Place Pasadena",
+          "start_qty": 1306.4299999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Hyatt Place San Diego Vista-Carlsbad",
+          "start_qty": 1630.3000000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Hyatt Regency Los Angeles International Airport",
+          "start_qty": 1598.73,
+          "end_qty": 0
+        },
+        {
+          "location": "Inn at the Park",
+          "start_qty": 1205.36,
+          "end_qty": 0
+        },
+        {
+          "location": "Kings Inn Anaheim at The Park & Convention Center",
+          "start_qty": 1704.8500000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Kofax Inc",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "La Quinta Inn & Suites by Wyndham Pomona",
+          "start_qty": 1786.45,
+          "end_qty": 0
+        },
+        {
+          "location": "La Quinta Inn & Suites by Wyndham Thousand Oaks-Newbury Park",
+          "start_qty": 948.76,
+          "end_qty": 0
+        },
+        {
+          "location": "La Quinta Inn & Suites La Habra",
+          "start_qty": 1566.48,
+          "end_qty": 0
+        },
+        {
+          "location": "Lincoln Hotel",
+          "start_qty": 1405.9499999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Long Beach Convention & Entertainment Center",
+          "start_qty": 2093.8599999999997,
+          "end_qty": 0
+        },
+        {
+          "location": "MainStay Suites Moreno Valley Near March Air Reserve Base",
+          "start_qty": 1347.9299999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Manning and Kass",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Dana Point Marina Inn",
+          "start_qty": 1341.9399999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Miyako Hotel Los Angeles",
+          "start_qty": 1410.3,
+          "end_qty": 0
+        },
+        {
+          "location": "Miyako Hybrid Hotel",
+          "start_qty": 1240.0900000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Motel 6 Anaheim Convention Center",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Motel 6 Anaheim Maingate",
+          "start_qty": 1332.96,
+          "end_qty": 0
+        },
+        {
+          "location": "Motel 6 Buena Park",
+          "start_qty": 1360.5800000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Motel 6 Carlsbad",
+          "start_qty": 1613.79,
+          "end_qty": 0
+        },
+        {
+          "location": "Motel 6 Carson",
+          "start_qty": 1503.2800000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Motel 6 Los Angeles - LAX",
+          "start_qty": 1776.3299999999997,
+          "end_qty": 0
+        },
+        {
+          "location": "Motel 6 Ontario Convention Center - Airport",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Motel 6 Westminster North",
+          "start_qty": 1117.68,
+          "end_qty": 0
+        },
+        {
+          "location": "Optima Tax Relief",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Peacock Suites",
+          "start_qty": 1342.8000000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Quality Inn & Suites Camarillo-Oxnard",
+          "start_qty": 1189.03,
+          "end_qty": 0
+        },
+        {
+          "location": "Quality Inn Placentia Anaheim Fullerton",
+          "start_qty": 1389.17,
+          "end_qty": 0
+        },
+        {
+          "location": "Queens Inn Anaheim",
+          "start_qty": 1061.92,
+          "end_qty": 0
+        },
+        {
+          "location": "Ramada by Wyndham Anaheim Convention Center",
+          "start_qty": 945.83,
+          "end_qty": 0
+        },
+        {
+          "location": "Ramada by Wyndham Burbank Airport",
+          "start_qty": 1498.3799999999999,
+          "end_qty": 0
+        },
+        {
+          "location": "Ramada by Wyndham San Diego National City",
+          "start_qty": 1140.0600000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Ramada by Wyndham Barstow",
+          "start_qty": 1403.41,
+          "end_qty": 0
+        },
+        {
+          "location": "Ramada by Wyndham Hawthorne - LA Stadium",
+          "start_qty": 962.7799999999997,
+          "end_qty": 0
+        },
+        {
+          "location": "Ramada by Wyndham Poway",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Residence Inn San Diego North San Marcos",
+          "start_qty": 1308.16,
+          "end_qty": 0
+        },
+        {
+          "location": "Rodeway Inn Ontario Mills Mall",
+          "start_qty": 16.67,
+          "end_qty": 0
+        },
+        {
+          "location": "San Manuel Admin Office Commons",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "San Manuel Service Center",
+          "start_qty": 765.4599999999999,
+          "end_qty": 0
+        },
+        {
+          "location": "Sandbourne Santa Monica - Autograph Collection",
+          "start_qty": 1148.9600000000003,
+          "end_qty": 0
+        },
+        {
+          "location": "Sheraton Gateway Los Angeles Hotel",
+          "start_qty": 1527.69,
+          "end_qty": 0
+        },
+        {
+          "location": "Sheraton Universal Hotel",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "Sonesta ES Suites Chatsworth",
+          "start_qty": 1867.77,
+          "end_qty": 0
+        },
+        {
+          "location": "SpringHill Suites by Marriott Riverside Redlands",
+          "start_qty": 1625.6899999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "Staybridge Suites Oxnard River Ridge",
+          "start_qty": 1477.01,
+          "end_qty": 0
+        },
+        {
+          "location": "Staybridge Suites Palmdale",
+          "start_qty": 1544.5699999999997,
+          "end_qty": 0
+        },
+        {
+          "location": "SureStay Hotel By Best Western Beverly Hills",
+          "start_qty": 1442.1,
+          "end_qty": 0
+        },
+        {
+          "location": "SureStay Plus by Best Western Upland",
+          "start_qty": 1108.46,
+          "end_qty": 0
+        },
+        {
+          "location": "SureStay Hotel By Best Western Ontario Airport",
+          "start_qty": 1504.97,
+          "end_qty": 0
+        },
+        {
+          "location": "SureStay Plus By Best Western Twentynine Palms Joshua Tree",
+          "start_qty": 1548.17,
+          "end_qty": 0
+        },
+        {
+          "location": "The Anza A Calabasas Hotel",
+          "start_qty": 1221.8600000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "The Hotel Amarano Burbank-Hollywood",
+          "start_qty": 1540.19,
+          "end_qty": 0
+        },
+        {
+          "location": "The Pierpont Inn",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "location": "The Westin Long Beach",
+          "start_qty": 1489.95,
+          "end_qty": 0
+        },
+        {
+          "location": "The Westin Pasadena",
+          "start_qty": 1347.9700000000003,
+          "end_qty": 0
+        },
+        {
+          "location": "Travelodge by Wyndham Commerce Los Angeles",
+          "start_qty": 1282.5000000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "Travelodge LAX South - El Segundo",
+          "start_qty": 1481.8700000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "Vistar Southern California",
+          "start_qty": 1803.1100000000001,
+          "end_qty": 0
+        },
+        {
+          "location": "WorldMark Oceanside",
+          "start_qty": 1192.36,
+          "end_qty": 0
+        },
+        {
+          "location": "WorldMark Big Bear",
+          "start_qty": 1163.62,
+          "end_qty": 0
+        },
+        {
+          "location": "WorldMark Indio",
+          "start_qty": 1538.2399999999998,
+          "end_qty": 0
+        },
+        {
+          "location": "WorldMark Mission Valley",
+          "start_qty": 1768.8,
+          "end_qty": 0
+        },
+        {
+          "location": "WorldMark Palm Springs",
+          "start_qty": 1406.4900000000002,
+          "end_qty": 0
+        },
+        {
+          "location": "WorldMark Palms Springs Plaza Resort & Spa",
+          "start_qty": 1381.77,
+          "end_qty": 0
+        },
+        {
+          "location": "WorldMark San Diego Balboa Park",
+          "start_qty": 1375.22,
+          "end_qty": 0
+        }
+      ],
+      "products": [
+        {
+          "product_name": "Maruchan Chicken Cup Soup",
+          "start_qty": 6975.710000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Digiorno Pepperoni Cheese Pizza",
+          "start_qty": 12378.630000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Tums Ultra Berry",
+          "start_qty": 757.15,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nongshim Spicy Shin Noodle Soup",
+          "start_qty": 1378.7800000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Coke Zero 20oz",
+          "start_qty": 9606.25,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Crystal Geyser 16.9oz",
+          "start_qty": 6020.030000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Sour Patch Kids",
+          "start_qty": 567.01,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Starry 20oz",
+          "start_qty": 424.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Fairlife Strawberry Milk 14oz",
+          "start_qty": 1770.18,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Monster Zero Ultra 16oz",
+          "start_qty": 5422.2300000000005,
+          "end_qty": 0
+        },
+        {
+          "product_name": "GF Strawberry & Blueberry Yogurt Parfait",
+          "start_qty": 2995.28,
+          "end_qty": 0
+        },
+        {
+          "product_name": "SS Hummus & Friends Snack Box",
+          "start_qty": 2716.6899999999996,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Doritos Cool Ranch",
+          "start_qty": 927.6299999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Sub Turkey & Cheese",
+          "start_qty": 3763.92,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Sweet Serenity Chocolate Chip Cookies",
+          "start_qty": 3410.6800000000007,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Kellogs Pop Tarts Strawberry",
+          "start_qty": 265.85,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Chester's Fries Flamin Hot",
+          "start_qty": 2139.93,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Sour Patch Kids Watermelon",
+          "start_qty": 210.45000000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Mountain Dew 20oz",
+          "start_qty": 235.49,
+          "end_qty": 0
+        },
+        {
+          "product_name": "SnakClub Almonds Raw Premium Pack",
+          "start_qty": 163.39999999999998,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nature Valley Granola Oat & Honey",
+          "start_qty": 1112.4999999999998,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pringles Sour Cream & Onion",
+          "start_qty": 374.33000000000004,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Combos Cream Filled Cheddar Cheese 6.3oz",
+          "start_qty": 80.33,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cheetos Puffs",
+          "start_qty": 739.9999999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FTY Cheese Enchilada with Spanish Rice & Beans",
+          "start_qty": 7137.530000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Starbucks Vanilla Frapuccino RTD 9.5oz",
+          "start_qty": 323.45,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pepto Bismol",
+          "start_qty": 2171.92,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Rice Krispies Treats Original 1.41oz",
+          "start_qty": 1195.2499999999998,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Gatorade Fruit Punch 20oz",
+          "start_qty": 2228.84,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Powerade Zero Mixed Berry 20oz",
+          "start_qty": 2705.7999999999997,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Beer Kona Big Wave Liquid Aloha Can 12oz",
+          "start_qty": 198.06,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Butterfinger",
+          "start_qty": 1705.4299999999998,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Core Power High Protein Shake Vanilla 14oz",
+          "start_qty": 2059.8199999999997,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Beer Bud Light Aluminum Can 16oz",
+          "start_qty": 378.12999999999994,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Gatorade Cool Blue 20oz",
+          "start_qty": 270.97,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Wine Carolina Reserva Sauvignon Blanc 375mL",
+          "start_qty": 206.49,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Fairlife Chocolate Milk 14oz",
+          "start_qty": 894.85,
+          "end_qty": 0
+        },
+        {
+          "product_name": "San Pellegrino Sparkling Mineral Water 16.9oz",
+          "start_qty": 218.18,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Bubbly Lime 16oz Cans",
+          "start_qty": 10406.559999999994,
+          "end_qty": 0
+        },
+        {
+          "product_name": "El Monterey Beef and Bean Burrito",
+          "start_qty": 2809.1,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Maruchan Lime Chili Shrimp Cup Soup",
+          "start_qty": 236.95,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Otis Muffin Wild Blueberry",
+          "start_qty": 1028.25,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Manzanita Sol Apple 12oz",
+          "start_qty": 5911.08,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Haagen Dazs Milk Chocolate Almond Ice Cream Bar",
+          "start_qty": 2880.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Minute Maid Lemonade 20oz",
+          "start_qty": 2370.599999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Life Water Premium 20oz",
+          "start_qty": 4193.830000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cactus Cooler 12oz",
+          "start_qty": 338.65999999999997,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Snapple Zero Sugar Peach Tea 16oz",
+          "start_qty": 12033.33,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Boulder Jalapeno Cheddar Chips",
+          "start_qty": 380.86999999999995,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Red Vines Original 4oz Peg",
+          "start_qty": 1422.85,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Canada Dry Ginger Ale 12oz",
+          "start_qty": 1204.18,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Anker USB-C to Lightning 6ft Cable",
+          "start_qty": 1615.84,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Minute Maid Pink Lemonade 20oz",
+          "start_qty": 74.69,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Minute Maid Orange Juice 12oz",
+          "start_qty": 634.92,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Sprite 12oz",
+          "start_qty": 635.88,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Celsius Sparkling Orange 12oz",
+          "start_qty": 1408.9799999999998,
+          "end_qty": 0
+        },
+        {
+          "product_name": "SunChips Garden Salsa 2.375oz",
+          "start_qty": 599.35,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dolly Madison Golden Cream Cake",
+          "start_qty": 738.46,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Hillshire Italian Dry Salame",
+          "start_qty": 1016.67,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Easy Mac Original Cups",
+          "start_qty": 712.3399999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Life Water Premium 1L",
+          "start_qty": 1140.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dole Orange Juice",
+          "start_qty": 989.6300000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Hot Pocket Ham & Cheese",
+          "start_qty": 830.2600000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Otis Muffin Banana Nut",
+          "start_qty": 529.68,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dole Mandarin Oranges",
+          "start_qty": 88.04,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dr Pepper Diet 12oz",
+          "start_qty": 975.01,
+          "end_qty": 0
+        },
+        {
+          "product_name": "El Monterey Egg Sausage Cheese & Potato Burrito",
+          "start_qty": 1805.9600000000005,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Beer Elysian Space Dust IPA Bottle 12oz",
+          "start_qty": 186.14,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Minute Maid Apple Juice 12oz",
+          "start_qty": 561.06,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Chapstick",
+          "start_qty": 600.01,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR Parfait Mixed Berry",
+          "start_qty": 825.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Proud Source Alkaline Spring Water 750ml",
+          "start_qty": 1034.21,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Triangle Ham Wheat",
+          "start_qty": 2276.19,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Big Texas Cinnamon Roll",
+          "start_qty": 85.64,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Albanese Gummi Bears 12 Flavor - 3.5oz",
+          "start_qty": 2633.9400000000005,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Multigrain Turkey & Bacon Club",
+          "start_qty": 346.48999999999995,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Kettle Sea Salt Chips 2.0oz",
+          "start_qty": 313.78999999999996,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pure Leaf Sweet Tea - 18.5oz",
+          "start_qty": 392.45000000000005,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Starbucks Caramel Frappuccino RTD 9.5oz",
+          "start_qty": 967.54,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dramamine Motion Sickness Chewable",
+          "start_qty": 385.31999999999994,
+          "end_qty": 0
+        },
+        {
+          "product_name": "M&M Plain",
+          "start_qty": 724.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Celsius Sparkling Watermelon 12oz",
+          "start_qty": 215.38,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dove Milk Chocolate Almond Bar",
+          "start_qty": 307.91999999999996,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Trolli Sour Brite Very Berry 5oz",
+          "start_qty": 308.48,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nutella & Go with Breadsticks 1.8oz",
+          "start_qty": 633.77,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Wonderful Pistachios No Shell 2.5oz",
+          "start_qty": 229.35000000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dr Pepper Zero 20oz",
+          "start_qty": 771.7299999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Maruchan Lime Chili Chicken Cup Soup",
+          "start_qty": 967.8,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dole Lemonade 20oz",
+          "start_qty": 347.06,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Lunchables Turkey & Cheddar",
+          "start_qty": 713.53,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Starbucks Vanilla Sweet Cream Nitro CB 9.6oz Cans",
+          "start_qty": 73.81,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Stouffers Lasagna with Meat Sauce",
+          "start_qty": 514.78,
+          "end_qty": 0
+        },
+        {
+          "product_name": "El Monterey Bean and Cheese Burrito",
+          "start_qty": 1955.97,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Jack Links Teriyaki Beef Jerky 70 Cal",
+          "start_qty": 389.82,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Mentos Mixed Fruit",
+          "start_qty": 170.79000000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dolly Madison Chocolate Cupcakes",
+          "start_qty": 1632.4500000000003,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Salad Chicken Caesar",
+          "start_qty": 257.9,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Boulder Hickory BBQ Chips",
+          "start_qty": 461.43,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pepsi Zero Sugar 20oz",
+          "start_qty": 550.86,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Lays Regular Classic",
+          "start_qty": 1696.3,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Triangle Egg Salad Wheat",
+          "start_qty": 521.77,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nail Clippers",
+          "start_qty": 78.24,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Gatorade Lemon Lime 20oz",
+          "start_qty": 125.26,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cereal Lucky Charms",
+          "start_qty": 419.3299999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Wonderful Pistachios 100Cal Sweet Chili 1.25oz",
+          "start_qty": 697.1499999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cliff Bar White Chocolate Macadamia",
+          "start_qty": 148.73000000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Smartfood White Cheddar Popcorn",
+          "start_qty": 923.44,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Triangle Turkey Wheat",
+          "start_qty": 1546.6,
+          "end_qty": 0
+        },
+        {
+          "product_name": "SS Strawberry Shortcake Dessert",
+          "start_qty": 196.72,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Kars Peanut Almond Cashew Mix",
+          "start_qty": 240.07,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Doritos Nacho Cheese 2.5oz",
+          "start_qty": 513.9300000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Life Saver Gummies 5 Flavor Peg 7oz",
+          "start_qty": 508.93,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Bubbly Blackcherry 16oz Cans",
+          "start_qty": 126.1,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Jack Links Original",
+          "start_qty": 554.23,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nestle Tollhouse Chocolate Chip Cookie Sandwich",
+          "start_qty": 240.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Triangle PBJ White",
+          "start_qty": 266.66,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Boom Chicka Popcorn Sweet & Salty 1oz",
+          "start_qty": 313.54999999999995,
+          "end_qty": 0
+        },
+        {
+          "product_name": "RXBAR Protein Blueberry",
+          "start_qty": 641.05,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nongshim Hot and Spicy Noodle Soup",
+          "start_qty": 389.56999999999994,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Powerade Mountain Berry Blast 20oz",
+          "start_qty": 712.1900000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "La Croix Sparkling Grapefruit",
+          "start_qty": 84.88,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Powerade Fruit Punch 20oz",
+          "start_qty": 151.45,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Celsius Sparkling Wild Berry 12oz",
+          "start_qty": 511.61999999999995,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Skittles Sour",
+          "start_qty": 1280.5499999999997,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nature's Bakery Fig Bar Strawberry",
+          "start_qty": 814.6099999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Crest Tooth Paste and Brush",
+          "start_qty": 842.8499999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dunkin Donuts French Vanilla 13.7 oz",
+          "start_qty": 354.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Hillshire Genoa Salame",
+          "start_qty": 219.2,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cereal Honey Nut Cheerios",
+          "start_qty": 150.86,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Snickers",
+          "start_qty": 323.19,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Bumble Bee Tuna Mayo & Crackers 3.5oz",
+          "start_qty": 456.74000000000007,
+          "end_qty": 0
+        },
+        {
+          "product_name": "NyQuil",
+          "start_qty": 511.51000000000005,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nerds Gummy Clusters Rainbow 5oz",
+          "start_qty": 318.03,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Haagen Dazs Chocolate Ice Cream 14oz",
+          "start_qty": 225.8,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Digiorno Four Cheese Pizza",
+          "start_qty": 651.8100000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Anker USB-C to USB-C 10ft Cable",
+          "start_qty": 252.64000000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Lays BBQ 2.25oz",
+          "start_qty": 120.71,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Fairlife 2% Reduced Fat Ultra-Filtered Milk 14oz",
+          "start_qty": 94.12,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Blue Diamond Almonds Smokehouse",
+          "start_qty": 534.28,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Aquafina Aluminum Bottle 16oz",
+          "start_qty": 1031.81,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Lays Chile Lemon 2.25oz",
+          "start_qty": 459.70000000000005,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Orchard Valley Almonds Dark Chocolate",
+          "start_qty": 73.14,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Tresemme Non Aerosol Hairspray",
+          "start_qty": 275.88,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pepperidge Farms Milano Cookies 1.5oz",
+          "start_qty": 703.85,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Peace Tea Georgia Peach 16oz",
+          "start_qty": 341.14,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Red Bull Red Watermelon 8.4oz",
+          "start_qty": 40.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Knotts Strawberry Cookie",
+          "start_qty": 689.79,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Vita Coco Pure Coconut Water 500ml",
+          "start_qty": 946.5600000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Chex Mix",
+          "start_qty": 158.14999999999998,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Kettle Jalapeno Chips 2.0oz",
+          "start_qty": 430.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Anker Power Port 32W Wall Charger",
+          "start_qty": 671.4399999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "El Monterey Jalapeno Egg Cheese Burrito",
+          "start_qty": 176.20999999999998,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Banana Boat Sport Sunscreen",
+          "start_qty": 76.89,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Proud Source Alkaline Spring Water 16Oz",
+          "start_qty": 234.49,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Kind Fruit and Nut Delight",
+          "start_qty": 170.8,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Gillette Shaving Cream",
+          "start_qty": 190.95,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Grandmas Chocolate Chip Cookie",
+          "start_qty": 251.53,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Mentos Mint",
+          "start_qty": 86.9,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Chobani Strawberry",
+          "start_qty": 305.35,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Smartfood White Cheddar 1.75oz",
+          "start_qty": 102.24000000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Maruchan Shrimp Cup Soup",
+          "start_qty": 353.03,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Trident Spearmint",
+          "start_qty": 72.68,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Razor",
+          "start_qty": 1359.0900000000004,
+          "end_qty": 0
+        },
+        {
+          "product_name": "String Cheese Frigo",
+          "start_qty": 79.26,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pocky Strawberry Sticks 2.47oz",
+          "start_qty": 440.6,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Band Aid Bandage Travel",
+          "start_qty": 67.71,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Disney Passport Bag RG Minnie Glam",
+          "start_qty": 135.62,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Core Power High Protein Shake Chocolate 14oz",
+          "start_qty": 890.48,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR Snack Double & Cheese Cup",
+          "start_qty": 156.64999999999998,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Tampax Regular",
+          "start_qty": 308.87,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Lays Limon 1.5oz",
+          "start_qty": 418.96000000000004,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR Fruit Mixed",
+          "start_qty": 248.52000000000004,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Fanta Orange 20oz",
+          "start_qty": 439.71,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Sanders Mini Dark Chocolate Sea Salt Caramels 3.75oz",
+          "start_qty": 367.19000000000005,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Motrin",
+          "start_qty": 174.29,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Coke Zero 12oz",
+          "start_qty": 3100.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cheetos Flamin Hot 2.75oz",
+          "start_qty": 683.66,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Red Bull Sugar Free 8.4oz",
+          "start_qty": 179.31,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Peace Tea Razzleberry 16oz",
+          "start_qty": 629.34,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Disney Head Straw Tumbler Minnie",
+          "start_qty": 57.69,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Troop Vodka Lemonade 200ml",
+          "start_qty": 218.54000000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Oi Ocha Green Tea Unsweetened",
+          "start_qty": 58.37,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Rxbar Protein Honey Cinnamon Peanut Butter",
+          "start_qty": 54.23,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Benadryl",
+          "start_qty": 456.67,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Muscle Milk Chocolate 14oz",
+          "start_qty": 207.8,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cliff Bar Chocolate Chip",
+          "start_qty": 258.99,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Stouffers Mac and Cheese",
+          "start_qty": 246.57000000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Kind Cranberry Almond & Antiox",
+          "start_qty": 374.51,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Sahale Honey Almonds",
+          "start_qty": 181.14,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Maruchan Ramen Bowl Soup Hot & Spicy",
+          "start_qty": 155.09,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Beer Kona Big Wave Liquid Aloha 16oz Can",
+          "start_qty": 274.4,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Bounce Fabric Softner",
+          "start_qty": 670.6499999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Kettle Krinkle Cut Salt & Pepper Chips 2.0oz",
+          "start_qty": 138.83,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cereal Cinnamon Toast Crunch",
+          "start_qty": 220.27999999999997,
+          "end_qty": 0
+        },
+        {
+          "product_name": "SnakClub Energizer Trail Mix Premium",
+          "start_qty": 582.22,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cheetos Crunchy 2.75oz",
+          "start_qty": 547.28,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Scope Mouthwash",
+          "start_qty": 199.25,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Kind Peanut Butter Dark Chocolate",
+          "start_qty": 95.09,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pringles Original",
+          "start_qty": 101.29,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Aquafina 16.9oz",
+          "start_qty": 633.3299999999999,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Lays Original 2.25oz",
+          "start_qty": 157.37,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB EL Cubano 8oz",
+          "start_qty": 158.38,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Knotts Raspberry Cookie",
+          "start_qty": 141.15,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Quaker Oatmeal Maple & Brown",
+          "start_qty": 75.23,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Starry 16oz Can",
+          "start_qty": 159.11,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Grandmas Peanut Butter Cookie",
+          "start_qty": 92.52,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Wine Carolina Reserva Pinot Noir 375mL",
+          "start_qty": 86.8,
+          "end_qty": 0
+        },
+        {
+          "product_name": "SunChips Harvest Cheddar 2.375oz",
+          "start_qty": 152.05,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Solely Fruit Jerky Pineapple Organic 0.8oz",
+          "start_qty": 160.06,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Beer Budweiser Bottle 12oz",
+          "start_qty": 83.01,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Mountain Dew 12oz",
+          "start_qty": 58.36,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Powerade Lemon Lime 20oz",
+          "start_qty": 675.9200000000001,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Coke Diet 12oz",
+          "start_qty": 170.4,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cliff Bar Peanut Butter",
+          "start_qty": 47.46,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Starbucks Mocha Frappuccino RTD 9.5oz",
+          "start_qty": 168.35000000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Gatorade Orange 11.6oz Cans",
+          "start_qty": 268.37,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Smart Water Aluminum Bottle 18oz",
+          "start_qty": 308.52,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Beer Estrella Jalisco Can 12oz",
+          "start_qty": 69.11,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR Burrito Beef",
+          "start_qty": 80.57,
+          "end_qty": 0
+        },
+        {
+          "product_name": "SS Pineapple & Tajin",
+          "start_qty": 75.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Beer Alesmith Party Tricks IPA Ale Can 16oz",
+          "start_qty": 81.82,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Wine Carolina Reserva Chardonnay 375mL",
+          "start_qty": 178.71,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Mountain Dew 16oz Can",
+          "start_qty": 80.6,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Takis Fuego",
+          "start_qty": 148.95,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Solely Fruit Jerky Mango with Chili & Salt 0.8oz",
+          "start_qty": 154.13,
+          "end_qty": 0
+        },
+        {
+          "product_name": "5 Gum Peppermint Cobalt",
+          "start_qty": 564.02,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Crush Orange 12oz",
+          "start_qty": 72.53,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR Harvest Chicken Salad with Balsamic Dressing",
+          "start_qty": 75.57,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Thai Beef Pinwheels 9oz",
+          "start_qty": 81.46,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Muscle Milk Vanilla 14oz",
+          "start_qty": 234.55,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Payday Bar",
+          "start_qty": 83.41,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Clear Eyes Solution 0.2oz",
+          "start_qty": 218.71,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Jarritos Gummies 8oz",
+          "start_qty": 161.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Sheila G's Brittle Salted Caramel Brownie 2.75oz",
+          "start_qty": 74.59,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Bare Baked Crunchy Cinnamon Apple Chips",
+          "start_qty": 76.99,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Lenny and Larry Snickerdoodle Cookie",
+          "start_qty": 171.2,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Schweppe's Ginger Ale 20oz",
+          "start_qty": 175.33999999999997,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Beer Bud Light Aluminum Can 12oz",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Fritos Original Corn Chips",
+          "start_qty": 253.34999999999997,
+          "end_qty": 0
+        },
+        {
+          "product_name": "SS Chocolate Peanut Butter Parfait",
+          "start_qty": 79.07,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nemos Chocolate Square Cake",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Fiber One Chew Oats",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pepsi Diet 12oz Sleek Cans",
+          "start_qty": 252.89,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Sucker Punch Classic Dill Pickle Chip 3.4oz",
+          "start_qty": 65.4,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Hot Pocket Pepperoni Pizza",
+          "start_qty": 80.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Claritin",
+          "start_qty": 11.11,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Disney Key Chain RG Get Stitch",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Secret Outlast Deodorant",
+          "start_qty": 262.36,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Triangle Club Wheat",
+          "start_qty": 132.22,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Disney Key Chain RG His",
+          "start_qty": 141.46,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Baskin Robbins Rocky Road",
+          "start_qty": 82.24,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Wine Allegretto Cabernet Sauvignon 2019",
+          "start_qty": 76.41,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Chobani Blueberry",
+          "start_qty": 87.91,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dunkin Donuts Mocha 13.7oz",
+          "start_qty": 162.14,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Croissant Ham",
+          "start_qty": 228.17000000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Blue Diamond Almonds Whole Natural",
+          "start_qty": 139.64,
+          "end_qty": 0
+        },
+        {
+          "product_name": "HK Anderson PB Pretzel Nuggets 2.5oz",
+          "start_qty": 68.71,
+          "end_qty": 0
+        },
+        {
+          "product_name": "White Claw Mango Hard Seltzer 12oz Can",
+          "start_qty": 164.56,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Alka Seltzer",
+          "start_qty": 60.31,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Miss Vickies Sea Salt & Vinegar XVL 1.875oz",
+          "start_qty": 204.04,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Sahale Cashews Pomegranite With Vanilla",
+          "start_qty": 76.96,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Chobani Peach",
+          "start_qty": 325.89,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Disney Key Chain RG Disney Logo w/ Character Colors",
+          "start_qty": 90.4,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Amys Enchilada Cheese",
+          "start_qty": 79.28,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pepsi Zero Sugar 12oz",
+          "start_qty": 85.58,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nature Valley Granola Peanut Butter",
+          "start_qty": 161.15,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Beer Budweiser Aluminum Can 16oz",
+          "start_qty": 249.48000000000002,
+          "end_qty": 0
+        },
+        {
+          "product_name": "7UP Zero Sugar Lemon Lime 12oz",
+          "start_qty": 94.4,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pocari Sweat Electrolyte Drink 16.9oz",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Disney Aluminum Water Bottle RG Rubiks White",
+          "start_qty": 92.33,
+          "end_qty": 0
+        },
+        {
+          "product_name": "OREO Mini Bite Size",
+          "start_qty": 147.25,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dunkin Donuts Original 13.7oz",
+          "start_qty": 177.36,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Wine Allegretto Heart of the Vibe 2023",
+          "start_qty": 93.53,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nemos Banana Square Cake",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pepsi 16oz Can",
+          "start_qty": 83.52,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dole Mixed Fruit",
+          "start_qty": 88.02,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Reeses Pieces Peanut Butter Cups",
+          "start_qty": 93.43,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Fritos Chili Cheese Chips",
+          "start_qty": 227.43,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Cereal Froot Loops",
+          "start_qty": 80.34,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Old Spice Deodorant",
+          "start_qty": 55.63,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Boulder Malt Vinegar & Sea Salt Chips",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Always Pad with Wings Ultra Thin 22ct",
+          "start_qty": 59.69,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Trojan Ribbed Latex Condoms",
+          "start_qty": 58.21,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pepe's Chicharrones Pork Rinds",
+          "start_qty": 58.91,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Blue Diamond Almonds Roasted Salted",
+          "start_qty": 68.74,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Lunchables Ham & Cheddar",
+          "start_qty": 162.86,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Boulder Avocado Oil Kettle Chips",
+          "start_qty": 84.98,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Pepsi Diet 20 oz",
+          "start_qty": 29.41,
+          "end_qty": 0
+        },
+        {
+          "product_name": "SS Kings Hawaiian Pretzel Bun Trio",
+          "start_qty": 235.96,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Disney Plush Small 11\" RG Mickey",
+          "start_qty": 89.44,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Bumble Bee Chicken Salad & Crackers 3.5oz",
+          "start_qty": 70.69,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FTY Teriyaki Chicken With Fried Rice & Broccoli 10oz",
+          "start_qty": 77.55,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Beer Michelob Ultra 12oz",
+          "start_qty": 82.11,
+          "end_qty": 0
+        },
+        {
+          "product_name": "FR SLB Triangle Tuna Salad Wheat",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Otis Chocolate Chunk Cookie",
+          "start_qty": 100.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Nature's Bakery Fig Bar Blueberry",
+          "start_qty": 68.67,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Ruffles Regular",
+          "start_qty": 75.98,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Gatorade Lemon Lime 11.6oz Cans",
+          "start_qty": 83.09,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Crush Orange 20oz",
+          "start_qty": 0.0,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Disney Key Chain RG Disney Gang",
+          "start_qty": 177.69,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Lip Balm Beeswax Blister 0.15oz",
+          "start_qty": 86.33,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Second Nature Wholesome Medley",
+          "start_qty": 64.86,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Monster Mango 16oz",
+          "start_qty": 80.97,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Troop Tequila Paloma 200ml",
+          "start_qty": 76.33,
+          "end_qty": 0
+        },
+        {
+          "product_name": "SS House Made Chicken Salad on Croissant Sandwich",
+          "start_qty": 68.48,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Disney Plush Medium 15\" RG Mickey",
+          "start_qty": 89.45,
+          "end_qty": 0
+        },
+        {
+          "product_name": "Dr Pepper 12oz",
+          "start_qty": 86.24,
+          "end_qty": 0
+        }
+      ]
+    }
+  }
+}

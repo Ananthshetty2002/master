@@ -1,0 +1,642 @@
+[
+  {
+    "location": "Holiday Inn Express & Suites Barstow",
+    "total_shrinkage_qty": 177.0,
+    "sales_units": 267.0,
+    "start_qty": 1329.0,
+    "end_qty": 907.0,
+    "shrinkage_products": [
+      {
+        "product_name": "Smart Water 1L",
+        "product_id": "PC10726",
+        "shrinkage_qty": 23.0,
+        "shrinkage_value": 252586.0,
+        "sales_units": 28.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 10982.0,
+        "shrinkage_contribution_percentage": 66.65
+      },
+      {
+        "product_name": "Smart Water 20oz",
+        "product_id": "PC00888",
+        "shrinkage_qty": 9.0,
+        "shrinkage_value": 29781.0,
+        "sales_units": 5.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 3309.0,
+        "shrinkage_contribution_percentage": 7.86
+      },
+      {
+        "product_name": "Powerade Mountain Berry Blast 20oz",
+        "product_id": "PC10823",
+        "shrinkage_qty": 8.0,
+        "shrinkage_value": 7664.8,
+        "sales_units": 6.0,
+        "location": "Best Western Norwalk Inn",
+        "unit_price": 958.1,
+        "shrinkage_contribution_percentage": 2.02
+      },
+      {
+        "product_name": "Snickers Ice Cream Bar",
+        "product_id": "PC11064",
+        "shrinkage_qty": 8.0,
+        "shrinkage_value": 7612.0,
+        "sales_units": 3.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 951.5,
+        "shrinkage_contribution_percentage": 2.01
+      },
+      {
+        "product_name": "Nestle Tollhouse Chocolate Chip Cookie Sandwich",
+        "product_id": "PC21853",
+        "shrinkage_qty": 6.0,
+        "shrinkage_value": 11625.0,
+        "sales_units": 8.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 1937.5,
+        "shrinkage_contribution_percentage": 3.07
+      },
+      {
+        "product_name": "Fiji Water 16.9oz",
+        "product_id": "PC21854",
+        "shrinkage_qty": 5.0,
+        "shrinkage_value": 5025.0,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 1005.0,
+        "shrinkage_contribution_percentage": 1.33
+      },
+      {
+        "product_name": "Skittles Fruit",
+        "product_id": "PC11061",
+        "shrinkage_qty": 5.0,
+        "shrinkage_value": 2193.75,
+        "sales_units": 0.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 438.75,
+        "shrinkage_contribution_percentage": 0.58
+      },
+      {
+        "product_name": "Red Bull 8.4oz",
+        "product_id": "PC10825",
+        "shrinkage_qty": 5.0,
+        "shrinkage_value": 4176.25,
+        "sales_units": 0.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 835.25,
+        "shrinkage_contribution_percentage": 1.1
+      },
+      {
+        "product_name": "San Pellegrino Sparkling Mineral Water 16.9oz",
+        "product_id": "PC19076",
+        "shrinkage_qty": 5.0,
+        "shrinkage_value": 6138.0,
+        "sales_units": 5.0,
+        "location": "Ayres Hotel Anaheim",
+        "unit_price": 1227.6,
+        "shrinkage_contribution_percentage": 1.62
+      },
+      {
+        "product_name": "Monster 16oz",
+        "product_id": "PC10808",
+        "shrinkage_qty": 4.0,
+        "shrinkage_value": 2184.0,
+        "sales_units": 4.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 546.0,
+        "shrinkage_contribution_percentage": 0.58
+      },
+      {
+        "product_name": "Hot Pocket Ham & Cheese",
+        "product_id": "PC10958",
+        "shrinkage_qty": 4.0,
+        "shrinkage_value": 571.2,
+        "sales_units": 2.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 142.8,
+        "shrinkage_contribution_percentage": 0.15
+      },
+      {
+        "product_name": "El Monterey Beef and Bean Burrito",
+        "product_id": "PC10938",
+        "shrinkage_qty": 4.0,
+        "shrinkage_value": 697.0,
+        "sales_units": 4.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 174.25,
+        "shrinkage_contribution_percentage": 0.18
+      },
+      {
+        "product_name": "Albanese Gummi Bears 12 Flavor - 3.5oz",
+        "product_id": "PC10851",
+        "shrinkage_qty": 4.0,
+        "shrinkage_value": 1911.0,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 477.75,
+        "shrinkage_contribution_percentage": 0.5
+      },
+      {
+        "product_name": "Nature's Bakery Fig Bar Blueberry",
+        "product_id": "AVR16059",
+        "shrinkage_qty": 4.0,
+        "shrinkage_value": 1280.0,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 320.0,
+        "shrinkage_contribution_percentage": 0.34
+      },
+      {
+        "product_name": "Coke Zero 20oz",
+        "product_id": "PC10790",
+        "shrinkage_qty": 4.0,
+        "shrinkage_value": 4672.0,
+        "sales_units": 3.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 1168.0,
+        "shrinkage_contribution_percentage": 1.23
+      },
+      {
+        "product_name": "Fairlife 2% Reduced Fat Ultra-Filtered Milk 14oz",
+        "product_id": "AVR18528",
+        "shrinkage_qty": 4.0,
+        "shrinkage_value": 5640.0,
+        "sales_units": 7.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 1410.0,
+        "shrinkage_contribution_percentage": 1.49
+      },
+      {
+        "product_name": "Haagen Dazs Milk Chocolate Almond Ice Cream Bar",
+        "product_id": "AVR00156",
+        "shrinkage_qty": 4.0,
+        "shrinkage_value": 8294.0,
+        "sales_units": 5.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 2073.5,
+        "shrinkage_contribution_percentage": 2.19
+      },
+      {
+        "product_name": "Digiorno Four Cheese Pizza",
+        "product_id": "PC14014",
+        "shrinkage_qty": 3.0,
+        "shrinkage_value": 879.75,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 293.25,
+        "shrinkage_contribution_percentage": 0.23
+      },
+      {
+        "product_name": "Red Vines Original 4oz Peg",
+        "product_id": "PC11042",
+        "shrinkage_qty": 3.0,
+        "shrinkage_value": 2504.25,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 834.75,
+        "shrinkage_contribution_percentage": 0.66
+      },
+      {
+        "product_name": "Chapstick",
+        "product_id": "PC10888",
+        "shrinkage_qty": 3.0,
+        "shrinkage_value": 371.7,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 123.9,
+        "shrinkage_contribution_percentage": 0.1
+      },
+      {
+        "product_name": "Maruchan Chicken Cup Soup",
+        "product_id": "PC10989",
+        "shrinkage_qty": 3.0,
+        "shrinkage_value": 1476.0,
+        "sales_units": 2.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 492.0,
+        "shrinkage_contribution_percentage": 0.39
+      },
+      {
+        "product_name": "Digiorno Pepperoni Cheese Pizza",
+        "product_id": "PC21186",
+        "shrinkage_qty": 3.0,
+        "shrinkage_value": 1828.5,
+        "sales_units": 6.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 609.5,
+        "shrinkage_contribution_percentage": 0.48
+      },
+      {
+        "product_name": "Cheetos Flamin Hot",
+        "product_id": "PC10891",
+        "shrinkage_qty": 3.0,
+        "shrinkage_value": 803.25,
+        "sales_units": 4.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 267.75,
+        "shrinkage_contribution_percentage": 0.21
+      },
+      {
+        "product_name": "Cheetos Puffs",
+        "product_id": "PC10893",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 629.0,
+        "sales_units": 1.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 314.5,
+        "shrinkage_contribution_percentage": 0.17
+      },
+      {
+        "product_name": "Munchies Flamin Hot",
+        "product_id": "PC11004",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 480.0,
+        "sales_units": 2.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 240.0,
+        "shrinkage_contribution_percentage": 0.13
+      },
+      {
+        "product_name": "Knotts Strawberry Cookie",
+        "product_id": "PC10972",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 495.0,
+        "sales_units": 0.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 247.5,
+        "shrinkage_contribution_percentage": 0.13
+      },
+      {
+        "product_name": "Dunkin Donuts Mocha 13.7oz",
+        "product_id": "PC11163",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 526.5,
+        "sales_units": 0.0,
+        "location": "Best Western Norwalk Inn",
+        "unit_price": 263.25,
+        "shrinkage_contribution_percentage": 0.14
+      },
+      {
+        "product_name": "Powerade Fruit Punch 20oz",
+        "product_id": "PC10822",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 1014.0,
+        "sales_units": 0.0,
+        "location": "Best Western Norwalk Inn",
+        "unit_price": 507.0,
+        "shrinkage_contribution_percentage": 0.27
+      },
+      {
+        "product_name": "Doritos Cool Ranch",
+        "product_id": "PC10931",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 595.0,
+        "sales_units": 0.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 297.5,
+        "shrinkage_contribution_percentage": 0.16
+      },
+      {
+        "product_name": "Old Spice Deodorant",
+        "product_id": "PC11021",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 360.0,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 180.0,
+        "shrinkage_contribution_percentage": 0.09
+      },
+      {
+        "product_name": "Cheez-It",
+        "product_id": "PC10894",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 399.5,
+        "sales_units": 0.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 199.75,
+        "shrinkage_contribution_percentage": 0.11
+      },
+      {
+        "product_name": "Bumble Bee Tuna Mayo & Crackers 3.5oz",
+        "product_id": "PC10881",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 304.5,
+        "sales_units": 0.0,
+        "location": "Ayres Suites Mission Viejo - Lake Forest",
+        "unit_price": 152.25,
+        "shrinkage_contribution_percentage": 0.08
+      },
+      {
+        "product_name": "Minute Maid Lemonade 20oz",
+        "product_id": "PC10806",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 1010.0,
+        "sales_units": 2.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 505.0,
+        "shrinkage_contribution_percentage": 0.27
+      },
+      {
+        "product_name": "Kellogs Pop Tarts Strawberry",
+        "product_id": "PC11035",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 365.5,
+        "sales_units": 2.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 182.75,
+        "shrinkage_contribution_percentage": 0.1
+      },
+      {
+        "product_name": "Reeses PB Cup",
+        "product_id": "PC11043",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 1054.0,
+        "sales_units": 1.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 527.0,
+        "shrinkage_contribution_percentage": 0.28
+      },
+      {
+        "product_name": "Dr Pepper 20oz",
+        "product_id": "PC10793",
+        "shrinkage_qty": 2.0,
+        "shrinkage_value": 2100.0,
+        "sales_units": 5.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 1050.0,
+        "shrinkage_contribution_percentage": 0.55
+      },
+      {
+        "product_name": "Bumble Bee Chicken Salad & Crackers 3.5oz",
+        "product_id": "PC10880",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 60.75,
+        "sales_units": 0.0,
+        "location": "Ayres Suites Mission Viejo - Lake Forest",
+        "unit_price": 60.75,
+        "shrinkage_contribution_percentage": 0.02
+      },
+      {
+        "product_name": "Cheez-It White Cheddar 1.5oz",
+        "product_id": "PC14364",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 123.75,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 123.75,
+        "shrinkage_contribution_percentage": 0.03
+      },
+      {
+        "product_name": "Trojan Ribbed Latex Condoms",
+        "product_id": "AVR17707",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 15.75,
+        "sales_units": 0.0,
+        "location": "Ayres Hotel Manhattan Beach Hawthorne",
+        "unit_price": 15.75,
+        "shrinkage_contribution_percentage": 0.0
+      },
+      {
+        "product_name": "Razor",
+        "product_id": "PC10943",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 236.25,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 236.25,
+        "shrinkage_contribution_percentage": 0.06
+      },
+      {
+        "product_name": "Pringles Sour Cream & Onion",
+        "product_id": "PC11039",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 247.5,
+        "sales_units": 0.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 247.5,
+        "shrinkage_contribution_percentage": 0.07
+      },
+      {
+        "product_name": "Maruchan Lime Chili Chicken Cup Soup",
+        "product_id": "PC10990",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 188.0,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 188.0,
+        "shrinkage_contribution_percentage": 0.05
+      },
+      {
+        "product_name": "Cereal Lucky Charms",
+        "product_id": "AVR15436",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 266.0,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 266.0,
+        "shrinkage_contribution_percentage": 0.07
+      },
+      {
+        "product_name": "Cereal Honey Nut Cheerios",
+        "product_id": "PC10886",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 205.0,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 205.0,
+        "shrinkage_contribution_percentage": 0.05
+      },
+      {
+        "product_name": "El Monterey Egg Sausage Cheese & Potato Burrito",
+        "product_id": "PC16506",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 157.25,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 157.25,
+        "shrinkage_contribution_percentage": 0.04
+      },
+      {
+        "product_name": "El Monterey Jalapeno Egg Cheese Burrito",
+        "product_id": "PC10939",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 56.0,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 56.0,
+        "shrinkage_contribution_percentage": 0.01
+      },
+      {
+        "product_name": "Sour Patch Kids Watermelon",
+        "product_id": "AVR14634",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 221.0,
+        "sales_units": 0.0,
+        "location": "Ayres Hotel Anaheim",
+        "unit_price": 221.0,
+        "shrinkage_contribution_percentage": 0.06
+      },
+      {
+        "product_name": "Welchs Mixed Fruit Snack 2.25oz",
+        "product_id": "PC11101",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 240.0,
+        "sales_units": 0.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 240.0,
+        "shrinkage_contribution_percentage": 0.06
+      },
+      {
+        "product_name": "Lays Regular Classic",
+        "product_id": "PC10978",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 374.0,
+        "sales_units": 0.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 374.0,
+        "shrinkage_contribution_percentage": 0.1
+      },
+      {
+        "product_name": "Dr Pepper Zero 20oz",
+        "product_id": "AVR14655",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 786.0,
+        "sales_units": 2.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 786.0,
+        "shrinkage_contribution_percentage": 0.21
+      },
+      {
+        "product_name": "Ares Liquid Detergent HE",
+        "product_id": "PC16533",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 572.75,
+        "sales_units": 2.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 572.75,
+        "shrinkage_contribution_percentage": 0.15
+      },
+      {
+        "product_name": "Stouffers Mac and Cheese",
+        "product_id": "PC11073",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 253.0,
+        "sales_units": 2.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 253.0,
+        "shrinkage_contribution_percentage": 0.07
+      },
+      {
+        "product_name": "Pringles Original",
+        "product_id": "PC11038",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 328.0,
+        "sales_units": 2.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 328.0,
+        "shrinkage_contribution_percentage": 0.09
+      },
+      {
+        "product_name": "Kit Kat King",
+        "product_id": "PC10971",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 609.5,
+        "sales_units": 3.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 609.5,
+        "shrinkage_contribution_percentage": 0.16
+      },
+      {
+        "product_name": "Hot Pocket Pepperoni Pizza",
+        "product_id": "PC10959",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 318.75,
+        "sales_units": 8.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 318.75,
+        "shrinkage_contribution_percentage": 0.08
+      },
+      {
+        "product_name": "Hersheys Almond King",
+        "product_id": "PC10955",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 603.75,
+        "sales_units": 2.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 603.75,
+        "shrinkage_contribution_percentage": 0.16
+      },
+      {
+        "product_name": "Crest Tooth Paste and Brush",
+        "product_id": "PC10907",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 1035.0,
+        "sales_units": 2.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 1035.0,
+        "shrinkage_contribution_percentage": 0.27
+      },
+      {
+        "product_name": "Cheetos Flamin Hot Limon",
+        "product_id": "PC10892",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 277.5,
+        "sales_units": 5.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 277.5,
+        "shrinkage_contribution_percentage": 0.07
+      },
+      {
+        "product_name": "Cheetos Crunchy",
+        "product_id": "PC10889",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 491.25,
+        "sales_units": 2.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 491.25,
+        "shrinkage_contribution_percentage": 0.13
+      },
+      {
+        "product_name": "Minute Maid Apple Juice 12oz",
+        "product_id": "PC10805",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 704.0,
+        "sales_units": 2.0,
+        "location": "Altura HOC 1st Floor Market",
+        "unit_price": 704.0,
+        "shrinkage_contribution_percentage": 0.19
+      },
+      {
+        "product_name": "Dr Pepper Diet 20oz",
+        "product_id": "PC10794",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 118.75,
+        "sales_units": 3.0,
+        "location": "Best Western Plus Thousand Oaks Inn",
+        "unit_price": 118.75,
+        "shrinkage_contribution_percentage": 0.03
+      },
+      {
+        "product_name": "Sprite 20oz",
+        "product_id": "PC00887",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 853.0,
+        "sales_units": 3.0,
+        "location": "Anaheim Desert Inn and Suites",
+        "unit_price": 853.0,
+        "shrinkage_contribution_percentage": 0.23
+      },
+      {
+        "product_name": "RXBAR Protein Blueberry",
+        "product_id": "AVR15125",
+        "shrinkage_qty": 1.0,
+        "shrinkage_value": 408.0,
+        "sales_units": 4.0,
+        "location": "Ayres Hotel Manhattan Beach Hawthorne",
+        "unit_price": 408.0,
+        "shrinkage_contribution_percentage": 0.11
+      }
+    ],
+    "total_shrinkage_value": 378997.95
+  }
+]

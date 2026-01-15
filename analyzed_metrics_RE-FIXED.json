@@ -1,0 +1,366 @@
+[
+  {
+    "location": "Location Ranking by Percentage of Inventory Lost",
+    "data": [
+      {
+        "location": "HIE - Rancho Cucamonga Market",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "La Quinta Inn & Suites by Wyndham Thousand Oaks",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Comfort Inn - Gaslamp Convention Center",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Holiday Inn Express & Suites Barstow",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Long Beach Convention Center Promenade",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Holiday Inn Oceanside Camp Pendleton Area",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Ramada National City Market",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "FFI - Moorpark Market",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Ayres Hotel Manhattan Beach Hawthorne",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Best Western Plus LAX Market",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Surestay Twentynine Palms Market",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Ramada by Wyndham Barstow",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Courtyard Chino Hills",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Best Western Oceanside Inn",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Hyatt House Los Angeles-LAX-Manhattan Beach",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "Holiday Inn Express & Suites Hesperia Market",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "WorldMark Palm Springs",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "WorldMark Big Bear",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "BLVD Hotel & Spa",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      },
+      {
+        "location": "First Service Residential Shared Services Market",
+        "shrinkage_qty": 0.0,
+        "start_qty": 0.0,
+        "loss_percentage": "0%"
+      }
+    ]
+  },
+  {
+    "location": "Top 10 High Shrinkage Items by Quantity (Cross-Site)",
+    "data": [
+      {
+        "product_id": "Boom Chicka Popcorn Sea Salt 4.8oz",
+        "product_name": "Boom Chicka Popcorn Sea Salt 4.8oz",
+        "total_shrinkage_qty": 18.0
+      },
+      {
+        "product_id": "AVR18528",
+        "product_name": "Fairlife 2% Reduced Fat Ultra-Filtered Milk 14oz",
+        "total_shrinkage_qty": 12.0
+      },
+      {
+        "product_id": "AVR00156",
+        "product_name": "Haagen Dazs Milk Chocolate Almond Ice Cream Bar",
+        "total_shrinkage_qty": 12.0
+      },
+      {
+        "product_id": "PC10852",
+        "product_name": "Alka Seltzer",
+        "total_shrinkage_qty": 9.0
+      },
+      {
+        "product_id": "AVR19716",
+        "product_name": "Anker USB-C to Lightning 6ft Cable",
+        "total_shrinkage_qty": 9.0
+      },
+      {
+        "product_id": "PC10901",
+        "product_name": "Cliff Bar White Chocolate Macadamia",
+        "total_shrinkage_qty": 8.0
+      },
+      {
+        "product_id": "AVR27820",
+        "product_name": "Naked Juice Smoothie Mighty Mango 15.2oz",
+        "total_shrinkage_qty": 8.0
+      },
+      {
+        "product_id": "AVR19517",
+        "product_name": "Anker Power Port 32W Wall Charger",
+        "total_shrinkage_qty": 7.0
+      },
+      {
+        "product_id": "PC10818",
+        "product_name": "Peace Tea Georgia Peach",
+        "total_shrinkage_qty": 7.0
+      },
+      {
+        "product_id": "PC10900",
+        "product_name": "Cliff Bar Peanut Butter",
+        "total_shrinkage_qty": 6.0
+      }
+    ]
+  },
+  {
+    "location": "Financial Impact: Top 10 Products by Total Shrinkage Value",
+    "data": [
+      {
+        "product_id": "AVR19716",
+        "product_name": "Anker USB-C to Lightning 6ft Cable",
+        "total_shrinkage_value": 232.1
+      },
+      {
+        "product_id": "AVR19517",
+        "product_name": "Anker Power Port 32W Wall Charger",
+        "total_shrinkage_value": 149.4
+      },
+      {
+        "product_id": "Boom Chicka Popcorn Sea Salt 4.8oz",
+        "product_name": "Boom Chicka Popcorn Sea Salt 4.8oz",
+        "total_shrinkage_value": 125.1
+      },
+      {
+        "product_id": "AVR19515",
+        "product_name": "Anker USB-C to USB-C 10ft Cable",
+        "total_shrinkage_value": 79.25
+      },
+      {
+        "product_id": "AVR00156",
+        "product_name": "Haagen Dazs Milk Chocolate Almond Ice Cream Bar",
+        "total_shrinkage_value": 76.51
+      },
+      {
+        "product_id": "AVR27820",
+        "product_name": "Naked Juice Smoothie Mighty Mango 15.2oz",
+        "total_shrinkage_value": 70.0
+      },
+      {
+        "product_id": "AVR18528",
+        "product_name": "Fairlife 2% Reduced Fat Ultra-Filtered Milk 14oz",
+        "total_shrinkage_value": 65.29
+      },
+      {
+        "product_id": "PC10852",
+        "product_name": "Alka Seltzer",
+        "total_shrinkage_value": 49.73
+      },
+      {
+        "product_id": "PC10901",
+        "product_name": "Cliff Bar White Chocolate Macadamia",
+        "total_shrinkage_value": 38.34
+      },
+      {
+        "product_id": "AVR18805",
+        "product_name": "Tampax Regular",
+        "total_shrinkage_value": 33.14
+      }
+    ]
+  },
+  {
+    "location": "Ghost Disappearances: High Loss Items with Zero Recorded Sales",
+    "data": [
+      {
+        "product_id": "Boom Chicka Popcorn Sea Salt 4.8oz",
+        "product_name": "Boom Chicka Popcorn Sea Salt 4.8oz",
+        "location": "Hotel Dena",
+        "shrinkage_qty": 18.0
+      },
+      {
+        "product_id": "AVR00156",
+        "product_name": "Haagen Dazs Milk Chocolate Almond Ice Cream Bar",
+        "location": "Courtyard Chino Hills",
+        "shrinkage_qty": 12.0
+      },
+      {
+        "product_id": "AVR18528",
+        "product_name": "Fairlife 2% Reduced Fat Ultra-Filtered Milk 14oz",
+        "location": "Holiday Inn Diamond Bar-Pomona",
+        "shrinkage_qty": 12.0
+      },
+      {
+        "product_id": "PC10852",
+        "product_name": "Alka Seltzer",
+        "location": "HIE - Rancho Cucamonga Market",
+        "shrinkage_qty": 9.0
+      },
+      {
+        "product_id": "AVR19716",
+        "product_name": "Anker USB-C to Lightning 6ft Cable",
+        "location": "Ramada National City Market",
+        "shrinkage_qty": 8.0
+      },
+      {
+        "product_id": "AVR27820",
+        "product_name": "Naked Juice Smoothie Mighty Mango 15.2oz",
+        "location": "Courtyard Chino Hills",
+        "shrinkage_qty": 8.0
+      },
+      {
+        "product_id": "PC10901",
+        "product_name": "Cliff Bar White Chocolate Macadamia",
+        "location": "La Quinta Inn & Suites by Wyndham Thousand Oaks",
+        "shrinkage_qty": 7.0
+      },
+      {
+        "product_id": "PC10818",
+        "product_name": "Peace Tea Georgia Peach",
+        "location": "First Service Residential Shared Services Market",
+        "shrinkage_qty": 7.0
+      },
+      {
+        "product_id": "PC10900",
+        "product_name": "Cliff Bar Peanut Butter",
+        "location": "Hyatt House Los Angeles-LAX-Manhattan Beach",
+        "shrinkage_qty": 5.0
+      },
+      {
+        "product_id": "PC10866",
+        "product_name": "Benadryl",
+        "location": "La Quinta Inn & Suites by Wyndham Thousand Oaks",
+        "shrinkage_qty": 4.0
+      },
+      {
+        "product_id": "PC11028",
+        "product_name": "Pepto Bismol",
+        "location": "La Quinta Inn & Suites by Wyndham Thousand Oaks",
+        "shrinkage_qty": 4.0
+      },
+      {
+        "product_id": "AVR19517",
+        "product_name": "Anker Power Port 32W Wall Charger",
+        "location": "Ramada National City Market",
+        "shrinkage_qty": 4.0
+      },
+      {
+        "product_id": "PC16485",
+        "product_name": "Reeses Pieces Peanut Butter Cups",
+        "location": "Courtyard Chino Hills",
+        "shrinkage_qty": 3.0
+      },
+      {
+        "product_id": "PC10851",
+        "product_name": "Albanese Gummi Bears 12 Flavor - 3.5oz",
+        "location": "Best Western Oceanside Inn",
+        "shrinkage_qty": 3.0
+      },
+      {
+        "product_id": "PC10851",
+        "product_name": "Albanese Gummi Bears 12 Flavor - 3.5oz",
+        "location": "Courtyard Chino Hills",
+        "shrinkage_qty": 2.0
+      },
+      {
+        "product_id": "PC21186",
+        "product_name": "Digiorno Pepperoni Cheese Pizza",
+        "location": "Courtyard Chino Hills",
+        "shrinkage_qty": 2.0
+      },
+      {
+        "product_id": "PC10994",
+        "product_name": "Midol",
+        "location": "Hyatt House Los Angeles-LAX-Manhattan Beach",
+        "shrinkage_qty": 2.0
+      },
+      {
+        "product_id": "AVR15434",
+        "product_name": "Cereal Cinnamon Toast Crunch",
+        "location": "WorldMark Palm Springs",
+        "shrinkage_qty": 2.0
+      },
+      {
+        "product_id": "PC10965",
+        "product_name": "Kars Roasted Salted Peanut",
+        "location": "Comfort Inn - Moreno Valley",
+        "shrinkage_qty": 2.0
+      },
+      {
+        "product_id": "AVR18805",
+        "product_name": "Tampax Regular",
+        "location": "Comfort Inn - Moreno Valley",
+        "shrinkage_qty": 2.0
+      }
+    ]
+  },
+  {
+    "location": "High Loss Rates: Items with Shrinkage > 50% of Starting Stock",
+    "data": []
+  }
+]

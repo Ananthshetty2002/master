@@ -30,7 +30,7 @@ check_*.py
 consolidate_master.py
 restore_master.py
 test_*.py
-final_*.py
+# final_*.py
 aggressive_*.py
 
 # Artifacts
