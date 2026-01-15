@@ -1,0 +1,114 @@
+[
+  {
+    "file": "transaction list week8.csv",
+    "start_date": "2025-11-23",
+    "end_date": "2025-11-30",
+    "total_sales": 416281.23000000004,
+    "top_products": {
+      "Smart Water 1L": 21246.4,
+      "Smart Water 20oz": 9090.66,
+      "Coke 20oz": 4903.51,
+      "Dasani 20oz": 4710.8,
+      "Crest Tooth Paste and Brush": 3808.1
+    },
+    "transaction_count": 33005
+  },
+  {
+    "file": "transaction week1.csv",
+    "start_date": "2025-10-01",
+    "end_date": "2025-10-10",
+    "total_sales": 620486.6399999999,
+    "top_products": {
+      "Smart Water 1L": 33077.34,
+      "Smart Water 20oz": 14860.97,
+      "Dasani 20oz": 7723.259999999999,
+      "Coke 20oz": 6840.96,
+      "Life Water Premium 1L": 6042.5
+    },
+    "transaction_count": 51520
+  },
+  {
+    "file": "transaction week3.csv",
+    "start_date": "2025-10-18",
+    "end_date": "2025-10-24",
+    "total_sales": 420472.43999999994,
+    "top_products": {
+      "Smart Water 1L": 22184.48,
+      "Smart Water 20oz": 10243.76,
+      "Dasani 20oz": 4989.65,
+      "Coke 20oz": 4502.08,
+      "Life Water Premium 1L": 3766.4
+    },
+    "transaction_count": 34511
+  },
+  {
+    "file": "transaction week4.csv",
+    "start_date": "2025-10-25",
+    "end_date": "2025-10-31",
+    "total_sales": 412751.1,
+    "top_products": {
+      "Smart Water 1L": 20197.19,
+      "Smart Water 20oz": 8923.57,
+      "Dasani 20oz": 4859.099999999999,
+      "Life Water Premium 1L": 4546.0,
+      "Coke 20oz": 4346.16
+    },
+    "transaction_count": 33400
+  },
+  {
+    "file": "transactionlist week5.csv",
+    "start_date": "2025-11-01",
+    "end_date": "2025-11-06",
+    "total_sales": 312618.33555,
+    "top_products": {
+      "Smart Water 1L": 16401.7,
+      "Smart Water 20oz": 7174.44,
+      "Dasani 20oz": 3614.08,
+      "Coke 20oz": 3574.3151000000003,
+      "Crest Tooth Paste and Brush": 2855.6683
+    },
+    "transaction_count": 26061
+  },
+  {
+    "file": "transactionlist week6.csv",
+    "start_date": "2025-11-08",
+    "end_date": "2025-11-14",
+    "total_sales": 420310.82,
+    "top_products": {
+      "Smart Water 1L": 21068.19,
+      "Smart Water 20oz": 9439.02,
+      "Dasani 20oz": 5028.7,
+      "Coke 20oz": 4302.06,
+      "Life Water Premium 1L": 4242.9
+    },
+    "transaction_count": 34137
+  },
+  {
+    "file": "transactionlistweek2.csv",
+    "start_date": "2025-10-10",
+    "end_date": "2025-10-17",
+    "total_sales": 536777.598125,
+    "top_products": {
+      "Smart Water 1L": 30236.6,
+      "Smart Water 20oz": 13591.57,
+      "Dasani 20oz": 6528.65,
+      "Coke 20oz": 5881.1082,
+      "Life Water Premium 1L": 5807.65
+    },
+    "transaction_count": 43396
+  },
+  {
+    "file": "transactionlistweek7.csv",
+    "start_date": "2025-11-15",
+    "end_date": "2025-11-22",
+    "total_sales": 444091.29,
+    "top_products": {
+      "Smart Water 1L": 21412.44,
+      "Smart Water 20oz": 9588.59,
+      "Dasani 20oz": 5350.849999999999,
+      "Coke 20oz": 5123.42,
+      "Life Water Premium 1L": 4156.35
+    },
+    "transaction_count": 36013
+  }
+]
